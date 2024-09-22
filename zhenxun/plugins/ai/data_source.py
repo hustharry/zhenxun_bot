@@ -13,14 +13,15 @@ from zhenxun.utils.message import MessageUtils
 
 from .utils import ai_message_manager
 
+anime_data = json.load(open(DATA_PATH / "anime.json", "r", encoding="utf8"))
+
 url = "http://openapi.tuling123.com/openapi/api/v2"
 
 check_url = "https://v2.alapi.cn/api/censor/text"
 
 index = 0
 
-anime_data = json.load(open(DATA_PATH / "anime.json", "r", encoding="utf8"))
-
+pattern = re.compile("|".join(map(re.escape, anime_data.keys())))
 
 async def get_chat_result(
     message: UniMsg, user_id: str, nickname: str
@@ -45,11 +46,12 @@ async def get_chat_result(
         return MessageUtils.build_message(special_rst)
     if index == 5:
         index = 0
-    if len(text) < 6 and random.random() < 0.6:
-        keys = anime_data.keys()
-        for key in keys:
-            if text.find(key) != -1:
-                return random.choice(anime_data[key]).replace("你", nickname)
+    if len(text) < 6 and random.random() < 0.7:
+        match = pattern.search(text)
+        if match:
+            key = match.group()
+            logger.info(f"current key is {key} the text is {text}")
+            return random.choice(anime_data[key]).replace("你", nickname)
     rst = await tu_ling(text, "", user_id)
     if not rst:
         rst = await xie_ai(text)
@@ -217,7 +219,6 @@ def no_result() -> UniMessage:
             / random.choice(os.listdir(IMAGE_PATH / "noresult")),
         ]
     )
-
 
 async def check_text(text: str) -> str:
     """ALAPI文本检测，主要针对青云客API，检测为恶俗文本改为无回复的回答

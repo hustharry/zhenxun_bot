@@ -1,5 +1,6 @@
 from typing import List
-
+import re
+import ujson as json
 from nonebot import on_message
 from nonebot.plugin import PluginMetadata
 from nonebot.rule import to_me
@@ -7,6 +8,7 @@ from nonebot_plugin_alconna import UniMsg
 from nonebot_plugin_session import EventSession
 
 from zhenxun.configs.config import BotConfig, Config
+from zhenxun.configs.path_config import DATA_PATH, IMAGE_PATH
 from zhenxun.configs.utils import PluginExtraData, RegisterConfig
 from zhenxun.models.friend_user import FriendUser
 from zhenxun.models.group_member_info import GroupInfoUser
@@ -50,9 +52,7 @@ __plugin_meta__ = PluginMetadata(
     ).dict(),
 )
 
-
 ai = on_message(rule=to_me(), priority=998)
-
 
 @ai.handle()
 async def _(message: UniMsg, session: EventSession, uname: str = UserName()):
