@@ -10,6 +10,7 @@ from zhenxun.utils.http_utils import AsyncHttpx
 from zhenxun.models.plugin_info import PluginInfo
 from zhenxun.utils.github_utils import GithubUtils
 from zhenxun.utils.github_utils.models import RepoAPI
+from zhenxun.services.plugin_init import PluginInitManager
 from zhenxun.builtin_plugins.plugin_store.models import StorePluginInfo
 from zhenxun.utils.image_utils import RowStyle, BuildImage, ImageTemplate
 from zhenxun.builtin_plugins.auto_update.config import REQ_TXT_FILE_STRING
@@ -195,6 +196,10 @@ class ShopManage:
         if plugin_info.github_url is None:
             plugin_info.github_url = DEFAULT_GITHUB_URL
             is_external = False
+        version_split = plugin_info.version.split("-")
+        if len(version_split) > 1:
+            github_url_split = plugin_info.github_url.split("/tree/")
+            plugin_info.github_url = f"{github_url_split[0]}/tree/{version_split[1]}"
         logger.info(f"正在安装插件 {plugin_key}...")
         await cls.install_plugin_with_repo(
             plugin_info.github_url,
@@ -288,6 +293,7 @@ class ShopManage:
             shutil.rmtree(path)
         else:
             path.unlink()
+        await PluginInitManager.remove(f"zhenxun.{plugin_info.module_path}")
         return f"插件 {plugin_key} 移除成功! 重启后生效"
 
     @classmethod
