@@ -67,9 +67,7 @@ url = "https://api.jun.la/60s.php?format=image"
     
 
 @_matcher.handle()
-async def _(
-    session: EventSession, arparma: Arparma,
-):
+async def _(session: EventSession, arparma: Arparma):
     path = TEMP_PATH / f"moyu{int(time.time())}.jpeg"
     try:    
         logger.info("begin mo yu")
@@ -95,13 +93,13 @@ async def _(
 )
 async def _():
     path = TEMP_PATH / f"moyu{int(time.time())}.jpeg"
-    message = await MessageUtils.build_message("小叶子带大家来摸鱼！")
+    message = MessageUtils.build_message("小叶子带大家来摸鱼！")
     await broadcast_group(message, log_cmd="被动每日新闻")
     logger.info("每日摸鱼发送...")
     await AsyncHttpx.download_file(url, path)
-    receipt = await MessageUtils.build_message(path)
+    receipt = MessageUtils.build_message(path)
     await broadcast_group(receipt, log_cmd="被动每日新闻")
-    logger.info(f"发送摸鱼 {receipt}", arparma.header_result, session=session)
+    logger.info(f"发送摸鱼 {receipt}")
 
 # @driver.on_startup
 # async def subscribe_jobs():

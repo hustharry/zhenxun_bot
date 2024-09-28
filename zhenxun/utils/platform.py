@@ -593,6 +593,7 @@ async def broadcast_group(
             if platform and platform != PlatformUtils.get_platform(_bot):
                 continue
             group_list, _ = await PlatformUtils.get_group_list(_bot)
+            logger.info(f"group list is {group_list}")
             if group_list:
                 for group in group_list:
                     key = f"{group.group_id}:{group.channel_id}"
@@ -605,17 +606,20 @@ async def broadcast_group(
                             )
                         ) or key in _used_group:
                             continue
-                        is_run = False
+                        is_run = True
+                        logger.info(f"key is {key}, check_func is {check_func}")
                         if check_func:
                             if is_coroutine_callable(check_func):
                                 is_run = await check_func(group.group_id)
                             else:
                                 is_run = check_func(group.group_id)
+                        logger.info(f"is_run value {is_run}")
                         if not is_run:
                             continue
                         target = PlatformUtils.get_target(
                             _bot, None, group.group_id, group.channel_id
                         )
+                        logger.info(f"target is {target}")
                         if target:
                             _used_group.append(key)
                             message_list = message

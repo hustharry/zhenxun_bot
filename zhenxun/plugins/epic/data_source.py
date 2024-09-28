@@ -63,12 +63,17 @@ async def get_epic_free(
     else:
         msg_list = []
         for game in games:
+            logger.info(f"game content:{game}")
             game_name = game["title"]
             game_corp = game["seller"]["name"]
             game_price = game["price"]["totalPrice"]["fmtPrice"]["originalPrice"]
             # 赋初值以避免 local variable referenced before assignment
             game_thumbnail, game_dev, game_pub = None, game_corp, game_corp
             try:
+                # 检查是不是没有优惠了，没有就跳过
+                is_game_promote = game["promotions"]
+                if is_game_promote is None:
+                    continue
                 game_promotions = game["promotions"]["promotionalOffers"]
                 upcoming_promotions = game["promotions"]["upcomingPromotionalOffers"]
                 if not game_promotions and upcoming_promotions:
@@ -113,14 +118,19 @@ async def get_epic_free(
                             game_dev = pair["value"]
                         if pair["key"] == "publisherName":
                             game_pub = pair["value"]
-                    if game.get("productSlug"):
+                    if game.get("productSlug") and game.get("productSlug") != "null":
                         if gamesDesp := await get_epic_game_desp(game["productSlug"]):
                             try:
                                 # 是否存在简短的介绍
                                 if "shortDescription" in gamesDesp:
                                     game_desp = gamesDesp["shortDescription"]
                             except KeyError:
-                                game_desp = gamesDesp["description"]
+                                try:
+                                    game_desp = gamesDesp["description"]
+                                except KeyError:
+                                    game_desp = game["description"]
+                        if gamesDesp is None:
+                            game_desp = game["description"]
                     else:
                         game_desp = game["description"]
                     try:
@@ -130,10 +140,13 @@ async def get_epic_free(
                         end_date = datetime.fromisoformat(end_date_iso).strftime(
                             "%b.%d %H:%M"
                         )
-                    except IndexError:
+                    except TypeError:
+                        logger.info("未知促销时间")
                         end_date = "未知"
+                    
+                    game_url = ""
                     # API 返回不包含游戏商店 URL，此处自行拼接，可能出现少数游戏 404 请反馈
-                    if game.get("productSlug"):
+                    if game.get("productSlug") and game.get("productSlug") != "null":
                         game_url = "https://store.epicgames.com/zh-CN/p/{}".format(
                             game["productSlug"].replace("/home", "")
                         )
@@ -160,21 +173,12 @@ async def get_epic_free(
                         game_url = "https://store.epicgames.com/zh-CN{}".format(
                             f"/p/{slugs[0]}" if len(slugs) else ""
                         )
-                    if isinstance(bot, (v11Bot, v12Bot)) and type_event == "Group":
-                        _message = [
-                            Image(url=game_thumbnail),
-                            f"\nFREE now :: {game_name} ({game_price})\n{game_desp}\n此游戏由 {game_dev} 开发、{game_pub} 发行，将在 UTC 时间 {end_date} 结束免费游玩，戳链接速度加入你的游戏库吧~\n{game_url}\n",
-                        ]
+                    if isinstance(bot, (v11Bot, v12Bot)):
+                        _message = Image(url=game_thumbnail)  
                         msg_list.append(_message)
-                    else:
-                        _message = []
-                        if game_thumbnail:
-                            _message.append(Image(url=game_thumbnail))
-                        _message.append(
-                            f"\n\nFREE now :: {game_name} ({game_price})\n{game_desp}\n此游戏由 {game_dev} 开发、{game_pub} 发行，将在 UTC 时间 {end_date} 结束免费游玩，戳链接速度加入你的游戏库吧~\n{game_url}\n"
-                        )
-                        return MessageUtils.build_message(_message), 200
+                        _messageText = f"\nFREE now :: {game_name} ({game_price})\n{game_desp}\n此游戏由 {game_dev} 开发、{game_pub} 发行，将在 UTC 时间 {end_date} 结束免费游玩" + f",戳链接速度加入你的游戏库吧~\n{game_url}\n" if game_url else "\n"
+                        msg_list.append(_messageText)
             except TypeError as e:
-                # logger.info(str(e))
-                pass
+                logger.error("typeerror",e=e)
+                
         return MessageUtils.template2forward(msg_list, bot.self_id), 200
