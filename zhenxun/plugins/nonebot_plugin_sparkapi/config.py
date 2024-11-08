@@ -1,4 +1,7 @@
+from pathlib import Path
+import shutil
 from nonebot import get_plugin_config
+from nonebot_plugin_apscheduler import scheduler
 from nonebot_plugin_localstore import get_data_dir
 from pydantic import BaseModel
 
@@ -116,3 +119,21 @@ class Config(BaseModel):
 
 conf = get_plugin_config(Config)
 DATA_PATH = get_data_dir("nonebot_plugin_sparkapi")
+
+@scheduler.scheduled_job(
+    "cron",
+    hour=3,
+    minute=1,
+)
+async def _():
+    try:
+        clear_sign_data_pic()
+        logger.info("清理AI日常聊天数据完成...", "spark")
+    except Exception as e:
+        logger.error("清理AI日常聊天数据失败...", e=e)
+
+def clear_sign_data_pic():
+    """
+    清空当前聊天数据
+    """
+    shutil.rmtree(DATA_PATH)

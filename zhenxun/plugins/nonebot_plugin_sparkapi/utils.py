@@ -4,7 +4,6 @@ import time
 from zhenxun.configs.config import BotConfig
 from zhenxun.models.ban_console import BanConsole
 
-
 class AiMessageManager:
     def __init__(self):
         self._data = {}

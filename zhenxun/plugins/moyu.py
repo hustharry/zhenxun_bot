@@ -58,7 +58,7 @@ _matcher = on_alconna(
 
 # driver = get_driver()
 
-url = "https://api.jun.la/60s.php?format=image"
+url = "https://api.03c3.cn/api/zb"
 
 # async def get_calendar() -> None:
 #     path = TEMP_PATH / f"moyu{int(time.time())}.jpeg"
