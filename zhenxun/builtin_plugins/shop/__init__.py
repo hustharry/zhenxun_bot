@@ -42,14 +42,13 @@ __plugin_meta__ = PluginMetadata(
         version="0.1",
         plugin_type=PluginType.NORMAL,
         menu_type="商店",
-        limits=[BaseBlock(check_type=BlockType.GROUP)],
     ).dict(),
 )
 
 
 _matcher = on_alconna(
     Alconna(
-        "商店",
+        "金币商店",
         Option("--all", action=store_true),
         Subcommand("my-cost", help_text="我的金币"),
         Subcommand("my-props", help_text="我的道具"),
@@ -57,48 +56,48 @@ _matcher = on_alconna(
         Subcommand("use", Args["name", str]["num?", int, 1], help_text="使用道具"),
         Subcommand("gold-list", Args["num?", int], help_text="金币排行"),
     ),
-    priority=5,
+    priority=4,
     block=True,
 )
 
 _matcher.shortcut(
     "我的金币",
-    command="商店",
+    command="金币商店",
     arguments=["my-cost"],
     prefix=True,
 )
 
 _matcher.shortcut(
     "我的道具",
-    command="商店",
+    command="金币商店",
     arguments=["my-props"],
     prefix=True,
 )
 
 _matcher.shortcut(
     "购买道具",
-    command="商店",
+    command="金币商店",
     arguments=["buy", "{%0}"],
     prefix=True,
 )
 
 _matcher.shortcut(
     "使用道具",
-    command="商店",
+    command="金币商店",
     arguments=["use", "{%0}"],
     prefix=True,
 )
 
 _matcher.shortcut(
     "金币排行",
-    command="商店",
+    command="金币商店",
     arguments=["gold-list"],
     prefix=True,
 )
 
 _matcher.shortcut(
     r"金币总排行",
-    command="商店",
+    command="金币商店",
     arguments=["--all", "gold-list"],
     prefix=True,
 )
@@ -106,8 +105,8 @@ _matcher.shortcut(
 
 @_matcher.assign("$main")
 async def _(session: EventSession, arparma: Arparma):
-    image = await ShopManage.build_shop_image()
     logger.info("查看商店", arparma.header_result, session=session)
+    image = await ShopManage.build_shop_image()
     await MessageUtils.build_message(image).send()
 
 

@@ -4,8 +4,10 @@ from nonebot_plugin_session import EventSession
 
 from zhenxun.configs.path_config import IMAGE_PATH
 from zhenxun.configs.utils import PluginExtraData
+from nonebot_plugin_apscheduler import scheduler
 from zhenxun.services.log import logger
 from zhenxun.utils.http_utils import AsyncPlaywright
+from zhenxun.utils.platform import broadcast_group
 from zhenxun.utils.message import MessageUtils
 
 from .data_source import get_hot_image
@@ -54,3 +56,16 @@ async def _(session: EventSession, arparma: Arparma, idx: Match[int]):
     else:
         await MessageUtils.build_message(result).send()
         logger.info(f"查询微博热搜", arparma.header_result, session=session)
+
+@scheduler.scheduled_job(
+    "cron",
+    hour=18,
+    minute=1,
+)
+async def _():
+    message = MessageUtils.build_message("小叶子带大家晚上来摸鱼！")
+    await broadcast_group(message, log_cmd="被动查询微博热搜")
+    result, data_list = await get_hot_image()
+    receipt = MessageUtils.build_message(result)
+    await broadcast_group(receipt, log_cmd="被动查询微博热搜")
+    logger.info(f"定时查询微博热搜")

@@ -1,6 +1,7 @@
 from pathlib import Path
 import shutil
 from nonebot import get_plugin_config
+from zhenxun.services.log import logger
 from nonebot_plugin_apscheduler import scheduler
 from nonebot_plugin_localstore import get_data_dir
 from pydantic import BaseModel
