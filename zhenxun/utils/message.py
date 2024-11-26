@@ -105,6 +105,7 @@ class MessageUtils:
         for m in msg_list:
             _data = m if isinstance(m, list) else [m]
             message_list += cls.__build_message(_data)  # type: ignore
+        logger.info("begin to build uni message!!!")
         return UniMessage(message_list)
 
     @classmethod

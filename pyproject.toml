@@ -67,6 +67,8 @@ plugins = [
     "nonebot_plugin_htmlrender",
     "nonebot_plugin_userinfo",
     "nonebot_plugin_alconna",
+    "nonebot_plugin_questionmark",
+    "nonebot-plugin-sparkapi"
 ]
 plugin_dirs = ["zhenxun/services", "zhenxun/builtin_plugins", "zhenxun/plugins"]
 adapters = [
