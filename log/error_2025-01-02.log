@@ -1,0 +1,1542 @@
+01-02 00:38:33 [ERROR] nonebot | Failed to import "word_clouds"
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 24, in <module>
+    nonebot.load_plugins("zhenxun/plugins")
+    │       └ <function load_plugins at 0x000001449059A680>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x0000014490598F70>
+           └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x0000014490583470>
+                  │    │           │         │       └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+                  │    │           │         └ 'word_clouds'
+                  │    │           └ 'word_clouds'
+                  │    └ <function PluginManager.load_plugin at 0x0000014490598EE0>
+                  └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'word_clouds'
+             │         │             │    └ {'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'zhenxun.plugins.black_word', 'bt'...
+             │         │             └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+             │         └ <function import_module at 0x000001448D925090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.word_clouds'
+           │          └ <function _gcd_import at 0x000001448D403490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.word_clouds' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\word_clouds\\__ini...
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\word_clouds\__init__.py", line 20, in <module>
+    from .data_source import draw_word_cloud, get_list_msg
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\word_clouds\data_source.py", line 18, in <module>
+    from zhenxun.services import logger
+
+ImportError: cannot import name 'logger' from 'zhenxun.services' (C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\services\__init__.py)
+01-02 00:38:36 [ERROR] nonebot | Failed to import "search_image"
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 24, in <module>
+    nonebot.load_plugins("zhenxun/plugins")
+    │       └ <function load_plugins at 0x000001449059A680>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x0000014490598F70>
+           └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x0000014490583470>
+                  │    │           │         │       └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+                  │    │           │         └ 'search_image'
+                  │    │           └ 'search_image'
+                  │    └ <function PluginManager.load_plugin at 0x0000014490598EE0>
+                  └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'search_image'
+             │         │             │    └ {'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'zhenxun.plugins.black_word', 'bt'...
+             │         │             └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+             │         └ <function import_module at 0x000001448D925090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.search_image'
+           │          └ <function _gcd_import at 0x000001448D403490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.search_image' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\search_image\\__i...
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\search_image\__init__.py", line 15, in <module>
+    from .saucenao import get_saucenao_image
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\search_image\saucenao.py", line 6, in <module>
+    from zhenxun.services import logger
+
+ImportError: cannot import name 'logger' from 'zhenxun.services' (C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\services\__init__.py)
+01-02 00:38:36 [ERROR] nonebot | Failed to import "word_bank:message_handle"
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 24, in <module>
+    nonebot.load_plugins("zhenxun/plugins")
+    │       └ <function load_plugins at 0x000001449059A680>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x0000014490598F70>
+           └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x0000014490583470>
+                  │    │           │         │       └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+                  │    │           │         └ 'word_bank'
+                  │    │           └ 'word_bank'
+                  │    └ <function PluginManager.load_plugin at 0x0000014490598EE0>
+                  └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'word_bank'
+             │         │             │    └ {'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'zhenxun.plugins.black_word', 'bt'...
+             │         │             └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+             │         └ <function import_module at 0x000001448D925090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.word_bank'
+           │          └ <function _gcd_import at 0x000001448D403490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.word_bank' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\word_bank\\__init__....
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\word_bank\__init__.py", line 29, in <module>
+    nonebot.load_plugins(str(Path(__file__).parent.resolve()))
+    │       │                │    └ 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\word_bank\\__init__.py'
+    │       │                └ <class 'pathlib.Path'>
+    │       └ <function load_plugins at 0x000001449059A680>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x0000014490598F70>
+           └ PluginManager(available_plugins={'word_bank:message_handle': 'zhenxun.plugins.word_bank.message_handle', 'word_bank:read_word...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x0000014490583470>
+                  │    │           │         │       └ PluginManager(available_plugins={'word_bank:message_handle': 'zhenxun.plugins.word_bank.message_handle', 'word_bank:read_word...
+                  │    │           │         └ 'word_bank:message_handle'
+                  │    │           └ 'word_bank:message_handle'
+                  │    └ <function PluginManager.load_plugin at 0x0000014490598EE0>
+                  └ PluginManager(available_plugins={'word_bank:message_handle': 'zhenxun.plugins.word_bank.message_handle', 'word_bank:read_word...
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'word_bank:message_handle'
+             │         │             │    └ {'word_bank:message_handle': 'zhenxun.plugins.word_bank.message_handle', 'word_bank:read_word_bank': 'zhenxun.plugins.word_ba...
+             │         │             └ PluginManager(available_plugins={'word_bank:message_handle': 'zhenxun.plugins.word_bank.message_handle', 'word_bank:read_word...
+             │         └ <function import_module at 0x000001448D925090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.word_bank.message_handle'
+           │          └ <function _gcd_import at 0x000001448D403490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.word_bank.message_handle' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\word_...
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\word_bank\message_handle.py", line 7, in <module>
+    from zhenxun.services import logger
+
+ImportError: cannot import name 'logger' from 'zhenxun.services' (C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\services\__init__.py)
+01-02 00:44:59 [ERROR] uvicorn | Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 206, in __aexit__
+    await anext(self.gen)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\drivers\fastapi.py", line 157, in _lifespan_manager
+    await self._lifespan.shutdown()
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\driver\_lifespan.py", line 49, in shutdown
+    await self._run_lifespan_func(self._shutdown_funcs)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\driver\_lifespan.py", line 36, in _run_lifespan_func
+    await cast(ASYNC_LIFESPAN_FUNC, func)()
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot_plugin_htmlrender\__init__.py", line 45, in shutdown
+    await shutdown_browser()
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot_plugin_htmlrender\browser.py", line 79, in shutdown_browser
+    await _browser.close()
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\playwright\async_api\_generated.py", line 13891, in close
+    return mapping.from_maybe_impl(await self._impl_obj.close(reason=reason))
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\playwright\_impl\_browser.py", line 192, in close
+    raise e
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\playwright\_impl\_browser.py", line 189, in close
+    await self._channel.send("close", {"reason": reason})
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\playwright\_impl\_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\playwright\_impl\_connection.py", line 514, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Browser.close: Connection closed while reading from the driver
+
+01-02 00:44:59 [ERROR] uvicorn | Application shutdown failed. Exiting.
+01-02 00:45:09 [ERROR] nonebot | Failed to import "search_image"
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 24, in <module>
+    nonebot.load_plugins("zhenxun/plugins")
+    │       └ <function load_plugins at 0x000001556089A680>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x0000015560898F70>
+           └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x0000015560890B80>
+                  │    │           │         │       └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+                  │    │           │         └ 'search_image'
+                  │    │           └ 'search_image'
+                  │    └ <function PluginManager.load_plugin at 0x0000015560898EE0>
+                  └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'search_image'
+             │         │             │    └ {'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'zhenxun.plugins.black_word', 'bt'...
+             │         │             └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+             │         └ <function import_module at 0x000001555DBE5090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.search_image'
+           │          └ <function _gcd_import at 0x000001555DA93490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.search_image' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\search_image\\__i...
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\search_image\__init__.py", line 15, in <module>
+    from .saucenao import get_saucenao_image
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\search_image\saucenao.py", line 6, in <module>
+    from zhenxun.services import logger
+
+ImportError: cannot import name 'logger' from 'zhenxun.services' (C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\services\__init__.py)
+01-02 00:45:10 [ERROR] nonebot | Failed to import "word_bank:message_handle"
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 24, in <module>
+    nonebot.load_plugins("zhenxun/plugins")
+    │       └ <function load_plugins at 0x000001556089A680>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x0000015560898F70>
+           └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x0000015560890B80>
+                  │    │           │         │       └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+                  │    │           │         └ 'word_bank'
+                  │    │           └ 'word_bank'
+                  │    └ <function PluginManager.load_plugin at 0x0000015560898EE0>
+                  └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'word_bank'
+             │         │             │    └ {'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'zhenxun.plugins.black_word', 'bt'...
+             │         │             └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+             │         └ <function import_module at 0x000001555DBE5090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.word_bank'
+           │          └ <function _gcd_import at 0x000001555DA93490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.word_bank' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\word_bank\\__init__....
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\word_bank\__init__.py", line 29, in <module>
+    nonebot.load_plugins(str(Path(__file__).parent.resolve()))
+    │       │                │    └ 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\word_bank\\__init__.py'
+    │       │                └ <class 'pathlib.Path'>
+    │       └ <function load_plugins at 0x000001556089A680>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x0000015560898F70>
+           └ PluginManager(available_plugins={'word_bank:message_handle': 'zhenxun.plugins.word_bank.message_handle', 'word_bank:read_word...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x0000015560890B80>
+                  │    │           │         │       └ PluginManager(available_plugins={'word_bank:message_handle': 'zhenxun.plugins.word_bank.message_handle', 'word_bank:read_word...
+                  │    │           │         └ 'word_bank:message_handle'
+                  │    │           └ 'word_bank:message_handle'
+                  │    └ <function PluginManager.load_plugin at 0x0000015560898EE0>
+                  └ PluginManager(available_plugins={'word_bank:message_handle': 'zhenxun.plugins.word_bank.message_handle', 'word_bank:read_word...
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'word_bank:message_handle'
+             │         │             │    └ {'word_bank:message_handle': 'zhenxun.plugins.word_bank.message_handle', 'word_bank:read_word_bank': 'zhenxun.plugins.word_ba...
+             │         │             └ PluginManager(available_plugins={'word_bank:message_handle': 'zhenxun.plugins.word_bank.message_handle', 'word_bank:read_word...
+             │         └ <function import_module at 0x000001555DBE5090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.word_bank.message_handle'
+           │          └ <function _gcd_import at 0x000001555DA93490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.word_bank.message_handle' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\word_...
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\word_bank\message_handle.py", line 7, in <module>
+    from zhenxun.services import logger
+
+ImportError: cannot import name 'logger' from 'zhenxun.services' (C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\services\__init__.py)
+01-02 00:45:12 [ERROR] nonebot | Failed to import "word_clouds"
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 24, in <module>
+    nonebot.load_plugins("zhenxun/plugins")
+    │       └ <function load_plugins at 0x000001556089A680>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x0000015560898F70>
+           └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x0000015560890B80>
+                  │    │           │         │       └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+                  │    │           │         └ 'word_clouds'
+                  │    │           └ 'word_clouds'
+                  │    └ <function PluginManager.load_plugin at 0x0000015560898EE0>
+                  └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'word_clouds'
+             │         │             │    └ {'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'zhenxun.plugins.black_word', 'bt'...
+             │         │             └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+             │         └ <function import_module at 0x000001555DBE5090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.word_clouds'
+           │          └ <function _gcd_import at 0x000001555DA93490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.word_clouds' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\word_clouds\\__ini...
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\word_clouds\__init__.py", line 20, in <module>
+    from .data_source import draw_word_cloud, get_list_msg
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\word_clouds\data_source.py", line 18, in <module>
+    from zhenxun.services import logger
+
+ImportError: cannot import name 'logger' from 'zhenxun.services' (C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\services\__init__.py)
+01-02 00:46:01 [ERROR] nonebot | Failed to import "word_clouds"
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 24, in <module>
+    nonebot.load_plugins("zhenxun/plugins")
+    │       └ <function load_plugins at 0x0000021AAC2EA680>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x0000021AAC2E8F70>
+           └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x0000021AAC2E4590>
+                  │    │           │         │       └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+                  │    │           │         └ 'word_clouds'
+                  │    │           └ 'word_clouds'
+                  │    └ <function PluginManager.load_plugin at 0x0000021AAC2E8EE0>
+                  └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'word_clouds'
+             │         │             │    └ {'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'zhenxun.plugins.black_word', 'bt'...
+             │         │             └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+             │         └ <function import_module at 0x0000021AA96A5090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.word_clouds'
+           │          └ <function _gcd_import at 0x0000021AA9153490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.word_clouds' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\word_clouds\\__ini...
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\word_clouds\__init__.py", line 20, in <module>
+    from .data_source import draw_word_cloud, get_list_msg
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\word_clouds\data_source.py", line 18, in <module>
+    from zhenxun.services import logger
+
+ImportError: cannot import name 'logger' from 'zhenxun.services' (C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\services\__init__.py)
+01-02 00:46:02 [ERROR] nonebot | Failed to import "word_bank:message_handle"
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 24, in <module>
+    nonebot.load_plugins("zhenxun/plugins")
+    │       └ <function load_plugins at 0x0000021AAC2EA680>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x0000021AAC2E8F70>
+           └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x0000021AAC2E4590>
+                  │    │           │         │       └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+                  │    │           │         └ 'word_bank'
+                  │    │           └ 'word_bank'
+                  │    └ <function PluginManager.load_plugin at 0x0000021AAC2E8EE0>
+                  └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'word_bank'
+             │         │             │    └ {'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'zhenxun.plugins.black_word', 'bt'...
+             │         │             └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+             │         └ <function import_module at 0x0000021AA96A5090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.word_bank'
+           │          └ <function _gcd_import at 0x0000021AA9153490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.word_bank' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\word_bank\\__init__....
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\word_bank\__init__.py", line 29, in <module>
+    nonebot.load_plugins(str(Path(__file__).parent.resolve()))
+    │       │                │    └ 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\word_bank\\__init__.py'
+    │       │                └ <class 'pathlib.Path'>
+    │       └ <function load_plugins at 0x0000021AAC2EA680>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x0000021AAC2E8F70>
+           └ PluginManager(available_plugins={'word_bank:message_handle': 'zhenxun.plugins.word_bank.message_handle', 'word_bank:read_word...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x0000021AAC2E4590>
+                  │    │           │         │       └ PluginManager(available_plugins={'word_bank:message_handle': 'zhenxun.plugins.word_bank.message_handle', 'word_bank:read_word...
+                  │    │           │         └ 'word_bank:message_handle'
+                  │    │           └ 'word_bank:message_handle'
+                  │    └ <function PluginManager.load_plugin at 0x0000021AAC2E8EE0>
+                  └ PluginManager(available_plugins={'word_bank:message_handle': 'zhenxun.plugins.word_bank.message_handle', 'word_bank:read_word...
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'word_bank:message_handle'
+             │         │             │    └ {'word_bank:message_handle': 'zhenxun.plugins.word_bank.message_handle', 'word_bank:read_word_bank': 'zhenxun.plugins.word_ba...
+             │         │             └ PluginManager(available_plugins={'word_bank:message_handle': 'zhenxun.plugins.word_bank.message_handle', 'word_bank:read_word...
+             │         └ <function import_module at 0x0000021AA96A5090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.word_bank.message_handle'
+           │          └ <function _gcd_import at 0x0000021AA9153490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.word_bank.message_handle' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\word_...
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\word_bank\message_handle.py", line 7, in <module>
+    from zhenxun.services import logger
+
+ImportError: cannot import name 'logger' from 'zhenxun.services' (C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\services\__init__.py)
+01-02 00:46:03 [ERROR] nonebot | Failed to import "search_image"
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 24, in <module>
+    nonebot.load_plugins("zhenxun/plugins")
+    │       └ <function load_plugins at 0x0000021AAC2EA680>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x0000021AAC2E8F70>
+           └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x0000021AAC2E4590>
+                  │    │           │         │       └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+                  │    │           │         └ 'search_image'
+                  │    │           └ 'search_image'
+                  │    └ <function PluginManager.load_plugin at 0x0000021AAC2E8EE0>
+                  └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'search_image'
+             │         │             │    └ {'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'zhenxun.plugins.black_word', 'bt'...
+             │         │             └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+             │         └ <function import_module at 0x0000021AA96A5090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.search_image'
+           │          └ <function _gcd_import at 0x0000021AA9153490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.search_image' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\search_image\\__i...
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\search_image\__init__.py", line 15, in <module>
+    from .saucenao import get_saucenao_image
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\search_image\saucenao.py", line 6, in <module>
+    from zhenxun.services import logger
+
+ImportError: cannot import name 'logger' from 'zhenxun.services' (C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\services\__init__.py)
+01-02 00:46:28 [ERROR] nonebot | Failed to import "word_bank:message_handle"
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 24, in <module>
+    nonebot.load_plugins("zhenxun/plugins")
+    │       └ <function load_plugins at 0x0000027D787EA680>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x0000027D787E8F70>
+           └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x0000027D787E09A0>
+                  │    │           │         │       └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+                  │    │           │         └ 'word_bank'
+                  │    │           └ 'word_bank'
+                  │    └ <function PluginManager.load_plugin at 0x0000027D787E8EE0>
+                  └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'word_bank'
+             │         │             │    └ {'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'zhenxun.plugins.black_word', 'bt'...
+             │         │             └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+             │         └ <function import_module at 0x0000027D75B45090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.word_bank'
+           │          └ <function _gcd_import at 0x0000027D75653490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.word_bank' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\word_bank\\__init__....
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\word_bank\__init__.py", line 29, in <module>
+    nonebot.load_plugins(str(Path(__file__).parent.resolve()))
+    │       │                │    └ 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\word_bank\\__init__.py'
+    │       │                └ <class 'pathlib.Path'>
+    │       └ <function load_plugins at 0x0000027D787EA680>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x0000027D787E8F70>
+           └ PluginManager(available_plugins={'word_bank:message_handle': 'zhenxun.plugins.word_bank.message_handle', 'word_bank:read_word...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x0000027D787E09A0>
+                  │    │           │         │       └ PluginManager(available_plugins={'word_bank:message_handle': 'zhenxun.plugins.word_bank.message_handle', 'word_bank:read_word...
+                  │    │           │         └ 'word_bank:message_handle'
+                  │    │           └ 'word_bank:message_handle'
+                  │    └ <function PluginManager.load_plugin at 0x0000027D787E8EE0>
+                  └ PluginManager(available_plugins={'word_bank:message_handle': 'zhenxun.plugins.word_bank.message_handle', 'word_bank:read_word...
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'word_bank:message_handle'
+             │         │             │    └ {'word_bank:message_handle': 'zhenxun.plugins.word_bank.message_handle', 'word_bank:read_word_bank': 'zhenxun.plugins.word_ba...
+             │         │             └ PluginManager(available_plugins={'word_bank:message_handle': 'zhenxun.plugins.word_bank.message_handle', 'word_bank:read_word...
+             │         └ <function import_module at 0x0000027D75B45090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.word_bank.message_handle'
+           │          └ <function _gcd_import at 0x0000027D75653490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.word_bank.message_handle' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\word_...
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\word_bank\message_handle.py", line 7, in <module>
+    from zhenxun.services import logger
+
+ImportError: cannot import name 'logger' from 'zhenxun.services' (C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\services\__init__.py)
+01-02 00:46:29 [ERROR] nonebot | Failed to import "search_image"
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 24, in <module>
+    nonebot.load_plugins("zhenxun/plugins")
+    │       └ <function load_plugins at 0x0000027D787EA680>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x0000027D787E8F70>
+           └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x0000027D787E09A0>
+                  │    │           │         │       └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+                  │    │           │         └ 'search_image'
+                  │    │           └ 'search_image'
+                  │    └ <function PluginManager.load_plugin at 0x0000027D787E8EE0>
+                  └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'search_image'
+             │         │             │    └ {'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'zhenxun.plugins.black_word', 'bt'...
+             │         │             └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+             │         └ <function import_module at 0x0000027D75B45090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.search_image'
+           │          └ <function _gcd_import at 0x0000027D75653490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.search_image' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\search_image\\__i...
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\search_image\__init__.py", line 15, in <module>
+    from .saucenao import get_saucenao_image
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\search_image\saucenao.py", line 6, in <module>
+    from zhenxun.services import logger
+
+ImportError: cannot import name 'logger' from 'zhenxun.services' (C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\services\__init__.py)
+01-02 00:46:30 [ERROR] nonebot | Failed to import "word_clouds"
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 24, in <module>
+    nonebot.load_plugins("zhenxun/plugins")
+    │       └ <function load_plugins at 0x0000027D787EA680>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x0000027D787E8F70>
+           └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x0000027D787E09A0>
+                  │    │           │         │       └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+                  │    │           │         └ 'word_clouds'
+                  │    │           └ 'word_clouds'
+                  │    └ <function PluginManager.load_plugin at 0x0000027D787E8EE0>
+                  └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'word_clouds'
+             │         │             │    └ {'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'zhenxun.plugins.black_word', 'bt'...
+             │         │             └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+             │         └ <function import_module at 0x0000027D75B45090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.word_clouds'
+           │          └ <function _gcd_import at 0x0000027D75653490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.word_clouds' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\word_clouds\\__ini...
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\word_clouds\__init__.py", line 20, in <module>
+    from .data_source import draw_word_cloud, get_list_msg
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\word_clouds\data_source.py", line 18, in <module>
+    from zhenxun.services import logger
+
+ImportError: cannot import name 'logger' from 'zhenxun.services' (C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\services\__init__.py)
+01-02 00:47:00 [ERROR] zhenxun | CMD[被动每日新闻] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='4')
+01-02 00:47:03 [ERROR] zhenxun | CMD[被动每日新闻] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='8')
+01-02 00:48:20 [ERROR] nonebot | Failed to import "word_bank:message_handle"
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 24, in <module>
+    nonebot.load_plugins("zhenxun/plugins")
+    │       └ <function load_plugins at 0x0000023F8365A680>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x0000023F83658F70>
+           └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x0000023F836509F0>
+                  │    │           │         │       └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+                  │    │           │         └ 'word_bank'
+                  │    │           └ 'word_bank'
+                  │    └ <function PluginManager.load_plugin at 0x0000023F83658EE0>
+                  └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'word_bank'
+             │         │             │    └ {'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'zhenxun.plugins.black_word', 'bt'...
+             │         │             └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+             │         └ <function import_module at 0x0000023F80965090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.word_bank'
+           │          └ <function _gcd_import at 0x0000023F80813490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.word_bank' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\word_bank\\__init__....
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\word_bank\__init__.py", line 29, in <module>
+    nonebot.load_plugins(str(Path(__file__).parent.resolve()))
+    │       │                │    └ 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\word_bank\\__init__.py'
+    │       │                └ <class 'pathlib.Path'>
+    │       └ <function load_plugins at 0x0000023F8365A680>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x0000023F83658F70>
+           └ PluginManager(available_plugins={'word_bank:message_handle': 'zhenxun.plugins.word_bank.message_handle', 'word_bank:read_word...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x0000023F836509F0>
+                  │    │           │         │       └ PluginManager(available_plugins={'word_bank:message_handle': 'zhenxun.plugins.word_bank.message_handle', 'word_bank:read_word...
+                  │    │           │         └ 'word_bank:message_handle'
+                  │    │           └ 'word_bank:message_handle'
+                  │    └ <function PluginManager.load_plugin at 0x0000023F83658EE0>
+                  └ PluginManager(available_plugins={'word_bank:message_handle': 'zhenxun.plugins.word_bank.message_handle', 'word_bank:read_word...
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'word_bank:message_handle'
+             │         │             │    └ {'word_bank:message_handle': 'zhenxun.plugins.word_bank.message_handle', 'word_bank:read_word_bank': 'zhenxun.plugins.word_ba...
+             │         │             └ PluginManager(available_plugins={'word_bank:message_handle': 'zhenxun.plugins.word_bank.message_handle', 'word_bank:read_word...
+             │         └ <function import_module at 0x0000023F80965090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.word_bank.message_handle'
+           │          └ <function _gcd_import at 0x0000023F80813490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.word_bank.message_handle' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\word_...
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\word_bank\message_handle.py", line 7, in <module>
+    from zhenxun.services import logger
+
+ImportError: cannot import name 'logger' from 'zhenxun.services' (C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\services\__init__.py)
+01-02 00:48:21 [ERROR] nonebot | Failed to import "word_clouds"
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 24, in <module>
+    nonebot.load_plugins("zhenxun/plugins")
+    │       └ <function load_plugins at 0x0000023F8365A680>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x0000023F83658F70>
+           └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x0000023F836509F0>
+                  │    │           │         │       └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+                  │    │           │         └ 'word_clouds'
+                  │    │           └ 'word_clouds'
+                  │    └ <function PluginManager.load_plugin at 0x0000023F83658EE0>
+                  └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'word_clouds'
+             │         │             │    └ {'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'zhenxun.plugins.black_word', 'bt'...
+             │         │             └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+             │         └ <function import_module at 0x0000023F80965090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.word_clouds'
+           │          └ <function _gcd_import at 0x0000023F80813490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.word_clouds' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\word_clouds\\__ini...
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\word_clouds\__init__.py", line 20, in <module>
+    from .data_source import draw_word_cloud, get_list_msg
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\word_clouds\data_source.py", line 18, in <module>
+    from zhenxun.services import logger
+
+ImportError: cannot import name 'logger' from 'zhenxun.services' (C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\services\__init__.py)
+01-02 00:48:23 [ERROR] nonebot | Failed to import "search_image"
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 24, in <module>
+    nonebot.load_plugins("zhenxun/plugins")
+    │       └ <function load_plugins at 0x0000023F8365A680>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x0000023F83658F70>
+           └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x0000023F836509F0>
+                  │    │           │         │       └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+                  │    │           │         └ 'search_image'
+                  │    │           └ 'search_image'
+                  │    └ <function PluginManager.load_plugin at 0x0000023F83658EE0>
+                  └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'search_image'
+             │         │             │    └ {'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'zhenxun.plugins.black_word', 'bt'...
+             │         │             └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+             │         └ <function import_module at 0x0000023F80965090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.search_image'
+           │          └ <function _gcd_import at 0x0000023F80813490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.search_image' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\search_image\\__i...
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\search_image\__init__.py", line 15, in <module>
+    from .saucenao import get_saucenao_image
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\search_image\saucenao.py", line 6, in <module>
+    from zhenxun.services import logger
+
+ImportError: cannot import name 'logger' from 'zhenxun.services' (C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\services\__init__.py)
+01-02 04:30:06 [ERROR] zhenxun | 更新色图 4.jpg 错误 <class 'FileExistsError'>: [WinError 183] 当文件已存在时，无法创建该文件。: 'resources\\temp\\4.jpg' -> 'resources\\image\\_setu\\4.jpg'
+01-02 04:30:10 [ERROR] zhenxun | 更新色图 3.jpg 错误 <class 'FileExistsError'>: [WinError 183] 当文件已存在时，无法创建该文件。: 'resources\\temp\\3.jpg' -> 'resources\\image\\_setu\\3.jpg'
+01-02 06:01:01 [ERROR] zhenxun | CMD[被动早晚安] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='626')
+01-02 09:01:00 [ERROR] zhenxun | CMD[被动每日新闻] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='998')
+01-02 09:01:02 [ERROR] apscheduler | Job "_ (trigger: cron[hour='9', minute='1'], next run at: 2025-01-03 09:01:00 CST)" raised an exception
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 27, in <module>
+    nonebot.run()
+    │       └ <function run at 0x0000023F83526290>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\__init__.py", line 335, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x0000023F835260E0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\drivers\fastapi.py", line 186, in run
+    uvicorn.run(
+    │       └ <function run at 0x0000023F83CFBD00>
+    └ <module 'uvicorn' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\main.py", line 579, in run
+    server.run()
+    │      └ <function Server.run at 0x0000023F83CFB640>
+    └ <uvicorn.server.Server object at 0x0000023F93DFA3E0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x0000023F83CFB6D0>
+           │       │   └ <uvicorn.server.Server object at 0x0000023F93DFA3E0>
+           │       └ <function run at 0x0000023F81210E50>
+           └ <module 'asyncio' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x0000023F860434C0>
+           │    └ <function BaseEventLoop.run_until_complete at 0x0000023F81310280>
+           └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x0000023F82F51510>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x0000023F81311CF0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x0000023F812C09D0>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\apscheduler\executors\base_py3.py", line 30, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+                   │   │     │   │       │   └ <member 'kwargs' of 'Job' objects>
+                   │   │     │   │       └ <Job (id=aa18f23a35cb450abe55756ed9c5ab31 name=_)>
+                   │   │     │   └ <member 'args' of 'Job' objects>
+                   │   │     └ <Job (id=aa18f23a35cb450abe55756ed9c5ab31 name=_)>
+                   │   └ <member 'func' of 'Job' objects>
+                   └ <Job (id=aa18f23a35cb450abe55756ed9c5ab31 name=_)>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\moyu.py", line 100, in _
+    receipt = MessageUtils.build_message(path)
+              │            │             └ WindowsPath('resources/temp/moyu1735779660.png')
+              │            └ <classmethod(<function MessageUtils.build_message at 0x0000023F848488B0>)>
+              └ <class 'zhenxun.utils.message.MessageUtils'>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\utils\message.py", line 107, in build_message
+    message_list += cls.__build_message(_data)  # type: ignore
+    │               │                   └ [WindowsPath('resources/temp/moyu1735779660.png')]
+    │               └ <class 'zhenxun.utils.message.MessageUtils'>
+    └ []
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\utils\message.py", line 76, in __build_message
+    image = BuildImage.open(msg)
+            │          │    └ WindowsPath('resources/temp/moyu1735779660.png')
+            │          └ <classmethod(<function BuildImage.open at 0x0000023F84837010>)>
+            └ <class 'zhenxun.utils._build_image.BuildImage'>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\utils\_build_image.py", line 89, in open
+    return cls(background=path)
+           │              └ WindowsPath('resources/temp/moyu1735779660.png')
+           └ <class 'zhenxun.utils._build_image.BuildImage'>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\utils\_build_image.py", line 63, in __init__
+    self.markImg = Image.open(background)
+    │              │     │    └ WindowsPath('resources/temp/moyu1735779660.png')
+    │              │     └ <function open at 0x0000023F84821BD0>
+    │              └ <module 'PIL.Image' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10...
+    └ <zhenxun.utils._build_image.BuildImage object at 0x0000023F94A58B20>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\PIL\Image.py", line 3298, in open
+    raise UnidentifiedImageError(msg)
+          │                      └ "cannot identify image file 'C:\\\\Program Files\\\\zhenxun\\\\zhenxun_bot-dev\\\\resources\\\\temp\\\\moyu1735779660.png'"
+          └ <class 'PIL.UnidentifiedImageError'>
+
+PIL.UnidentifiedImageError: cannot identify image file 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\resources\\temp\\moyu1735779660.png'
+01-02 11:41:43 [ERROR] nonebot | Failed to import "word_clouds"
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 24, in <module>
+    nonebot.load_plugins("zhenxun/plugins")
+    │       └ <function load_plugins at 0x00000233292CA680>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x00000233292C8F70>
+           └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x00000233292C4630>
+                  │    │           │         │       └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+                  │    │           │         └ 'word_clouds'
+                  │    │           └ 'word_clouds'
+                  │    └ <function PluginManager.load_plugin at 0x00000233292C8EE0>
+                  └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'word_clouds'
+             │         │             │    └ {'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'zhenxun.plugins.black_word', 'bt'...
+             │         │             └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+             │         └ <function import_module at 0x00000233265E5090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.word_clouds'
+           │          └ <function _gcd_import at 0x0000023326143490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.word_clouds' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\word_clouds\\__ini...
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\word_clouds\__init__.py", line 20, in <module>
+    from .data_source import draw_word_cloud, get_list_msg
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\word_clouds\data_source.py", line 18, in <module>
+    from zhenxun.services import logger
+
+ImportError: cannot import name 'logger' from 'zhenxun.services' (C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\services\__init__.py)
+01-02 11:41:44 [ERROR] nonebot | Failed to import "word_bank:message_handle"
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 24, in <module>
+    nonebot.load_plugins("zhenxun/plugins")
+    │       └ <function load_plugins at 0x00000233292CA680>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x00000233292C8F70>
+           └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x00000233292C4630>
+                  │    │           │         │       └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+                  │    │           │         └ 'word_bank'
+                  │    │           └ 'word_bank'
+                  │    └ <function PluginManager.load_plugin at 0x00000233292C8EE0>
+                  └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'word_bank'
+             │         │             │    └ {'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'zhenxun.plugins.black_word', 'bt'...
+             │         │             └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+             │         └ <function import_module at 0x00000233265E5090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.word_bank'
+           │          └ <function _gcd_import at 0x0000023326143490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.word_bank' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\word_bank\\__init__....
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\word_bank\__init__.py", line 29, in <module>
+    nonebot.load_plugins(str(Path(__file__).parent.resolve()))
+    │       │                │    └ 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\word_bank\\__init__.py'
+    │       │                └ <class 'pathlib.Path'>
+    │       └ <function load_plugins at 0x00000233292CA680>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x00000233292C8F70>
+           └ PluginManager(available_plugins={'word_bank:message_handle': 'zhenxun.plugins.word_bank.message_handle', 'word_bank:read_word...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x00000233292C4630>
+                  │    │           │         │       └ PluginManager(available_plugins={'word_bank:message_handle': 'zhenxun.plugins.word_bank.message_handle', 'word_bank:read_word...
+                  │    │           │         └ 'word_bank:message_handle'
+                  │    │           └ 'word_bank:message_handle'
+                  │    └ <function PluginManager.load_plugin at 0x00000233292C8EE0>
+                  └ PluginManager(available_plugins={'word_bank:message_handle': 'zhenxun.plugins.word_bank.message_handle', 'word_bank:read_word...
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'word_bank:message_handle'
+             │         │             │    └ {'word_bank:message_handle': 'zhenxun.plugins.word_bank.message_handle', 'word_bank:read_word_bank': 'zhenxun.plugins.word_ba...
+             │         │             └ PluginManager(available_plugins={'word_bank:message_handle': 'zhenxun.plugins.word_bank.message_handle', 'word_bank:read_word...
+             │         └ <function import_module at 0x00000233265E5090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.word_bank.message_handle'
+           │          └ <function _gcd_import at 0x0000023326143490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.word_bank.message_handle' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\word_...
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\word_bank\message_handle.py", line 7, in <module>
+    from zhenxun.services import logger
+
+ImportError: cannot import name 'logger' from 'zhenxun.services' (C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\services\__init__.py)
+01-02 11:41:44 [ERROR] nonebot | Failed to import "search_image"
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 24, in <module>
+    nonebot.load_plugins("zhenxun/plugins")
+    │       └ <function load_plugins at 0x00000233292CA680>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x00000233292C8F70>
+           └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x00000233292C4630>
+                  │    │           │         │       └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+                  │    │           │         └ 'search_image'
+                  │    │           └ 'search_image'
+                  │    └ <function PluginManager.load_plugin at 0x00000233292C8EE0>
+                  └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'search_image'
+             │         │             │    └ {'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'zhenxun.plugins.black_word', 'bt'...
+             │         │             └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+             │         └ <function import_module at 0x00000233265E5090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.search_image'
+           │          └ <function _gcd_import at 0x0000023326143490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.search_image' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\search_image\\__i...
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\search_image\__init__.py", line 15, in <module>
+    from .saucenao import get_saucenao_image
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\search_image\saucenao.py", line 6, in <module>
+    from zhenxun.services import logger
+
+ImportError: cannot import name 'logger' from 'zhenxun.services' (C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\services\__init__.py)

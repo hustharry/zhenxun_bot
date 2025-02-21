@@ -1,0 +1,85 @@
+10-21 00:01:38 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+10-21 01:01:00 [INFO] zhenxun | CMD[定时任务] 自动清理临时数据完成，共清理了 26.72MB 的数据...
+10-21 01:01:38 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+10-21 02:01:38 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+10-21 03:01:00 [INFO] zhenxun | 自动更新好友信息成功...
+10-21 03:01:00 [INFO] zhenxun | 自动更新群组成员信息成功...
+10-21 03:01:38 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+10-21 03:25:00 [INFO] zhenxun | CMD[自动备份] 自动备份成功...
+10-21 04:01:00 [WARNING] zhenxun | 当前无UP池或 prts_up_char.json 文件不存在
+10-21 04:01:00 [WARNING] zhenxun | guardian_up_char 解析出错
+10-21 04:01:00 [WARNING] zhenxun | 赛马娘UP更新出错 || 错误<class 'AttributeError'>: 'NoneType' object has no attribute 'find'
+10-21 04:01:00 [WARNING] zhenxun | pretty_up_char 解析出错
+10-21 04:01:03 [WARNING] zhenxun | 原神 获取额外信息错误 旅行者水
+10-21 04:01:06 [WARNING] zhenxun | 原神 获取额外信息错误 旅行者草
+10-21 04:01:09 [WARNING] zhenxun | 原神 获取额外信息错误 旅行者雷
+10-21 04:01:12 [WARNING] zhenxun | 原神 获取额外信息错误 旅行者风
+10-21 04:01:12 [WARNING] zhenxun | 原神 获取额外信息错误 旅行者岩
+10-21 04:01:15 [INFO] zhenxun | 原神 更新成功
+10-21 04:01:15 [INFO] zhenxun | 原神 武器更新成功
+10-21 04:01:15 [INFO] zhenxun | 成功获取原神当前up信息...当前up池: 「千云绘羽织」 & 「煅火的祝赐」 & 「神铸赋形」
+10-21 04:01:38 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+10-21 04:30:03 [INFO] zhenxun | 下载 https://i.pixiv.re/img-original/img/2023/11/01/19/12/53/113049474_p0.png 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\6.jpg
+10-21 04:30:03 [INFO] zhenxun | 不需要压缩，移动图片resources\temp/6.jpg --> /resources\image\_setu/6.jpg
+10-21 04:30:03 [ERROR] zhenxun | 更新色图 6.jpg 错误 <class 'FileExistsError'>: [WinError 183] 当文件已存在时，无法创建该文件。: 'resources\\temp\\6.jpg' -> 'resources\\image\\_setu\\6.jpg'
+10-21 04:30:06 [INFO] zhenxun | 下载 https://i.pixiv.re/img-original/img/2022/12/01/00/21/42/103235297_p0.jpg 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\5.jpg
+10-21 04:30:06 [INFO] zhenxun | 不需要压缩，移动图片resources\temp/5.jpg --> /resources\image\_setu/5.jpg
+10-21 04:30:06 [ERROR] zhenxun | 更新色图 5.jpg 错误 <class 'FileExistsError'>: [WinError 183] 当文件已存在时，无法创建该文件。: 'resources\\temp\\5.jpg' -> 'resources\\image\\_setu\\5.jpg'
+10-21 04:30:24 [INFO] zhenxun | 下载 https://i.pixiv.re/img-original/img/2023/03/29/00/00/36/106651983_p0.png 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\4.jpg
+10-21 04:30:26 [INFO] zhenxun | 下载 https://i.pixiv.re/img-original/img/2022/04/04/18/18/36/97403745_p0.png 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\3.jpg
+10-21 04:30:26 [INFO] zhenxun | 不需要压缩，移动图片resources\temp/3.jpg --> /resources\image\_setu/3.jpg
+10-21 04:30:26 [ERROR] zhenxun | 更新色图 3.jpg 错误 <class 'FileExistsError'>: [WinError 183] 当文件已存在时，无法创建该文件。: 'resources\\temp\\3.jpg' -> 'resources\\image\\_setu\\3.jpg'
+10-21 04:30:32 [INFO] zhenxun | 下载 https://i.pixiv.re/img-original/img/2023/10/27/18/20/27/112890527_p0.png 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\2.jpg
+10-21 04:30:35 [INFO] zhenxun | 下载 https://i.pixiv.re/img-original/img/2023/11/15/21/06/20/113432062_p0.jpg 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\1.jpg
+10-21 04:30:35 [INFO] zhenxun | 不需要压缩，移动图片resources\temp/1.jpg --> /resources\image\_setu/1.jpg
+10-21 04:30:35 [ERROR] zhenxun | 更新色图 1.jpg 错误 <class 'FileExistsError'>: [WinError 183] 当文件已存在时，无法创建该文件。: 'resources\\temp\\1.jpg' -> 'resources\\image\\_setu\\1.jpg'
+10-21 04:30:37 [INFO] zhenxun | 下载 https://i.pixiv.re/img-original/img/2023/04/18/19/12/19/107296589_p0.jpg 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\0.jpg
+10-21 04:30:37 [INFO] zhenxun | 不需要压缩，移动图片resources\temp/0.jpg --> /resources\image\_setu/0.jpg
+10-21 04:30:37 [ERROR] zhenxun | 更新色图 0.jpg 错误 <class 'FileExistsError'>: [WinError 183] 当文件已存在时，无法创建该文件。: 'resources\\temp\\0.jpg' -> 'resources\\image\\_setu\\0.jpg'
+10-21 04:30:41 [INFO] zhenxun | 下载 https://i.pixiv.re/img-original/img/2023/01/06/08/04/26/104277373_p3.png 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\0.jpg
+10-21 04:30:41 [INFO] zhenxun | CMD[自动更新色图] ("2024-10-21 04:30:41 更新 色图 完成，本地存在 8 张，实际更新 3 张，以下为更新时未知错误：\n更新色图 6.jpg 错误 <class 'FileExistsError'>: [WinError 183] 当文件已存在时，无法创建该文件。: 'resources\\\\temp\\\\6.jpg' -> 'resources\\\\image\\\\_setu\\\\6.jpg'",)
+10-21 04:40:00 [INFO] zhenxun | CMD[Chat检测] [Target]([992333365]) 群组两日内未发送任何消息，关闭该群全部被动
+10-21 05:01:38 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+10-21 06:01:00 [INFO] zhenxun | begin to build uni message!!!
+10-21 06:01:00 [INFO] zhenxun | group list is [<GroupConsole>, <GroupConsole>]
+10-21 06:01:00 [INFO] zhenxun | key is 992333365:None, check_func is <function check at 0x000001A8A347B400>
+10-21 06:01:00 [INFO] zhenxun | is_run value False
+10-21 06:01:00 [INFO] zhenxun | key is 546881717:None, check_func is <function check at 0x000001A8A347B400>
+10-21 06:01:00 [INFO] zhenxun | is_run value True
+10-21 06:01:00 [INFO] zhenxun | target is Target({'id': '546881717', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+10-21 06:01:00 [INFO] zhenxun | begin to build uni message!!!
+10-21 06:01:00 [ERROR] zhenxun | CMD[被动早晚安] [Target]([546881717:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": -1,\n    "errMsg": "rich media transfer failed"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": -1,\n    "errMsg": "rich media transfer failed"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='6551')
+10-21 06:01:00 [INFO] zhenxun | 每日早安发送...
+10-21 06:01:38 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+10-21 07:01:38 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+10-21 08:01:38 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+10-21 09:01:00 [INFO] zhenxun | begin to build uni message!!!
+10-21 09:01:00 [INFO] zhenxun | group list is [<GroupConsole>, <GroupConsole>]
+10-21 09:01:00 [INFO] zhenxun | key is 992333365:None, check_func is None
+10-21 09:01:00 [INFO] zhenxun | is_run value True
+10-21 09:01:00 [INFO] zhenxun | target is Target({'id': '992333365', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+10-21 09:01:00 [INFO] zhenxun | begin to build uni message!!!
+10-21 09:01:00 [ERROR] zhenxun | CMD[被动每日新闻] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 1006514,\n    "errMsg": "网络连接异常!"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 1006514,\n    "errMsg": "网络连接异常!"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='6661')
+10-21 09:01:00 [INFO] zhenxun | key is 546881717:None, check_func is None
+10-21 09:01:00 [INFO] zhenxun | is_run value True
+10-21 09:01:00 [INFO] zhenxun | target is Target({'id': '546881717', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+10-21 09:01:00 [INFO] zhenxun | begin to build uni message!!!
+10-21 09:01:00 [ERROR] zhenxun | CMD[被动每日新闻] [Target]([546881717:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 1006514,\n    "errMsg": "网络连接异常!"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 1006514,\n    "errMsg": "网络连接异常!"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='6662')
+10-21 09:01:00 [INFO] zhenxun | 每日摸鱼发送...
+10-21 09:01:00 [INFO] zhenxun | 下载 https://api.jun.la/60s.php?format=image 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\moyu1729472460.jpeg
+10-21 09:01:00 [INFO] zhenxun | begin to build uni message!!!
+10-21 09:01:00 [INFO] zhenxun | group list is [<GroupConsole>, <GroupConsole>]
+10-21 09:01:00 [INFO] zhenxun | key is 992333365:None, check_func is None
+10-21 09:01:00 [INFO] zhenxun | is_run value True
+10-21 09:01:00 [INFO] zhenxun | target is Target({'id': '992333365', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+10-21 09:01:00 [INFO] zhenxun | begin to build uni message!!!
+10-21 09:01:00 [ERROR] zhenxun | CMD[被动每日新闻] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": -1,\n    "errMsg": "rich media transfer failed"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": -1,\n    "errMsg": "rich media transfer failed"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='6664')
+10-21 09:01:00 [INFO] zhenxun | key is 546881717:None, check_func is None
+10-21 09:01:00 [INFO] zhenxun | is_run value True
+10-21 09:01:00 [INFO] zhenxun | target is Target({'id': '546881717', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+10-21 09:01:00 [INFO] zhenxun | begin to build uni message!!!
+10-21 09:01:00 [ERROR] zhenxun | CMD[被动每日新闻] [Target]([546881717:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": -1,\n    "errMsg": "rich media transfer failed"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": -1,\n    "errMsg": "rich media transfer failed"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='6665')
+10-21 09:01:00 [INFO] zhenxun | 发送摸鱼 [image]
+10-21 09:01:38 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+10-21 10:01:38 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+10-21 11:01:38 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...

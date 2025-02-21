@@ -1,0 +1,25 @@
+11-27 00:00:43 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 348338577 from 457891411@[群:546881717] '为什么没人lol的啊'
+11-27 00:00:43 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+11-27 00:00:43 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+11-27 00:00:43 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+11-27 00:00:43 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+11-27 00:00:43 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+11-27 00:00:43 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+11-27 00:00:43 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+11-27 00:00:43 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+11-27 00:13:45 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 419091711 from 1095712946@[群:546881717] '为什么没人lol的啊'
+11-27 00:13:45 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+11-27 00:13:45 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+11-27 00:13:45 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+11-27 00:13:45 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+11-27 00:13:45 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+11-27 00:13:45 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+11-27 00:13:46 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+11-27 00:13:46 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+11-27 00:35:20 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+11-27 01:01:00 [INFO] zhenxun | CMD[定时任务] 自动清理临时数据完成，共清理了 26.25MB 的数据...
+11-27 01:03:31 [INFO] uvicorn | Shutting down
+11-27 01:03:32 [WARNING] nonebot | OneBot V11 | WebSocket for Bot 3973508735 closed by peer
+11-27 01:03:32 [INFO] uvicorn | Finished server process [5396]
+11-27 01:03:32 [INFO] websockets | connection closed
+11-27 01:03:33 [INFO] nonebot_plugin_apscheduler | Scheduler Shutdown

@@ -1,0 +1,79 @@
+09-16 23:45:56 [SUCCESS] nonebot | Succeeded to load plugin "nonebot_plugin_apscheduler"
+09-16 23:45:57 [SUCCESS] nonebot | Succeeded to load plugin "nonebot_plugin_alconna:uniseg" from "nonebot_plugin_alconna.uniseg"
+09-16 23:45:58 [SUCCESS] nonebot | Succeeded to load plugin "nonebot_plugin_alconna"
+09-16 23:45:59 [SUCCESS] nonebot | Succeeded to load plugin "nonebot_plugin_userinfo"
+09-16 23:46:00 [SUCCESS] nonebot | Succeeded to load plugin "nonebot_plugin_htmlrender"
+09-16 23:46:01 [SUCCESS] nonebot | Succeeded to load plugin "scripts" from "zhenxun.builtin_plugins.scripts"
+09-16 23:46:03 [SUCCESS] nonebot | Succeeded to load plugin "platform:group_handle" from "zhenxun.builtin_plugins.platform.qq.group_handle"
+09-16 23:46:03 [SUCCESS] nonebot | Succeeded to load plugin "platform" from "zhenxun.builtin_plugins.platform"
+09-16 23:46:03 [SUCCESS] nonebot | Succeeded to load plugin "about" from "zhenxun.builtin_plugins.about"
+09-16 23:46:03 [SUCCESS] nonebot | Succeeded to load plugin "nickname" from "zhenxun.builtin_plugins.nickname"
+09-16 23:46:03 [SUCCESS] nonebot | Succeeded to load plugin "auto_update" from "zhenxun.builtin_plugins.auto_update"
+09-16 23:46:05 [SUCCESS] nonebot | Succeeded to load plugin "help" from "zhenxun.builtin_plugins.help"
+09-16 23:46:05 [SUCCESS] nonebot | Succeeded to load plugin "shop" from "zhenxun.builtin_plugins.shop"
+09-16 23:46:05 [SUCCESS] nonebot | Succeeded to load plugin "help_help" from "zhenxun.builtin_plugins.help_help"
+09-16 23:46:05 [SUCCESS] nonebot | Succeeded to load plugin "admin:plugin_switch" from "zhenxun.builtin_plugins.admin.plugin_switch"
+09-16 23:46:05 [SUCCESS] nonebot | Succeeded to load plugin "admin:ban" from "zhenxun.builtin_plugins.admin.ban"
+09-16 23:46:05 [SUCCESS] nonebot | Succeeded to load plugin "admin:admin_watch" from "zhenxun.builtin_plugins.admin.admin_watch"
+09-16 23:46:05 [SUCCESS] nonebot | Succeeded to load plugin "admin:welcome_message" from "zhenxun.builtin_plugins.admin.welcome_message"
+09-16 23:46:05 [SUCCESS] nonebot | Succeeded to load plugin "admin:group_update" from "zhenxun.builtin_plugins.admin.group_update"
+09-16 23:46:05 [SUCCESS] nonebot | Succeeded to load plugin "admin:group_member_update" from "zhenxun.builtin_plugins.admin.group_member_update"
+09-16 23:46:05 [SUCCESS] nonebot | Succeeded to load plugin "admin:admin_help" from "zhenxun.builtin_plugins.admin.admin_help"
+09-16 23:46:05 [SUCCESS] nonebot | Succeeded to load plugin "admin" from "zhenxun.builtin_plugins.admin"
+09-16 23:46:05 [SUCCESS] nonebot | Succeeded to load plugin "superuser:fg_manage" from "zhenxun.builtin_plugins.superuser.fg_manage"
+09-16 23:46:05 [SUCCESS] nonebot | Succeeded to load plugin "superuser:super_help" from "zhenxun.builtin_plugins.superuser.super_help"
+09-16 23:46:05 [SUCCESS] nonebot | Succeeded to load plugin "superuser:reload_setting" from "zhenxun.builtin_plugins.superuser.reload_setting"
+09-16 23:46:05 [SUCCESS] nonebot | Succeeded to load plugin "superuser:exec_sql" from "zhenxun.builtin_plugins.superuser.exec_sql"
+09-16 23:46:05 [SUCCESS] nonebot | Succeeded to load plugin "superuser:set_admin" from "zhenxun.builtin_plugins.superuser.set_admin"
+09-16 23:46:05 [SUCCESS] nonebot | Succeeded to load plugin "superuser:group_manage" from "zhenxun.builtin_plugins.superuser.group_manage"
+09-16 23:46:05 [SUCCESS] nonebot | Succeeded to load plugin "superuser:request_manage" from "zhenxun.builtin_plugins.superuser.request_manage"
+09-16 23:46:05 [SUCCESS] nonebot | Succeeded to load plugin "superuser:broadcast" from "zhenxun.builtin_plugins.superuser.broadcast"
+09-16 23:46:05 [SUCCESS] nonebot | Succeeded to load plugin "superuser:update_fg_info" from "zhenxun.builtin_plugins.superuser.update_fg_info"
+09-16 23:46:05 [SUCCESS] nonebot | Succeeded to load plugin "superuser:clear_data" from "zhenxun.builtin_plugins.superuser.clear_data"
+09-16 23:46:05 [SUCCESS] nonebot | Succeeded to load plugin "superuser" from "zhenxun.builtin_plugins.superuser"
+09-16 23:46:05 [SUCCESS] nonebot | Succeeded to load plugin "init:init_config" from "zhenxun.builtin_plugins.init.init_config"
+09-16 23:46:05 [SUCCESS] nonebot | Succeeded to load plugin "init:init_plugin" from "zhenxun.builtin_plugins.init.init_plugin"
+09-16 23:46:05 [SUCCESS] nonebot | Succeeded to load plugin "init" from "zhenxun.builtin_plugins.init"
+09-16 23:46:05 [SUCCESS] nonebot | Succeeded to load plugin "plugin_store" from "zhenxun.builtin_plugins.plugin_store"
+09-16 23:46:05 [SUCCESS] nonebot | Succeeded to load plugin "record_request" from "zhenxun.builtin_plugins.record_request"
+09-16 23:46:05 [SUCCESS] nonebot | Succeeded to load plugin "statistics:statistics_handle" from "zhenxun.builtin_plugins.statistics.statistics_handle"
+09-16 23:46:05 [SUCCESS] nonebot | Succeeded to load plugin "statistics:statistics_hook" from "zhenxun.builtin_plugins.statistics.statistics_hook"
+09-16 23:46:05 [SUCCESS] nonebot | Succeeded to load plugin "statistics" from "zhenxun.builtin_plugins.statistics"
+09-16 23:46:07 [SUCCESS] nonebot | Succeeded to load plugin "web_ui" from "zhenxun.builtin_plugins.web_ui"
+09-16 23:46:07 [SUCCESS] nonebot | Succeeded to load plugin "scheduler:auto_backup" from "zhenxun.builtin_plugins.scheduler.auto_backup"
+09-16 23:46:07 [SUCCESS] nonebot | Succeeded to load plugin "scheduler:chat_check" from "zhenxun.builtin_plugins.scheduler.chat_check"
+09-16 23:46:07 [SUCCESS] nonebot | Succeeded to load plugin "scheduler:morning" from "zhenxun.builtin_plugins.scheduler.morning"
+09-16 23:46:07 [SUCCESS] nonebot | Succeeded to load plugin "scheduler:auto_update_group" from "zhenxun.builtin_plugins.scheduler.auto_update_group"
+09-16 23:46:07 [SUCCESS] nonebot | Succeeded to load plugin "scheduler" from "zhenxun.builtin_plugins.scheduler"
+09-16 23:46:07 [SUCCESS] nonebot | Succeeded to load plugin "sign_in" from "zhenxun.builtin_plugins.sign_in"
+09-16 23:46:07 [SUCCESS] nonebot | Succeeded to load plugin "restart" from "zhenxun.builtin_plugins.restart"
+09-16 23:46:07 [SUCCESS] nonebot | Succeeded to load plugin "check" from "zhenxun.builtin_plugins.check"
+09-16 23:46:07 [SUCCESS] nonebot | Succeeded to load plugin "hooks:chkdsk_hook" from "zhenxun.builtin_plugins.hooks.chkdsk_hook"
+09-16 23:46:07 [SUCCESS] nonebot | Succeeded to load plugin "hooks:auth_hook" from "zhenxun.builtin_plugins.hooks.auth_hook"
+09-16 23:46:07 [SUCCESS] nonebot | Succeeded to load plugin "hooks:withdraw_hook" from "zhenxun.builtin_plugins.hooks.withdraw_hook"
+09-16 23:46:07 [SUCCESS] nonebot | Succeeded to load plugin "hooks:ban_hook" from "zhenxun.builtin_plugins.hooks.ban_hook"
+09-16 23:46:07 [SUCCESS] nonebot | Succeeded to load plugin "hooks" from "zhenxun.builtin_plugins.hooks"
+09-16 23:46:07 [SUCCESS] nonebot | Succeeded to load plugin "chat_history:chat_message_handle" from "zhenxun.builtin_plugins.chat_history.chat_message_handle"
+09-16 23:46:07 [SUCCESS] nonebot | Succeeded to load plugin "chat_history:chat_message" from "zhenxun.builtin_plugins.chat_history.chat_message"
+09-16 23:46:07 [SUCCESS] nonebot | Succeeded to load plugin "chat_history" from "zhenxun.builtin_plugins.chat_history"
+09-16 23:46:07 [SUCCESS] nonebot | Running NoneBot...
+09-16 23:46:07 [INFO] uvicorn | Started server process [1212]
+09-16 23:46:07 [INFO] uvicorn | Waiting for application startup.
+09-16 23:46:08 [INFO] zhenxun | Database loaded successfully!
+09-16 23:46:08 [INFO] nonebot_plugin_apscheduler | Scheduler Started
+09-16 23:46:09 [INFO] nonebot_plugin_htmlrender | 使用 chromium 启动
+09-16 23:46:11 [INFO] nonebot_plugin_htmlrender | Browser Started.
+09-16 23:46:11 [WARNING] zhenxun | 数据迁移 || 错误<class 'tortoise.exceptions.OperationalError'>: 关系 "public.sign_group_users" 不存在
+09-16 23:46:23 [INFO] zhenxun | 自动更新城市列表完成.....
+09-16 23:46:29 [INFO] zhenxun | 下载 https://github.com/HibiKier/zhenxun_bot_webui/archive/refs/heads/dist.zip 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\web_ui\webui_assets.zip
+09-16 23:46:29 [INFO] zhenxun | CMD[WebUI资源管理] 下载 webui_assets 成功...
+09-16 23:46:30 [ERROR] zhenxun | CMD[WebUI资源管理] 初始化 WebUI资源 失败 || 错误 <class 'RuntimeError'>: Directory 'data\web_ui\public\79edfa81f3308a9f.jfif' does not exist
+09-16 23:46:30 [INFO] zhenxun | CMD[Web UI] API启动成功
+09-16 23:46:35 [INFO] uvicorn | Application startup complete.
+09-16 23:46:35 [INFO] uvicorn | Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+09-16 23:47:35 [INFO] uvicorn | Shutting down
+09-16 23:47:35 [INFO] uvicorn | Waiting for application shutdown.
+09-16 23:47:35 [INFO] nonebot_plugin_apscheduler | Scheduler Shutdown
+09-16 23:47:35 [INFO] nonebot_plugin_htmlrender | Browser Stopped.
+09-16 23:47:35 [INFO] uvicorn | Application shutdown complete.
+09-16 23:47:35 [INFO] uvicorn | Finished server process [1212]

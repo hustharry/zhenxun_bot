@@ -1,0 +1,134 @@
+11-25 03:01:00 [ERROR] zhenxun | 清理AI日常聊天数据失败... || 错误 <class 'FileNotFoundError'>: [WinError 3] 系统找不到指定的路径。: 'C:\\Users\\Administrator\\AppData\\Local\\nonebot2\\nonebot_plugin_sparkapi'
+11-25 04:30:03 [ERROR] zhenxun | 更新色图 6.jpg 错误 <class 'FileExistsError'>: [WinError 183] 当文件已存在时，无法创建该文件。: 'resources\\temp\\6.jpg' -> 'resources\\image\\_setu\\6.jpg'
+11-25 04:30:04 [ERROR] zhenxun | 更新色图 5.jpg 错误 <class 'FileExistsError'>: [WinError 183] 当文件已存在时，无法创建该文件。: 'resources\\temp\\5.jpg' -> 'resources\\image\\_setu\\5.jpg'
+11-25 04:30:39 [ERROR] zhenxun | 更新色图 3.jpg 错误 <class 'FileExistsError'>: [WinError 183] 当文件已存在时，无法创建该文件。: 'resources\\temp\\3.jpg' -> 'resources\\image\\_setu\\3.jpg'
+11-25 04:30:44 [ERROR] zhenxun | 更新色图 1.jpg 错误 <class 'FileExistsError'>: [WinError 183] 当文件已存在时，无法创建该文件。: 'resources\\temp\\1.jpg' -> 'resources\\image\\_setu\\1.jpg'
+11-25 04:30:47 [ERROR] zhenxun | 更新色图 0.jpg 错误 <class 'FileExistsError'>: [WinError 183] 当文件已存在时，无法创建该文件。: 'resources\\temp\\0.jpg' -> 'resources\\image\\_setu\\0.jpg'
+11-25 09:01:00 [ERROR] zhenxun | CMD[被动每日新闻] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='4897')
+11-25 09:01:04 [ERROR] zhenxun | CMD[被动每日新闻] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='4900')
+11-25 09:43:57 [ERROR] nonebot | Running AlconnaMatcher(type='', module=zhenxun.builtin_plugins.shop, lineno=49) failed.
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 27, in <module>
+    nonebot.run()
+    │       └ <function run at 0x000002855EB55510>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\__init__.py", line 335, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x000002855EB55360>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\drivers\fastapi.py", line 186, in run
+    uvicorn.run(
+    │       └ <function run at 0x000002855F32ED40>
+    └ <module 'uvicorn' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\main.py", line 577, in run
+    server.run()
+    │      └ <function Server.run at 0x000002855F32E680>
+    └ <uvicorn.server.Server object at 0x000002856F308370>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x000002855F32E710>
+           │       │   └ <uvicorn.server.Server object at 0x000002856F308370>
+           │       └ <function run at 0x000002855C84CE50>
+           └ <module 'asyncio' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x000002856F0D4970>
+           │    └ <function BaseEventLoop.run_until_complete at 0x000002855C950280>
+           └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x000002855E591510>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x000002855C951CF0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x000002855C9009D0>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 476, in check_and_run_matcher
+    await _run_matcher(
+          └ <function _run_matcher at 0x000002855ECB09D0>
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 428, in _run_matcher
+    await matcher.run(bot, event, state, stack, dependency_cache)
+          │       │   │    │      │      │      └ {<function _event_to_me at 0x000002855EBA9CF0>: <Task finished name='Task-21016517' coro=<_event_to_me() done, defined at C:\...
+          │       │   │    │      │      └ <contextlib.AsyncExitStack object at 0x0000028575253A90>
+          │       │   │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}, '...
+          │       │   │    └ GroupMessageEvent(time=1732499037, self_id=3973508735, post_type='message', sub_type='normal', user_id=2363080731, message_ty...
+          │       │   └ Bot(type='OneBot V11', self_id='3973508735')
+          │       └ <function Matcher.run at 0x000002855EBA9B40>
+          └ AlconnaMatcher(type='', module=zhenxun.builtin_plugins.shop, lineno=49)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 850, in run
+    await self.simple_run(bot, event, state, stack, dependency_cache)
+          │    │          │    │      │      │      └ {<function _event_to_me at 0x000002855EBA9CF0>: <Task finished name='Task-21016517' coro=<_event_to_me() done, defined at C:\...
+          │    │          │    │      │      └ <contextlib.AsyncExitStack object at 0x0000028575253A90>
+          │    │          │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}, '...
+          │    │          │    └ GroupMessageEvent(time=1732499037, self_id=3973508735, post_type='message', sub_type='normal', user_id=2363080731, message_ty...
+          │    │          └ Bot(type='OneBot V11', self_id='3973508735')
+          │    └ <function Matcher.simple_run at 0x000002855EBA9AB0>
+          └ AlconnaMatcher(type='', module=zhenxun.builtin_plugins.shop, lineno=49)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 825, in simple_run
+    await handler(
+          └ Dependent(call=_, parameterless=(Depends(Dependent(call=_arparma_check), use_cache=False),))
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\dependencies\__init__.py", line 94, in __call__
+    return await cast(Callable[..., Awaitable[R]], self.call)(**values)
+                 │    │             │         │    │    │       └ {'bot': Bot(type='OneBot V11', self_id='3973508735'), 'event': GroupMessageEvent(time=1732499037, self_id=3973508735, post_ty...
+                 │    │             │         │    │    └ <function _ at 0x0000028568891CF0>
+                 │    │             │         │    └ Dependent(call=_, parameterless=(Depends(Dependent(call=_arparma_check), use_cache=False),))
+                 │    │             │         └ ~R
+                 │    │             └ <class 'collections.abc.Awaitable'>
+                 │    └ typing.Callable
+                 └ <function cast at 0x000002855C6E04C0>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\builtin_plugins\shop\__init__.py", line 165, in _
+    result = await ShopManage.use(bot, event, session, message, name, num, "")
+                   │          │   │    │      │        │        │     └ 1
+                   │          │   │    │      │        │        └ '3'
+                   │          │   │    │      │        └ [Text(text='使用道具3', styles={})]
+                   │          │   │    │      └ Session(bot_id='3973508735', bot_type='OneBot V11', platform='qq', level=<SessionLevel.LEVEL2: 2>, id1='2363080731', id2='546...
+                   │          │   │    └ GroupMessageEvent(time=1732499037, self_id=3973508735, post_type='message', sub_type='normal', user_id=2363080731, message_ty...
+                   │          │   └ Bot(type='OneBot V11', self_id='3973508735')
+                   │          └ <classmethod(<function ShopManage.use at 0x0000028568890C10>)>
+                   └ <class 'zhenxun.builtin_plugins.shop._data_source.ShopManage'>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\builtin_plugins\shop\_data_source.py", line 298, in use
+    uuid = list(user.props.keys())[int(goods_name)]
+                │    │     │           └ '3'
+                │    │     └ <method 'keys' of 'dict' objects>
+                │    └ {'cc305032-7442-11ef-b1e3-b9d7e7d3b969': 2, 'cc32b605-7442-11ef-aa2e-b9d7e7d3b969': 1, 'cc3506b7-7442-11ef-a064-b9d7e7d3b969'...
+                └ <UserConsole: 31>
+
+IndexError: list index out of range
+11-25 15:01:00 [ERROR] zhenxun | CMD[真寻日报] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='5129')
+11-25 15:01:04 [ERROR] zhenxun | CMD[真寻日报] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='5132')
+11-25 18:01:01 [ERROR] zhenxun | CMD[被动查询微博热搜] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='5250')
+11-25 18:01:06 [ERROR] zhenxun | CMD[被动查询微博热搜] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='5253')

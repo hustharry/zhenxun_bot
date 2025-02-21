@@ -1,0 +1,11 @@
+10-23 00:21:40 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+10-23 01:01:00 [INFO] zhenxun | CMD[定时任务] 自动清理临时数据完成，共清理了 22.18MB 的数据...
+10-23 01:21:40 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+10-23 01:24:33 [INFO] uvicorn | Shutting down
+10-23 01:24:33 [WARNING] nonebot | OneBot V11 | WebSocket for Bot 3973508735 closed by peer
+10-23 01:24:33 [INFO] websockets | connection closed
+10-23 01:24:33 [INFO] uvicorn | Waiting for application shutdown.
+10-23 01:24:33 [INFO] nonebot_plugin_apscheduler | Scheduler Shutdown
+10-23 01:24:33 [INFO] nonebot_plugin_htmlrender | Browser Stopped.
+10-23 01:24:33 [INFO] uvicorn | Application shutdown complete.
+10-23 01:24:33 [INFO] uvicorn | Finished server process [4260]

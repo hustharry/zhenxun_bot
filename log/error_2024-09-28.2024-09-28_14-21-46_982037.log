@@ -1,0 +1,1552 @@
+09-28 14:22:46 [ERROR] zhenxun | Epic 访问接口错误 || 错误 <class 'KeyError'>: 'pages'
+09-28 14:28:17 [ERROR] zhenxun | Epic 访问接口错误 || 错误 <class 'KeyError'>: 'pages'
+09-28 14:37:01 [ERROR] zhenxun | Epic 访问接口错误 || 错误 <class 'KeyError'>: 'pages'
+09-28 14:39:15 [ERROR] zhenxun | typeerror || 错误 <class 'TypeError'>: 'NoneType' object is not subscriptable
+09-28 14:39:15 [ERROR] zhenxun | typeerror || 错误 <class 'TypeError'>: 'NoneType' object is not subscriptable
+09-28 14:39:16 [ERROR] zhenxun | Epic 访问接口错误 || 错误 <class 'KeyError'>: 'pages'
+09-28 14:43:48 [ERROR] zhenxun | typeerror || 错误 <class 'TypeError'>: 'NoneType' object is not subscriptable
+09-28 14:43:48 [ERROR] zhenxun | typeerror || 错误 <class 'TypeError'>: 'NoneType' object is not subscriptable
+09-28 14:43:49 [ERROR] zhenxun | Epic 访问接口错误 || 错误 <class 'KeyError'>: 'pages'
+09-28 14:49:19 [ERROR] zhenxun | typeerror || 错误 <class 'TypeError'>: 'NoneType' object is not subscriptable
+09-28 14:49:19 [ERROR] zhenxun | typeerror || 错误 <class 'TypeError'>: 'NoneType' object is not subscriptable
+09-28 14:49:20 [ERROR] zhenxun | Epic 访问接口错误 || 错误 <class 'KeyError'>: 'pages'
+09-28 14:56:33 [ERROR] nonebot | Running AlconnaMatcher(type='', module=zhenxun.plugins.epic, lineno=26) failed.
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 27, in <module>
+    nonebot.run()
+    │       └ <function run at 0x0000021A94A91510>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\__init__.py", line 335, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x0000021A94A91360>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\drivers\fastapi.py", line 186, in run
+    uvicorn.run(
+    │       └ <function run at 0x0000021A95272D40>
+    └ <module 'uvicorn' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\main.py", line 577, in run
+    server.run()
+    │      └ <function Server.run at 0x0000021A95272680>
+    └ <uvicorn.server.Server object at 0x0000021AA5039BD0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x0000021A95272710>
+           │       │   └ <uvicorn.server.Server object at 0x0000021AA5039BD0>
+           │       └ <function run at 0x0000021A9278CE50>
+           └ <module 'asyncio' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x0000021AA5D4B1B0>
+           │    └ <function BaseEventLoop.run_until_complete at 0x0000021A92890280>
+           └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x0000021A944CD510>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x0000021A92891CF0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x0000021A928409D0>
+    └ <Handle <TaskStepMethWrapper object at 0x0000021AA5924E20>()>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <TaskStepMethWrapper object at 0x0000021AA5924E20>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <TaskStepMethWrapper object at 0x0000021AA5924E20>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <TaskStepMethWrapper object at 0x0000021AA5924E20>()>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 476, in check_and_run_matcher
+    await _run_matcher(
+          └ <function _run_matcher at 0x0000021A94BF09D0>
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 428, in _run_matcher
+    await matcher.run(bot, event, state, stack, dependency_cache)
+          │       │   │    │      │      │      └ {<function _event_to_me at 0x0000021A94AE9CF0>: <Task finished name='Task-6982' coro=<_event_to_me() done, defined at C:\User...
+          │       │   │    │      │      └ <contextlib.AsyncExitStack object at 0x0000021AA58BEB30>
+          │       │   │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}, '...
+          │       │   │    └ GroupMessageEvent(time=1727506591, self_id=3973508735, post_type='message', sub_type='normal', user_id=843298567, message_typ...
+          │       │   └ Bot(type='OneBot V11', self_id='3973508735')
+          │       └ <function Matcher.run at 0x0000021A94AE9B40>
+          └ AlconnaMatcher(type='', module=zhenxun.plugins.epic, lineno=26)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 850, in run
+    await self.simple_run(bot, event, state, stack, dependency_cache)
+          │    │          │    │      │      │      └ {<function _event_to_me at 0x0000021A94AE9CF0>: <Task finished name='Task-6982' coro=<_event_to_me() done, defined at C:\User...
+          │    │          │    │      │      └ <contextlib.AsyncExitStack object at 0x0000021AA58BEB30>
+          │    │          │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}, '...
+          │    │          │    └ GroupMessageEvent(time=1727506591, self_id=3973508735, post_type='message', sub_type='normal', user_id=843298567, message_typ...
+          │    │          └ Bot(type='OneBot V11', self_id='3973508735')
+          │    └ <function Matcher.simple_run at 0x0000021A94AE9AB0>
+          └ AlconnaMatcher(type='', module=zhenxun.plugins.epic, lineno=26)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 825, in simple_run
+    await handler(
+          └ Dependent(call=_)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\dependencies\__init__.py", line 94, in __call__
+    return await cast(Callable[..., Awaitable[R]], self.call)(**values)
+                 │    │             │         │    │    │       └ {'bot': Bot(type='OneBot V11', self_id='3973508735'), 'session': Session(bot_id='3973508735', bot_type='OneBot V11', platform...
+                 │    │             │         │    │    └ <function _ at 0x0000021A9EAB1240>
+                 │    │             │         │    └ Dependent(call=_)
+                 │    │             │         └ ~R
+                 │    │             └ <class 'collections.abc.Awaitable'>
+                 │    └ typing.Callable
+                 └ <function cast at 0x0000021A926204C0>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\epic\__init__.py", line 33, in _
+    msg_list, code = await get_epic_free(bot, type_)
+                           │             │    └ 'Group'
+                           │             └ Bot(type='OneBot V11', self_id='3973508735')
+                           └ <function get_epic_free at 0x0000021A9EAB04C0>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\epic\data_source.py", line 138, in get_epic_free
+    logger.info(f"\nFREE now :: {game_name} ({game_price})\n{game_desp}\n此游戏由 {game_dev} 开发、{game_pub} 发行，将在 UTC 时间 {end_date} 结束免费游玩,戳链接速度加入你的游戏库吧~\n{game_url}\n")
+    │      └ <classmethod(<function logger.info at 0x0000021A975277F0>)>
+    └ <class 'zhenxun.services.log.logger'>
+
+UnboundLocalError: local variable 'game_url' referenced before assignment
+09-28 14:59:20 [ERROR] zhenxun | typeerror || 错误 <class 'TypeError'>: 'NoneType' object is not subscriptable
+09-28 14:59:20 [ERROR] zhenxun | typeerror || 错误 <class 'TypeError'>: 'NoneType' object is not subscriptable
+09-28 14:59:21 [ERROR] zhenxun | Epic 访问接口错误 || 错误 <class 'KeyError'>: 'pages'
+09-28 15:05:12 [ERROR] zhenxun | typeerror || 错误 <class 'TypeError'>: 'NoneType' object is not subscriptable
+09-28 15:05:12 [ERROR] zhenxun | typeerror || 错误 <class 'TypeError'>: 'NoneType' object is not subscriptable
+09-28 15:05:13 [ERROR] zhenxun | Epic 访问接口错误 || 错误 <class 'KeyError'>: 'pages'
+09-28 15:07:39 [ERROR] uvicorn | Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 68, in serve
+    with self.capture_signals():
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\starlette\routing.py", line 700, in lifespan
+    await receive()
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+09-28 15:08:05 [ERROR] zhenxun | typeerror || 错误 <class 'TypeError'>: 'NoneType' object is not subscriptable
+09-28 15:08:05 [ERROR] zhenxun | typeerror || 错误 <class 'TypeError'>: 'NoneType' object is not subscriptable
+09-28 15:08:06 [ERROR] zhenxun | Epic 访问接口错误 || 错误 <class 'KeyError'>: 'pages'
+09-28 15:09:59 [ERROR] nonebot | Running AlconnaMatcher(type='', module=zhenxun.plugins.epic, lineno=26) failed.
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 27, in <module>
+    nonebot.run()
+    │       └ <function run at 0x00000220611B1510>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\__init__.py", line 335, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x00000220611B1360>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\drivers\fastapi.py", line 186, in run
+    uvicorn.run(
+    │       └ <function run at 0x000002206198ED40>
+    └ <module 'uvicorn' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\main.py", line 577, in run
+    server.run()
+    │      └ <function Server.run at 0x000002206198E680>
+    └ <uvicorn.server.Server object at 0x0000022072872B60>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x000002206198E710>
+           │       │   └ <uvicorn.server.Server object at 0x0000022072872B60>
+           │       └ <function run at 0x000002205EEACE50>
+           └ <module 'asyncio' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x0000022070D65CB0>
+           │    └ <function BaseEventLoop.run_until_complete at 0x000002205EFB0280>
+           └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x0000022060BED510>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x000002205EFB1CF0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x000002205EF609D0>
+    └ <Handle <TaskStepMethWrapper object at 0x0000022071E25ED0>()>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <TaskStepMethWrapper object at 0x0000022071E25ED0>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <TaskStepMethWrapper object at 0x0000022071E25ED0>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <TaskStepMethWrapper object at 0x0000022071E25ED0>()>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 476, in check_and_run_matcher
+    await _run_matcher(
+          └ <function _run_matcher at 0x00000220613109D0>
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 428, in _run_matcher
+    await matcher.run(bot, event, state, stack, dependency_cache)
+          │       │   │    │      │      │      └ {<function _uni_msg at 0x0000022064089FC0>: <Task finished name='Task-3323' coro=<_uni_msg() done, defined at C:\Users\Admini...
+          │       │   │    │      │      └ <contextlib.AsyncExitStack object at 0x0000022063D41D20>
+          │       │   │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}, '...
+          │       │   │    └ GroupMessageEvent(time=1727507397, self_id=3973508735, post_type='message', sub_type='normal', user_id=843298567, message_typ...
+          │       │   └ Bot(type='OneBot V11', self_id='3973508735')
+          │       └ <function Matcher.run at 0x0000022061209B40>
+          └ AlconnaMatcher(type='', module=zhenxun.plugins.epic, lineno=26)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 850, in run
+    await self.simple_run(bot, event, state, stack, dependency_cache)
+          │    │          │    │      │      │      └ {<function _uni_msg at 0x0000022064089FC0>: <Task finished name='Task-3323' coro=<_uni_msg() done, defined at C:\Users\Admini...
+          │    │          │    │      │      └ <contextlib.AsyncExitStack object at 0x0000022063D41D20>
+          │    │          │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}, '...
+          │    │          │    └ GroupMessageEvent(time=1727507397, self_id=3973508735, post_type='message', sub_type='normal', user_id=843298567, message_typ...
+          │    │          └ Bot(type='OneBot V11', self_id='3973508735')
+          │    └ <function Matcher.simple_run at 0x0000022061209AB0>
+          └ AlconnaMatcher(type='', module=zhenxun.plugins.epic, lineno=26)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 825, in simple_run
+    await handler(
+          └ Dependent(call=_)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\dependencies\__init__.py", line 94, in __call__
+    return await cast(Callable[..., Awaitable[R]], self.call)(**values)
+                 │    │             │         │    │    │       └ {'bot': Bot(type='OneBot V11', self_id='3973508735'), 'session': Session(bot_id='3973508735', bot_type='OneBot V11', platform...
+                 │    │             │         │    │    └ <function _ at 0x000002207280F910>
+                 │    │             │         │    └ Dependent(call=_)
+                 │    │             │         └ ~R
+                 │    │             └ <class 'collections.abc.Awaitable'>
+                 │    └ typing.Callable
+                 └ <function cast at 0x000002205ED404C0>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\epic\__init__.py", line 33, in _
+    msg_list, code = await get_epic_free(bot, type_)
+                           │             │    └ 'Group'
+                           │             └ Bot(type='OneBot V11', self_id='3973508735')
+                           └ <function get_epic_free at 0x000002207280F6D0>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\epic\data_source.py", line 116, in get_epic_free
+    logger.info(f"\nFREE now :: {game_name} ({game_price})\n{game_desp}\n此游戏由 {game_dev} 开发、{game_pub} 发行，将在 UTC 时间 {end_date} 结束免费游玩")
+    │      └ <classmethod(<function logger.info at 0x0000022063C437F0>)>
+    └ <class 'zhenxun.services.log.logger'>
+
+UnboundLocalError: local variable 'game_desp' referenced before assignment
+09-28 15:11:28 [ERROR] zhenxun | typeerror || 错误 <class 'TypeError'>: 'NoneType' object is not subscriptable
+09-28 15:11:28 [ERROR] zhenxun | typeerror || 错误 <class 'TypeError'>: 'NoneType' object is not subscriptable
+09-28 15:11:29 [ERROR] zhenxun | Epic 访问接口错误 || 错误 <class 'KeyError'>: 'pages'
+09-28 15:12:33 [ERROR] zhenxun | typeerror || 错误 <class 'TypeError'>: 'NoneType' object is not subscriptable
+09-28 15:12:33 [ERROR] zhenxun | typeerror || 错误 <class 'TypeError'>: 'NoneType' object is not subscriptable
+09-28 15:12:34 [ERROR] zhenxun | Epic 访问接口错误 || 错误 <class 'KeyError'>: 'pages'
+09-28 15:13:02 [ERROR] uvicorn | Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 68, in serve
+    with self.capture_signals():
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\starlette\routing.py", line 700, in lifespan
+    await receive()
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+09-28 15:13:24 [ERROR] zhenxun | typeerror || 错误 <class 'TypeError'>: 'NoneType' object is not subscriptable
+09-28 15:13:24 [ERROR] zhenxun | typeerror || 错误 <class 'TypeError'>: 'NoneType' object is not subscriptable
+09-28 15:13:24 [ERROR] zhenxun | Epic 访问接口错误 || 错误 <class 'KeyError'>: 'pages'
+09-28 15:16:07 [ERROR] uvicorn | Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 68, in serve
+    with self.capture_signals():
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\starlette\routing.py", line 700, in lifespan
+    await receive()
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+09-28 15:16:30 [ERROR] zhenxun | typeerror || 错误 <class 'TypeError'>: 'NoneType' object is not subscriptable
+09-28 15:16:30 [ERROR] zhenxun | typeerror || 错误 <class 'TypeError'>: 'NoneType' object is not subscriptable
+09-28 15:16:31 [ERROR] zhenxun | Epic 访问接口错误 || 错误 <class 'KeyError'>: 'pages'
+09-28 15:34:28 [ERROR] uvicorn | Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 68, in serve
+    with self.capture_signals():
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\starlette\routing.py", line 700, in lifespan
+    await receive()
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+09-28 15:34:58 [ERROR] zhenxun | typeerror || 错误 <class 'TypeError'>: 'NoneType' object is not subscriptable
+09-28 15:34:58 [ERROR] zhenxun | typeerror || 错误 <class 'TypeError'>: 'NoneType' object is not subscriptable
+09-28 15:34:59 [ERROR] zhenxun | Epic 访问接口错误 || 错误 <class 'KeyError'>: 'pages'
+09-28 15:41:48 [ERROR] zhenxun | Epic 访问接口错误 || 错误 <class 'KeyError'>: 'pages'
+09-28 15:47:07 [ERROR] zhenxun | Epic 访问接口错误 || 错误 <class 'KeyError'>: 'pages'
+09-28 15:47:54 [ERROR] nonebot | Running AlconnaMatcher(type='', module=zhenxun.plugins.epic, lineno=26) failed.
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 27, in <module>
+    nonebot.run()
+    │       └ <function run at 0x0000021FB6211510>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\__init__.py", line 335, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x0000021FB6211360>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\drivers\fastapi.py", line 186, in run
+    uvicorn.run(
+    │       └ <function run at 0x0000021FB69EED40>
+    └ <module 'uvicorn' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\main.py", line 577, in run
+    server.run()
+    │      └ <function Server.run at 0x0000021FB69EE680>
+    └ <uvicorn.server.Server object at 0x0000021FC6861EA0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x0000021FB69EE710>
+           │       │   └ <uvicorn.server.Server object at 0x0000021FC6861EA0>
+           │       └ <function run at 0x0000021FB3F0CE50>
+           └ <module 'asyncio' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x0000021FC67B7E60>
+           │    └ <function BaseEventLoop.run_until_complete at 0x0000021FB4010280>
+           └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x0000021FB5C4D510>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x0000021FB4011CF0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x0000021FB3FC09D0>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 476, in check_and_run_matcher
+    await _run_matcher(
+          └ <function _run_matcher at 0x0000021FB63709D0>
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 428, in _run_matcher
+    await matcher.run(bot, event, state, stack, dependency_cache)
+          │       │   │    │      │      │      └ {<function _event_to_me at 0x0000021FB6269CF0>: <Task finished name='Task-7038' coro=<_event_to_me() done, defined at C:\User...
+          │       │   │    │      │      └ <contextlib.AsyncExitStack object at 0x0000021FB8D9EE00>
+          │       │   │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}, '...
+          │       │   │    └ PrivateMessageEvent(time=1727509674, self_id=3973508735, post_type='message', sub_type='friend', user_id=843298567, message_t...
+          │       │   └ Bot(type='OneBot V11', self_id='3973508735')
+          │       └ <function Matcher.run at 0x0000021FB6269B40>
+          └ AlconnaMatcher(type='', module=zhenxun.plugins.epic, lineno=26)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 850, in run
+    await self.simple_run(bot, event, state, stack, dependency_cache)
+          │    │          │    │      │      │      └ {<function _event_to_me at 0x0000021FB6269CF0>: <Task finished name='Task-7038' coro=<_event_to_me() done, defined at C:\User...
+          │    │          │    │      │      └ <contextlib.AsyncExitStack object at 0x0000021FB8D9EE00>
+          │    │          │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}, '...
+          │    │          │    └ PrivateMessageEvent(time=1727509674, self_id=3973508735, post_type='message', sub_type='friend', user_id=843298567, message_t...
+          │    │          └ Bot(type='OneBot V11', self_id='3973508735')
+          │    └ <function Matcher.simple_run at 0x0000021FB6269AB0>
+          └ AlconnaMatcher(type='', module=zhenxun.plugins.epic, lineno=26)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 825, in simple_run
+    await handler(
+          └ Dependent(call=_)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\dependencies\__init__.py", line 94, in __call__
+    return await cast(Callable[..., Awaitable[R]], self.call)(**values)
+                 │    │             │         │    │    │       └ {'bot': Bot(type='OneBot V11', self_id='3973508735'), 'session': Session(bot_id='3973508735', bot_type='OneBot V11', platform...
+                 │    │             │         │    │    └ <function _ at 0x0000021FC24E72E0>
+                 │    │             │         │    └ Dependent(call=_)
+                 │    │             │         └ ~R
+                 │    │             └ <class 'collections.abc.Awaitable'>
+                 │    └ typing.Callable
+                 └ <function cast at 0x0000021FB3DA04C0>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\epic\__init__.py", line 37, in _
+    await bot.send_group_forward_msg(group_id=gid, messages=msg_list)
+          │                                   │             └ [Image(id=None, url='https://cdn1.epicgames.com/spt-assets/836b235a73124dff93ad3f6ec12dbaeb/the-spirit-and-the-mouse-offer-ld...
+          │                                   └ None
+          └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\adapter\bot.py", line 122, in call_api
+    raise exception
+          └ ActionFailed(status='failed', retcode=1200, data=None, message='Error: 请指定 group_id 或 user_id\n    at createContext (file:///...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\adapter\bot.py", line 97, in call_api
+    result = await self.adapter._call_api(self, api, **data)
+                   │    │       │         │     │      └ {'group_id': None, 'messages': [Image(id=None, url='https://cdn1.epicgames.com/spt-assets/836b235a73124dff93ad3f6ec12dbaeb/th...
+                   │    │       │         │     └ 'send_group_forward_msg'
+                   │    │       │         └ Bot(type='OneBot V11', self_id='3973508735')
+                   │    │       └ <function Adapter._call_api at 0x0000021FB3AC8820>
+                   │    └ Adapter(name='OneBot V11')
+                   └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\adapter.py", line 147, in _call_api
+    return handle_api_result(await self._result_store.fetch(seq, timeout))
+           │                       │    │             │     │    └ 30.0
+           │                       │    │             │     └ 3
+           │                       │    │             └ <function ResultStore.fetch at 0x0000021FB67992D0>
+           │                       │    └ <nonebot.adapters.onebot.store.ResultStore object at 0x0000021FB64BC5E0>
+           │                       └ Adapter(name='OneBot V11')
+           └ <function handle_api_result at 0x0000021FB6720280>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\utils.py", line 58, in handle_api_result
+    raise ActionFailed(**result)
+          │              └ {'status': 'failed', 'retcode': 1200, 'data': None, 'message': 'Error: 请指定 group_id 或 user_id\n    at createContext (file:///...
+          └ <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>
+
+nonebot.adapters.onebot.v11.exception.ActionFailed: ActionFailed(status='failed', retcode=1200, data=None, message='Error: 请指定 group_id 或 user_id\n    at createContext (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33340:9)\n    at GoCQHTTPSendGroupForwardMsg._handle (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33365:24)\n    at GoCQHTTPSendGroupForwardMsg.websocketHandle (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33283:34)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async OB11ActiveWebSocketAdapter.handleMessage (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:9469:21)', wording='Error: 请指定 group_id 或 user_id\n    at createContext (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33340:9)\n    at GoCQHTTPSendGroupForwardMsg._handle (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33365:24)\n    at GoCQHTTPSendGroupForwardMsg.websocketHandle (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33283:34)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async OB11ActiveWebSocketAdapter.handleMessage (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:9469:21)', echo='3')
+09-28 15:52:15 [ERROR] nonebot | Running AlconnaMatcher(type='', module=zhenxun.plugins.epic, lineno=26) failed.
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 27, in <module>
+    nonebot.run()
+    │       └ <function run at 0x000002681A2E5510>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\__init__.py", line 335, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x000002681A2E5360>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\drivers\fastapi.py", line 186, in run
+    uvicorn.run(
+    │       └ <function run at 0x000002681AABED40>
+    └ <module 'uvicorn' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\main.py", line 577, in run
+    server.run()
+    │      └ <function Server.run at 0x000002681AABE680>
+    └ <uvicorn.server.Server object at 0x000002682AC1EEC0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x000002681AABE710>
+           │       │   └ <uvicorn.server.Server object at 0x000002682AC1EEC0>
+           │       └ <function run at 0x0000026817FDCE50>
+           └ <module 'asyncio' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x000002682AAA3F40>
+           │    └ <function BaseEventLoop.run_until_complete at 0x00000268180E0280>
+           └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x0000026819D1D510>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x00000268180E1CF0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x00000268180909D0>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 476, in check_and_run_matcher
+    await _run_matcher(
+          └ <function _run_matcher at 0x000002681A4409D0>
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 428, in _run_matcher
+    await matcher.run(bot, event, state, stack, dependency_cache)
+          │       │   │    │      │      │      └ {<function _uni_msg at 0x000002681E189FC0>: <Task finished name='Task-2114' coro=<_uni_msg() done, defined at C:\Users\Admini...
+          │       │   │    │      │      └ <contextlib.AsyncExitStack object at 0x000002682B2DAFE0>
+          │       │   │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}, '...
+          │       │   │    └ PrivateMessageEvent(time=1727509934, self_id=3973508735, post_type='message', sub_type='friend', user_id=843298567, message_t...
+          │       │   └ Bot(type='OneBot V11', self_id='3973508735')
+          │       └ <function Matcher.run at 0x000002681A339B40>
+          └ AlconnaMatcher(type='', module=zhenxun.plugins.epic, lineno=26)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 850, in run
+    await self.simple_run(bot, event, state, stack, dependency_cache)
+          │    │          │    │      │      │      └ {<function _uni_msg at 0x000002681E189FC0>: <Task finished name='Task-2114' coro=<_uni_msg() done, defined at C:\Users\Admini...
+          │    │          │    │      │      └ <contextlib.AsyncExitStack object at 0x000002682B2DAFE0>
+          │    │          │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}, '...
+          │    │          │    └ PrivateMessageEvent(time=1727509934, self_id=3973508735, post_type='message', sub_type='friend', user_id=843298567, message_t...
+          │    │          └ Bot(type='OneBot V11', self_id='3973508735')
+          │    └ <function Matcher.simple_run at 0x000002681A339AB0>
+          └ AlconnaMatcher(type='', module=zhenxun.plugins.epic, lineno=26)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 825, in simple_run
+    await handler(
+          └ Dependent(call=_)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\dependencies\__init__.py", line 94, in __call__
+    return await cast(Callable[..., Awaitable[R]], self.call)(**values)
+                 │    │             │         │    │    │       └ {'bot': Bot(type='OneBot V11', self_id='3973508735'), 'session': Session(bot_id='3973508735', bot_type='OneBot V11', platform...
+                 │    │             │         │    │    └ <function _ at 0x000002682AC281F0>
+                 │    │             │         │    └ Dependent(call=_)
+                 │    │             │         └ ~R
+                 │    │             └ <class 'collections.abc.Awaitable'>
+                 │    └ typing.Callable
+                 └ <function cast at 0x0000026817E704C0>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\epic\__init__.py", line 38, in _
+    await bot.send_group_forward_msg(group_id=gid, messages=msg_list)
+          │                                   │             └ [Image(id=None, url='https://cdn1.epicgames.com/spt-assets/836b235a73124dff93ad3f6ec12dbaeb/the-spirit-and-the-mouse-offer-ld...
+          │                                   └ None
+          └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\adapter\bot.py", line 122, in call_api
+    raise exception
+          └ ActionFailed(status='failed', retcode=1200, data=None, message='Error: 请指定 group_id 或 user_id\n    at createContext (file:///...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\adapter\bot.py", line 97, in call_api
+    result = await self.adapter._call_api(self, api, **data)
+                   │    │       │         │     │      └ {'group_id': None, 'messages': [Image(id=None, url='https://cdn1.epicgames.com/spt-assets/836b235a73124dff93ad3f6ec12dbaeb/th...
+                   │    │       │         │     └ 'send_group_forward_msg'
+                   │    │       │         └ Bot(type='OneBot V11', self_id='3973508735')
+                   │    │       └ <function Adapter._call_api at 0x0000026817BA8820>
+                   │    └ Adapter(name='OneBot V11')
+                   └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\adapter.py", line 147, in _call_api
+    return handle_api_result(await self._result_store.fetch(seq, timeout))
+           │                       │    │             │     │    └ 30.0
+           │                       │    │             │     └ 2
+           │                       │    │             └ <function ResultStore.fetch at 0x000002681A8692D0>
+           │                       │    └ <nonebot.adapters.onebot.store.ResultStore object at 0x000002681A58C5E0>
+           │                       └ Adapter(name='OneBot V11')
+           └ <function handle_api_result at 0x000002681A7F0280>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\utils.py", line 58, in handle_api_result
+    raise ActionFailed(**result)
+          │              └ {'status': 'failed', 'retcode': 1200, 'data': None, 'message': 'Error: 请指定 group_id 或 user_id\n    at createContext (file:///...
+          └ <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>
+
+nonebot.adapters.onebot.v11.exception.ActionFailed: ActionFailed(status='failed', retcode=1200, data=None, message='Error: 请指定 group_id 或 user_id\n    at createContext (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33340:9)\n    at GoCQHTTPSendGroupForwardMsg._handle (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33365:24)\n    at GoCQHTTPSendGroupForwardMsg.websocketHandle (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33283:34)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async OB11ActiveWebSocketAdapter.handleMessage (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:9469:21)', wording='Error: 请指定 group_id 或 user_id\n    at createContext (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33340:9)\n    at GoCQHTTPSendGroupForwardMsg._handle (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33365:24)\n    at GoCQHTTPSendGroupForwardMsg.websocketHandle (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33283:34)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async OB11ActiveWebSocketAdapter.handleMessage (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:9469:21)', echo='2')
+09-28 16:00:00 [ERROR] uvicorn | Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 68, in serve
+    with self.capture_signals():
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\starlette\routing.py", line 700, in lifespan
+    await receive()
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+09-28 16:00:25 [ERROR] zhenxun | Epic 访问接口错误 || 错误 <class 'KeyError'>: 'pages'
+09-28 16:00:25 [ERROR] nonebot | Running AlconnaMatcher(type='', module=zhenxun.plugins.epic, lineno=26) failed.
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 27, in <module>
+    nonebot.run()
+    │       └ <function run at 0x00000243CDA41510>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\__init__.py", line 335, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x00000243CDA41360>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\drivers\fastapi.py", line 186, in run
+    uvicorn.run(
+    │       └ <function run at 0x00000243CE21ED40>
+    └ <module 'uvicorn' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\main.py", line 577, in run
+    server.run()
+    │      └ <function Server.run at 0x00000243CE21E680>
+    └ <uvicorn.server.Server object at 0x00000243DE3A38B0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x00000243CE21E710>
+           │       │   └ <uvicorn.server.Server object at 0x00000243DE3A38B0>
+           │       └ <function run at 0x00000243CB73CE50>
+           └ <module 'asyncio' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x00000243D05417E0>
+           │    └ <function BaseEventLoop.run_until_complete at 0x00000243CB840280>
+           └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x00000243CD47D510>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x00000243CB841CF0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x00000243CB7F09D0>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 476, in check_and_run_matcher
+    await _run_matcher(
+          └ <function _run_matcher at 0x00000243CDBA09D0>
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 428, in _run_matcher
+    await matcher.run(bot, event, state, stack, dependency_cache)
+          │       │   │    │      │      │      └ {<function _uni_msg at 0x00000243D18E9FC0>: <Task finished name='Task-2110' coro=<_uni_msg() done, defined at C:\Users\Admini...
+          │       │   │    │      │      └ <contextlib.AsyncExitStack object at 0x00000243DE9851E0>
+          │       │   │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}, '...
+          │       │   │    └ PrivateMessageEvent(time=1727510421, self_id=3973508735, post_type='message', sub_type='friend', user_id=843298567, message_t...
+          │       │   └ Bot(type='OneBot V11', self_id='3973508735')
+          │       └ <function Matcher.run at 0x00000243CDA99B40>
+          └ AlconnaMatcher(type='', module=zhenxun.plugins.epic, lineno=26)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 850, in run
+    await self.simple_run(bot, event, state, stack, dependency_cache)
+          │    │          │    │      │      │      └ {<function _uni_msg at 0x00000243D18E9FC0>: <Task finished name='Task-2110' coro=<_uni_msg() done, defined at C:\Users\Admini...
+          │    │          │    │      │      └ <contextlib.AsyncExitStack object at 0x00000243DE9851E0>
+          │    │          │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}, '...
+          │    │          │    └ PrivateMessageEvent(time=1727510421, self_id=3973508735, post_type='message', sub_type='friend', user_id=843298567, message_t...
+          │    │          └ Bot(type='OneBot V11', self_id='3973508735')
+          │    └ <function Matcher.simple_run at 0x00000243CDA99AB0>
+          └ AlconnaMatcher(type='', module=zhenxun.plugins.epic, lineno=26)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 825, in simple_run
+    await handler(
+          └ Dependent(call=_)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\dependencies\__init__.py", line 94, in __call__
+    return await cast(Callable[..., Awaitable[R]], self.call)(**values)
+                 │    │             │         │    │    │       └ {'bot': Bot(type='OneBot V11', self_id='3973508735'), 'session': Session(bot_id='3973508735', bot_type='OneBot V11', platform...
+                 │    │             │         │    │    └ <function _ at 0x00000243DCB19BD0>
+                 │    │             │         │    └ Dependent(call=_)
+                 │    │             │         └ ~R
+                 │    │             └ <class 'collections.abc.Awaitable'>
+                 │    └ typing.Callable
+                 └ <function cast at 0x00000243CB5D04C0>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\epic\__init__.py", line 38, in _
+    await bot.send_group_forward_msg(group_id=gid, messages=msg_list)
+          │                                   │             └ [{'type': 'node', 'data': {'name': '这里是小叶子', 'uin': '3973508735', 'content': '\n由 Armor Games Studios 公司发行的游戏 Bear and Breakf...
+          │                                   └ None
+          └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\adapter\bot.py", line 122, in call_api
+    raise exception
+          └ ActionFailed(status='failed', retcode=1200, data=None, message='Error: 请指定 group_id 或 user_id\n    at createContext (file:///...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\adapter\bot.py", line 97, in call_api
+    result = await self.adapter._call_api(self, api, **data)
+                   │    │       │         │     │      └ {'group_id': None, 'messages': [{'type': 'node', 'data': {'name': '这里是小叶子', 'uin': '3973508735', 'content': '\n由 Armor Games ...
+                   │    │       │         │     └ 'send_group_forward_msg'
+                   │    │       │         └ Bot(type='OneBot V11', self_id='3973508735')
+                   │    │       └ <function Adapter._call_api at 0x00000243CB2D8820>
+                   │    └ Adapter(name='OneBot V11')
+                   └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\adapter.py", line 147, in _call_api
+    return handle_api_result(await self._result_store.fetch(seq, timeout))
+           │                       │    │             │     │    └ 30.0
+           │                       │    │             │     └ 2
+           │                       │    │             └ <function ResultStore.fetch at 0x00000243CDFC92D0>
+           │                       │    └ <nonebot.adapters.onebot.store.ResultStore object at 0x00000243CDCEC5E0>
+           │                       └ Adapter(name='OneBot V11')
+           └ <function handle_api_result at 0x00000243CDF50280>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\utils.py", line 58, in handle_api_result
+    raise ActionFailed(**result)
+          │              └ {'status': 'failed', 'retcode': 1200, 'data': None, 'message': 'Error: 请指定 group_id 或 user_id\n    at createContext (file:///...
+          └ <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>
+
+nonebot.adapters.onebot.v11.exception.ActionFailed: ActionFailed(status='failed', retcode=1200, data=None, message='Error: 请指定 group_id 或 user_id\n    at createContext (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33340:9)\n    at GoCQHTTPSendGroupForwardMsg._handle (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33365:24)\n    at GoCQHTTPSendGroupForwardMsg.websocketHandle (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33283:34)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async OB11ActiveWebSocketAdapter.handleMessage (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:9469:21)', wording='Error: 请指定 group_id 或 user_id\n    at createContext (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33340:9)\n    at GoCQHTTPSendGroupForwardMsg._handle (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33365:24)\n    at GoCQHTTPSendGroupForwardMsg.websocketHandle (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33283:34)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async OB11ActiveWebSocketAdapter.handleMessage (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:9469:21)', echo='2')
+09-28 16:12:00 [ERROR] uvicorn | Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 68, in serve
+    with self.capture_signals():
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\starlette\routing.py", line 700, in lifespan
+    await receive()
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+09-28 16:12:27 [ERROR] nonebot | Running AlconnaMatcher(type='', module=zhenxun.plugins.epic, lineno=26) failed.
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 27, in <module>
+    nonebot.run()
+    │       └ <function run at 0x000002A57C435510>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\__init__.py", line 335, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x000002A57C435360>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\drivers\fastapi.py", line 186, in run
+    uvicorn.run(
+    │       └ <function run at 0x000002A57CC0ED40>
+    └ <module 'uvicorn' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\main.py", line 577, in run
+    server.run()
+    │      └ <function Server.run at 0x000002A57CC0E680>
+    └ <uvicorn.server.Server object at 0x000002A50D042BF0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x000002A57CC0E710>
+           │       │   └ <uvicorn.server.Server object at 0x000002A50D042BF0>
+           │       └ <function run at 0x000002A57A12CE50>
+           └ <module 'asyncio' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x000002A57EF317E0>
+           │    └ <function BaseEventLoop.run_until_complete at 0x000002A57A230280>
+           └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x000002A57BE6D510>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x000002A57A231CF0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x000002A57A1E09D0>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 476, in check_and_run_matcher
+    await _run_matcher(
+          └ <function _run_matcher at 0x000002A57C5909D0>
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 428, in _run_matcher
+    await matcher.run(bot, event, state, stack, dependency_cache)
+          │       │   │    │      │      │      └ {<function _event_to_me at 0x000002A57C489CF0>: <Task finished name='Task-2115' coro=<_event_to_me() done, defined at C:\User...
+          │       │   │    │      │      └ <contextlib.AsyncExitStack object at 0x000002A50D64BD00>
+          │       │   │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}, '...
+          │       │   │    └ PrivateMessageEvent(time=1727511145, self_id=3973508735, post_type='message', sub_type='friend', user_id=843298567, message_t...
+          │       │   └ Bot(type='OneBot V11', self_id='3973508735')
+          │       └ <function Matcher.run at 0x000002A57C489B40>
+          └ AlconnaMatcher(type='', module=zhenxun.plugins.epic, lineno=26)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 850, in run
+    await self.simple_run(bot, event, state, stack, dependency_cache)
+          │    │          │    │      │      │      └ {<function _event_to_me at 0x000002A57C489CF0>: <Task finished name='Task-2115' coro=<_event_to_me() done, defined at C:\User...
+          │    │          │    │      │      └ <contextlib.AsyncExitStack object at 0x000002A50D64BD00>
+          │    │          │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}, '...
+          │    │          │    └ PrivateMessageEvent(time=1727511145, self_id=3973508735, post_type='message', sub_type='friend', user_id=843298567, message_t...
+          │    │          └ Bot(type='OneBot V11', self_id='3973508735')
+          │    └ <function Matcher.simple_run at 0x000002A57C489AB0>
+          └ AlconnaMatcher(type='', module=zhenxun.plugins.epic, lineno=26)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 825, in simple_run
+    await handler(
+          └ Dependent(call=_)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\dependencies\__init__.py", line 94, in __call__
+    return await cast(Callable[..., Awaitable[R]], self.call)(**values)
+                 │    │             │         │    │    │       └ {'bot': Bot(type='OneBot V11', self_id='3973508735'), 'session': Session(bot_id='3973508735', bot_type='OneBot V11', platform...
+                 │    │             │         │    │    └ <function _ at 0x000002A50C4E95A0>
+                 │    │             │         │    └ Dependent(call=_)
+                 │    │             │         └ ~R
+                 │    │             └ <class 'collections.abc.Awaitable'>
+                 │    └ typing.Callable
+                 └ <function cast at 0x000002A579FC04C0>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\epic\__init__.py", line 39, in _
+    await bot.send_group_forward_msg(group_id=gid, messages=msg_list)
+          │                                   │             └ [Image(id=None, url='https://cdn1.epicgames.com/spt-assets/836b235a73124dff93ad3f6ec12dbaeb/the-spirit-and-the-mouse-offer-ld...
+          │                                   └ None
+          └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\adapter\bot.py", line 122, in call_api
+    raise exception
+          └ ActionFailed(status='failed', retcode=1200, data=None, message='Error: 请指定 group_id 或 user_id\n    at createContext (file:///...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\adapter\bot.py", line 97, in call_api
+    result = await self.adapter._call_api(self, api, **data)
+                   │    │       │         │     │      └ {'group_id': None, 'messages': [Image(id=None, url='https://cdn1.epicgames.com/spt-assets/836b235a73124dff93ad3f6ec12dbaeb/th...
+                   │    │       │         │     └ 'send_group_forward_msg'
+                   │    │       │         └ Bot(type='OneBot V11', self_id='3973508735')
+                   │    │       └ <function Adapter._call_api at 0x000002A579CE8820>
+                   │    └ Adapter(name='OneBot V11')
+                   └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\adapter.py", line 147, in _call_api
+    return handle_api_result(await self._result_store.fetch(seq, timeout))
+           │                       │    │             │     │    └ 30.0
+           │                       │    │             │     └ 2
+           │                       │    │             └ <function ResultStore.fetch at 0x000002A57C9B92D0>
+           │                       │    └ <nonebot.adapters.onebot.store.ResultStore object at 0x000002A57C6DC5E0>
+           │                       └ Adapter(name='OneBot V11')
+           └ <function handle_api_result at 0x000002A57C940280>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\utils.py", line 58, in handle_api_result
+    raise ActionFailed(**result)
+          │              └ {'status': 'failed', 'retcode': 1200, 'data': None, 'message': 'Error: 请指定 group_id 或 user_id\n    at createContext (file:///...
+          └ <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>
+
+nonebot.adapters.onebot.v11.exception.ActionFailed: ActionFailed(status='failed', retcode=1200, data=None, message='Error: 请指定 group_id 或 user_id\n    at createContext (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33340:9)\n    at GoCQHTTPSendGroupForwardMsg._handle (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33365:24)\n    at GoCQHTTPSendGroupForwardMsg.websocketHandle (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33283:34)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async OB11ActiveWebSocketAdapter.handleMessage (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:9469:21)', wording='Error: 请指定 group_id 或 user_id\n    at createContext (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33340:9)\n    at GoCQHTTPSendGroupForwardMsg._handle (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33365:24)\n    at GoCQHTTPSendGroupForwardMsg.websocketHandle (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33283:34)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async OB11ActiveWebSocketAdapter.handleMessage (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:9469:21)', echo='2')
+09-28 16:15:21 [ERROR] nonebot | Running AlconnaMatcher(type='', module=zhenxun.plugins.epic, lineno=26) failed.
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 27, in <module>
+    nonebot.run()
+    │       └ <function run at 0x000002300B881510>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\__init__.py", line 335, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x000002300B881360>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\drivers\fastapi.py", line 186, in run
+    uvicorn.run(
+    │       └ <function run at 0x000002300C05ED40>
+    └ <module 'uvicorn' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\main.py", line 577, in run
+    server.run()
+    │      └ <function Server.run at 0x000002300C05E680>
+    └ <uvicorn.server.Server object at 0x000002301BF71AB0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x000002300C05E710>
+           │       │   └ <uvicorn.server.Server object at 0x000002301BF71AB0>
+           │       └ <function run at 0x000002300957CE50>
+           └ <module 'asyncio' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x000002300E3817E0>
+           │    └ <function BaseEventLoop.run_until_complete at 0x0000023009680280>
+           └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x000002300B2BD510>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x0000023009681CF0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x00000230096309D0>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 476, in check_and_run_matcher
+    await _run_matcher(
+          └ <function _run_matcher at 0x000002300B9E09D0>
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 428, in _run_matcher
+    await matcher.run(bot, event, state, stack, dependency_cache)
+          │       │   │    │      │      │      └ {<function _uni_msg at 0x000002300E759FC0>: <Task finished name='Task-2135' coro=<_uni_msg() done, defined at C:\Users\Admini...
+          │       │   │    │      │      └ <contextlib.AsyncExitStack object at 0x000002301C524820>
+          │       │   │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}, '...
+          │       │   │    └ PrivateMessageEvent(time=1727511318, self_id=3973508735, post_type='message', sub_type='friend', user_id=843298567, message_t...
+          │       │   └ Bot(type='OneBot V11', self_id='3973508735')
+          │       └ <function Matcher.run at 0x000002300B8D9B40>
+          └ AlconnaMatcher(type='', module=zhenxun.plugins.epic, lineno=26)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 850, in run
+    await self.simple_run(bot, event, state, stack, dependency_cache)
+          │    │          │    │      │      │      └ {<function _uni_msg at 0x000002300E759FC0>: <Task finished name='Task-2135' coro=<_uni_msg() done, defined at C:\Users\Admini...
+          │    │          │    │      │      └ <contextlib.AsyncExitStack object at 0x000002301C524820>
+          │    │          │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}, '...
+          │    │          │    └ PrivateMessageEvent(time=1727511318, self_id=3973508735, post_type='message', sub_type='friend', user_id=843298567, message_t...
+          │    │          └ Bot(type='OneBot V11', self_id='3973508735')
+          │    └ <function Matcher.simple_run at 0x000002300B8D9AB0>
+          └ AlconnaMatcher(type='', module=zhenxun.plugins.epic, lineno=26)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 825, in simple_run
+    await handler(
+          └ Dependent(call=_)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\dependencies\__init__.py", line 94, in __call__
+    return await cast(Callable[..., Awaitable[R]], self.call)(**values)
+                 │    │             │         │    │    │       └ {'bot': Bot(type='OneBot V11', self_id='3973508735'), 'session': Session(bot_id='3973508735', bot_type='OneBot V11', platform...
+                 │    │             │         │    │    └ <function _ at 0x000002301B953520>
+                 │    │             │         │    └ Dependent(call=_)
+                 │    │             │         └ ~R
+                 │    │             └ <class 'collections.abc.Awaitable'>
+                 │    └ typing.Callable
+                 └ <function cast at 0x00000230094104C0>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\epic\__init__.py", line 38, in _
+    await bot.send_group_forward_msg(group_id=gid, messages=msg_list)
+          │                                   │             └ [Image(id=None, url='https://cdn1.epicgames.com/spt-assets/836b235a73124dff93ad3f6ec12dbaeb/the-spirit-and-the-mouse-offer-ld...
+          │                                   └ None
+          └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\adapter\bot.py", line 122, in call_api
+    raise exception
+          └ ActionFailed(status='failed', retcode=1200, data=None, message='Error: 请指定 group_id 或 user_id\n    at createContext (file:///...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\adapter\bot.py", line 97, in call_api
+    result = await self.adapter._call_api(self, api, **data)
+                   │    │       │         │     │      └ {'group_id': None, 'messages': [Image(id=None, url='https://cdn1.epicgames.com/spt-assets/836b235a73124dff93ad3f6ec12dbaeb/th...
+                   │    │       │         │     └ 'send_group_forward_msg'
+                   │    │       │         └ Bot(type='OneBot V11', self_id='3973508735')
+                   │    │       └ <function Adapter._call_api at 0x0000023009118820>
+                   │    └ Adapter(name='OneBot V11')
+                   └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\adapter.py", line 147, in _call_api
+    return handle_api_result(await self._result_store.fetch(seq, timeout))
+           │                       │    │             │     │    └ 30.0
+           │                       │    │             │     └ 2
+           │                       │    │             └ <function ResultStore.fetch at 0x000002300BE092D0>
+           │                       │    └ <nonebot.adapters.onebot.store.ResultStore object at 0x000002300BB2C5E0>
+           │                       └ Adapter(name='OneBot V11')
+           └ <function handle_api_result at 0x000002300BD90280>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\utils.py", line 58, in handle_api_result
+    raise ActionFailed(**result)
+          │              └ {'status': 'failed', 'retcode': 1200, 'data': None, 'message': 'Error: 请指定 group_id 或 user_id\n    at createContext (file:///...
+          └ <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>
+
+nonebot.adapters.onebot.v11.exception.ActionFailed: ActionFailed(status='failed', retcode=1200, data=None, message='Error: 请指定 group_id 或 user_id\n    at createContext (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33340:9)\n    at GoCQHTTPSendGroupForwardMsg._handle (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33365:24)\n    at GoCQHTTPSendGroupForwardMsg.websocketHandle (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33283:34)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async OB11ActiveWebSocketAdapter.handleMessage (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:9469:21)', wording='Error: 请指定 group_id 或 user_id\n    at createContext (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33340:9)\n    at GoCQHTTPSendGroupForwardMsg._handle (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33365:24)\n    at GoCQHTTPSendGroupForwardMsg.websocketHandle (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33283:34)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async OB11ActiveWebSocketAdapter.handleMessage (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:9469:21)', echo='2')
+09-28 16:21:40 [ERROR] uvicorn | Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 68, in serve
+    with self.capture_signals():
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\starlette\routing.py", line 700, in lifespan
+    await receive()
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+09-28 16:21:49 [ERROR] nonebot | Failed to import "epic"
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 24, in <module>
+    nonebot.load_plugins("zhenxun/plugins")
+    │       └ <function load_plugins at 0x000001F5FF0E5900>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x000001F5FF0E41F0>
+           └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x000001F5FF0D9C10>
+                  │    │           │         │       └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+                  │    │           │         └ 'epic'
+                  │    │           └ 'epic'
+                  │    └ <function PluginManager.load_plugin at 0x000001F5FF0E4160>
+                  └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'epic'
+             │         │             │    └ {'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'zhenxun.plugins.black_word', 'bt'...
+             │         │             └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+             │         └ <function import_module at 0x000001F5FC505090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.epic'
+           │          └ <function _gcd_import at 0x000001F5FC3B3490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.epic' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\epic\\__init__.py'>
+
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\epic\__init__.py", line 37
+    elif isinstance(bot, (v11Bot, v12Bot)) and isinstance(msg_list, list) and type_ = "Group":
+                                                                                    ^
+
+SyntaxError: invalid syntax
+09-28 16:23:05 [ERROR] zhenxun | Epic 访问接口错误 || 错误 <class 'KeyError'>: 'pages'
+09-28 16:24:30 [ERROR] uvicorn | Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 68, in serve
+    with self.capture_signals():
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\starlette\routing.py", line 700, in lifespan
+    await receive()
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+09-28 16:24:55 [ERROR] zhenxun | Epic 访问接口错误 || 错误 <class 'KeyError'>: 'pages'
+09-28 16:24:55 [ERROR] nonebot | Running AlconnaMatcher(type='', module=zhenxun.plugins.epic, lineno=26) failed.
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 27, in <module>
+    nonebot.run()
+    │       └ <function run at 0x000001D1ED651510>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\__init__.py", line 335, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x000001D1ED651360>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\drivers\fastapi.py", line 186, in run
+    uvicorn.run(
+    │       └ <function run at 0x000001D1EDE2ED40>
+    └ <module 'uvicorn' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\main.py", line 577, in run
+    server.run()
+    │      └ <function Server.run at 0x000001D1EDE2E680>
+    └ <uvicorn.server.Server object at 0x000001D183A98DC0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x000001D1EDE2E710>
+           │       │   └ <uvicorn.server.Server object at 0x000001D183A98DC0>
+           │       └ <function run at 0x000001D1EB35CE50>
+           └ <module 'asyncio' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x000001D182E6D9A0>
+           │    └ <function BaseEventLoop.run_until_complete at 0x000001D1EB460280>
+           └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x000001D1ED08D510>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x000001D1EB461CF0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x000001D1EB4109D0>
+    └ <Handle <TaskStepMethWrapper object at 0x000001D184162B30>()>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <TaskStepMethWrapper object at 0x000001D184162B30>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <TaskStepMethWrapper object at 0x000001D184162B30>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <TaskStepMethWrapper object at 0x000001D184162B30>()>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 476, in check_and_run_matcher
+    await _run_matcher(
+          └ <function _run_matcher at 0x000001D1ED7B09D0>
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 428, in _run_matcher
+    await matcher.run(bot, event, state, stack, dependency_cache)
+          │       │   │    │      │      │      └ {<function _uni_msg at 0x000001D1F052DFC0>: <Task finished name='Task-3324' coro=<_uni_msg() done, defined at C:\Users\Admini...
+          │       │   │    │      │      └ <contextlib.AsyncExitStack object at 0x000001D184163EE0>
+          │       │   │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}, '...
+          │       │   │    └ PrivateMessageEvent(time=1727511893, self_id=3973508735, post_type='message', sub_type='friend', user_id=843298567, message_t...
+          │       │   └ Bot(type='OneBot V11', self_id='3973508735')
+          │       └ <function Matcher.run at 0x000001D1ED6A9B40>
+          └ AlconnaMatcher(type='', module=zhenxun.plugins.epic, lineno=26)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 850, in run
+    await self.simple_run(bot, event, state, stack, dependency_cache)
+          │    │          │    │      │      │      └ {<function _uni_msg at 0x000001D1F052DFC0>: <Task finished name='Task-3324' coro=<_uni_msg() done, defined at C:\Users\Admini...
+          │    │          │    │      │      └ <contextlib.AsyncExitStack object at 0x000001D184163EE0>
+          │    │          │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}, '...
+          │    │          │    └ PrivateMessageEvent(time=1727511893, self_id=3973508735, post_type='message', sub_type='friend', user_id=843298567, message_t...
+          │    │          └ Bot(type='OneBot V11', self_id='3973508735')
+          │    └ <function Matcher.simple_run at 0x000001D1ED6A9AB0>
+          └ AlconnaMatcher(type='', module=zhenxun.plugins.epic, lineno=26)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 825, in simple_run
+    await handler(
+          └ Dependent(call=_)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\dependencies\__init__.py", line 94, in __call__
+    return await cast(Callable[..., Awaitable[R]], self.call)(**values)
+                 │    │             │         │    │    │       └ {'bot': Bot(type='OneBot V11', self_id='3973508735'), 'session': Session(bot_id='3973508735', bot_type='OneBot V11', platform...
+                 │    │             │         │    │    └ <function _ at 0x000001D183922320>
+                 │    │             │         │    └ Dependent(call=_)
+                 │    │             │         └ ~R
+                 │    │             └ <class 'collections.abc.Awaitable'>
+                 │    └ typing.Callable
+                 └ <function cast at 0x000001D1EB1F04C0>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\epic\__init__.py", line 40, in _
+    await msg_list.send()
+          └ [{'type': 'node', 'data': {'name': '这里是小叶子', 'uin': '3973508735', 'content': '\n由 Armor Games Studios 公司发行的游戏 Bear and Breakf...
+
+AttributeError: 'list' object has no attribute 'send'
+09-28 16:26:15 [ERROR] zhenxun | Epic 访问接口错误 || 错误 <class 'KeyError'>: 'pages'
+09-28 16:26:15 [ERROR] nonebot | Running AlconnaMatcher(type='', module=zhenxun.plugins.epic, lineno=26) failed.
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 27, in <module>
+    nonebot.run()
+    │       └ <function run at 0x0000024EEBB45510>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\__init__.py", line 335, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x0000024EEBB45360>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\drivers\fastapi.py", line 186, in run
+    uvicorn.run(
+    │       └ <function run at 0x0000024EEC31ED40>
+    └ <module 'uvicorn' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\main.py", line 577, in run
+    server.run()
+    │      └ <function Server.run at 0x0000024EEC31E680>
+    └ <uvicorn.server.Server object at 0x0000024E822857E0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x0000024EEC31E710>
+           │       │   └ <uvicorn.server.Server object at 0x0000024E822857E0>
+           │       └ <function run at 0x0000024EE983CE50>
+           └ <module 'asyncio' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x0000024E81EE7290>
+           │    └ <function BaseEventLoop.run_until_complete at 0x0000024EE9940280>
+           └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x0000024EEB57D510>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x0000024EE9941CF0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x0000024EE98F09D0>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 476, in check_and_run_matcher
+    await _run_matcher(
+          └ <function _run_matcher at 0x0000024EEBCA09D0>
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 428, in _run_matcher
+    await matcher.run(bot, event, state, stack, dependency_cache)
+          │       │   │    │      │      │      └ {<function _uni_msg at 0x0000024EEEA19FC0>: <Task finished name='Task-2132' coro=<_uni_msg() done, defined at C:\Users\Admini...
+          │       │   │    │      │      └ <contextlib.AsyncExitStack object at 0x0000024E827E1510>
+          │       │   │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}, '...
+          │       │   │    └ PrivateMessageEvent(time=1727511971, self_id=3973508735, post_type='message', sub_type='friend', user_id=843298567, message_t...
+          │       │   └ Bot(type='OneBot V11', self_id='3973508735')
+          │       └ <function Matcher.run at 0x0000024EEBB99B40>
+          └ AlconnaMatcher(type='', module=zhenxun.plugins.epic, lineno=26)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 850, in run
+    await self.simple_run(bot, event, state, stack, dependency_cache)
+          │    │          │    │      │      │      └ {<function _uni_msg at 0x0000024EEEA19FC0>: <Task finished name='Task-2132' coro=<_uni_msg() done, defined at C:\Users\Admini...
+          │    │          │    │      │      └ <contextlib.AsyncExitStack object at 0x0000024E827E1510>
+          │    │          │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}, '...
+          │    │          │    └ PrivateMessageEvent(time=1727511971, self_id=3973508735, post_type='message', sub_type='friend', user_id=843298567, message_t...
+          │    │          └ Bot(type='OneBot V11', self_id='3973508735')
+          │    └ <function Matcher.simple_run at 0x0000024EEBB99AB0>
+          └ AlconnaMatcher(type='', module=zhenxun.plugins.epic, lineno=26)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 825, in simple_run
+    await handler(
+          └ Dependent(call=_)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\dependencies\__init__.py", line 94, in __call__
+    return await cast(Callable[..., Awaitable[R]], self.call)(**values)
+                 │    │             │         │    │    │       └ {'bot': Bot(type='OneBot V11', self_id='3973508735'), 'session': Session(bot_id='3973508735', bot_type='OneBot V11', platform...
+                 │    │             │         │    │    └ <function _ at 0x0000024EF672DD80>
+                 │    │             │         │    └ Dependent(call=_)
+                 │    │             │         └ ~R
+                 │    │             └ <class 'collections.abc.Awaitable'>
+                 │    └ typing.Callable
+                 └ <function cast at 0x0000024EE96D04C0>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\epic\__init__.py", line 40, in _
+    await MessageUtils.build_message(msg_list).send()
+          │            │             └ [{'type': 'node', 'data': {'name': '这里是小叶子', 'uin': '3973508735', 'content': '\n由 Armor Games Studios 公司发行的游戏 Bear and Breakf...
+          │            └ <classmethod(<function MessageUtils.build_message at 0x0000024EF0745D80>)>
+          └ <class 'zhenxun.utils.message.MessageUtils'>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot_plugin_alconna\uniseg\message.py", line 1395, in send
+    res = await fn.send_to(target, bot, msg, **kwargs)
+                │  │       │       │    │      └ {}
+                │  │       │       │    └ []
+                │  │       │       └ Bot(type='OneBot V11', self_id='3973508735')
+                │  │       └ PrivateMessageEvent(time=1727511971, self_id=3973508735, post_type='message', sub_type='friend', user_id=843298567, message_t...
+                │  └ <function Onebot11MessageExporter.send_to at 0x0000024EEE9FC820>
+                └ <nonebot_plugin_alconna.uniseg.adapters.onebot11.exporter.Onebot11MessageExporter object at 0x0000024EEE9BA830>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot_plugin_alconna\uniseg\adapters\onebot11\exporter.py", line 154, in send_to
+    return await bot.send(target, message, **kwargs)  # type: ignore
+                 │   │    │       │          └ {}
+                 │   │    │       └ []
+                 │   │    └ PrivateMessageEvent(time=1727511971, self_id=3973508735, post_type='message', sub_type='friend', user_id=843298567, message_t...
+                 │   └ <function Bot.send at 0x0000024EEC0C8160>
+                 └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\bot.py", line 237, in send
+    return await self.__class__.send_handler(self, event, message, **kwargs)
+                 │    │                      │     │      │          └ {}
+                 │    │                      │     │      └ []
+                 │    │                      │     └ PrivateMessageEvent(time=1727511971, self_id=3973508735, post_type='message', sub_type='friend', user_id=843298567, message_t...
+                 │    │                      └ Bot(type='OneBot V11', self_id='3973508735')
+                 │    └ <attribute '__class__' of 'object' objects>
+                 └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\bot.py", line 190, in send
+    return await bot.send_msg(**params)
+                 │              └ {'user_id': 843298567, 'message_type': 'private', 'message': []}
+                 └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\adapter\bot.py", line 122, in call_api
+    raise exception
+          └ ActionFailed(status='failed', retcode=1200, data=None, message='Error: 消息体无法解析, 请检查是否发送了不支持的消息类型\n    at OneBotMsgApi.sendMsg...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\adapter\bot.py", line 97, in call_api
+    result = await self.adapter._call_api(self, api, **data)
+                   │    │       │         │     │      └ {'user_id': 843298567, 'message_type': 'private', 'message': []}
+                   │    │       │         │     └ 'send_msg'
+                   │    │       │         └ Bot(type='OneBot V11', self_id='3973508735')
+                   │    │       └ <function Adapter._call_api at 0x0000024EE93C8820>
+                   │    └ Adapter(name='OneBot V11')
+                   └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\adapter.py", line 147, in _call_api
+    return handle_api_result(await self._result_store.fetch(seq, timeout))
+           │                       │    │             │     │    └ 30.0
+           │                       │    │             │     └ 2
+           │                       │    │             └ <function ResultStore.fetch at 0x0000024EEC0C92D0>
+           │                       │    └ <nonebot.adapters.onebot.store.ResultStore object at 0x0000024EEBDE85E0>
+           │                       └ Adapter(name='OneBot V11')
+           └ <function handle_api_result at 0x0000024EEC050280>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\utils.py", line 58, in handle_api_result
+    raise ActionFailed(**result)
+          │              └ {'status': 'failed', 'retcode': 1200, 'data': None, 'message': 'Error: 消息体无法解析, 请检查是否发送了不支持的消息类型\n    at OneBotMsgApi.sendMsg...
+          └ <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>
+
+nonebot.adapters.onebot.v11.exception.ActionFailed: ActionFailed(status='failed', retcode=1200, data=None, message='Error: 消息体无法解析, 请检查是否发送了不支持的消息类型\n    at OneBotMsgApi.sendMsgWithOb11UniqueId (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:26617:13)\n    at SendMsg._handle (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33384:56)\n    at async SendMsg.websocketHandle (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33283:23)\n    at async OB11ActiveWebSocketAdapter.handleMessage (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:9469:21)', wording='Error: 消息体无法解析, 请检查是否发送了不支持的消息类型\n    at OneBotMsgApi.sendMsgWithOb11UniqueId (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:26617:13)\n    at SendMsg._handle (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33384:56)\n    at async SendMsg.websocketHandle (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33283:23)\n    at async OB11ActiveWebSocketAdapter.handleMessage (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:9469:21)', echo='2')
+09-28 16:34:53 [ERROR] zhenxun | Epic 访问接口错误 || 错误 <class 'KeyError'>: 'pages'
+09-28 17:21:05 [ERROR] zhenxun | Epic 访问接口错误 || 错误 <class 'KeyError'>: 'pages'

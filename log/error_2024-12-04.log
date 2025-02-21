@@ -1,0 +1,368 @@
+12-26 02:05:45 [ERROR] nonebot | Running Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) failed.
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 27, in <module>
+    nonebot.run()
+    │       └ <function run at 0x000001E7EB056290>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\__init__.py", line 335, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x000001E7EB0560E0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\drivers\fastapi.py", line 186, in run
+    uvicorn.run(
+    │       └ <function run at 0x000001E7EB82BD00>
+    └ <module 'uvicorn' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\main.py", line 579, in run
+    server.run()
+    │      └ <function Server.run at 0x000001E7EB82B640>
+    └ <uvicorn.server.Server object at 0x000001E7FC34C7C0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x000001E7EB82B6D0>
+           │       │   └ <uvicorn.server.Server object at 0x000001E7FC34C7C0>
+           │       └ <function run at 0x000001E7E8D80E50>
+           └ <module 'asyncio' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x000001E7EDB73DF0>
+           │    └ <function BaseEventLoop.run_until_complete at 0x000001E7E8E80280>
+           └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x000001E7EAA91510>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x000001E7E8E81CF0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x000001E7E8E309D0>
+    └ <Handle Task.task_wakeup(<_GatheringFu...92522a6'}})]]>)>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<_GatheringFu...92522a6'}})]]>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<_GatheringFu...92522a6'}})]]>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<_GatheringFu...92522a6'}})]]>)>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 476, in check_and_run_matcher
+    await _run_matcher(
+          └ <function _run_matcher at 0x000001E7EB1A9750>
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 428, in _run_matcher
+    await matcher.run(bot, event, state, stack, dependency_cache)
+          │       │   │    │      │      │      └ {<function _event_to_me at 0x000001E7EB0B6A70>: <Task finished name='Task-88834804' coro=<_event_to_me() done, defined at C:\...
+          │       │   │    │      │      └ <contextlib.AsyncExitStack object at 0x000001E78087EAA0>
+          │       │   │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}}
+          │       │   │    └ PrivateMessageEvent(time=1735149945, self_id=3973508735, post_type='message', sub_type='friend', user_id=2747277822, message_...
+          │       │   └ Bot(type='OneBot V11', self_id='3973508735')
+          │       └ <function Matcher.run at 0x000001E7EB0B68C0>
+          └ Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 850, in run
+    await self.simple_run(bot, event, state, stack, dependency_cache)
+          │    │          │    │      │      │      └ {<function _event_to_me at 0x000001E7EB0B6A70>: <Task finished name='Task-88834804' coro=<_event_to_me() done, defined at C:\...
+          │    │          │    │      │      └ <contextlib.AsyncExitStack object at 0x000001E78087EAA0>
+          │    │          │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}}
+          │    │          │    └ PrivateMessageEvent(time=1735149945, self_id=3973508735, post_type='message', sub_type='friend', user_id=2747277822, message_...
+          │    │          └ Bot(type='OneBot V11', self_id='3973508735')
+          │    └ <function Matcher.simple_run at 0x000001E7EB0B6830>
+          └ Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 825, in simple_run
+    await handler(
+          └ Dependent(call=_)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\dependencies\__init__.py", line 94, in __call__
+    return await cast(Callable[..., Awaitable[R]], self.call)(**values)
+                 │    │             │         │    │    │       └ {'session': Session(bot_id='3973508735', bot_type='OneBot V11', platform='qq', level=<SessionLevel.LEVEL1: 1>, id1='274727782...
+                 │    │             │         │    │    └ <function _ at 0x000001E7F586E5F0>
+                 │    │             │         │    └ Dependent(call=_)
+                 │    │             │         └ ~R
+                 │    │             └ <class 'collections.abc.Awaitable'>
+                 │    └ typing.Callable
+                 └ <function cast at 0x000001E7E8C104C0>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\parse_bilibili\__init__.py", line 86, in _
+    get_url = (qqdocurl_value if qqdocurl_value else jumpUrl_value).split("?")[
+               │                 │                   └ {}
+               │                 └ {}
+               └ {}
+
+AttributeError: 'dict' object has no attribute 'split'
+12-26 02:05:56 [ERROR] nonebot | Running Matcher(type='message', module=zhenxun.plugins.nonebot_plugin_sparkapi.matchers.block_private, lineno=11) failed.
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 27, in <module>
+    nonebot.run()
+    │       └ <function run at 0x000001E7EB056290>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\__init__.py", line 335, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x000001E7EB0560E0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\drivers\fastapi.py", line 186, in run
+    uvicorn.run(
+    │       └ <function run at 0x000001E7EB82BD00>
+    └ <module 'uvicorn' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\main.py", line 579, in run
+    server.run()
+    │      └ <function Server.run at 0x000001E7EB82B640>
+    └ <uvicorn.server.Server object at 0x000001E7FC34C7C0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x000001E7EB82B6D0>
+           │       │   └ <uvicorn.server.Server object at 0x000001E7FC34C7C0>
+           │       └ <function run at 0x000001E7E8D80E50>
+           └ <module 'asyncio' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x000001E7EDB73DF0>
+           │    └ <function BaseEventLoop.run_until_complete at 0x000001E7E8E80280>
+           └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x000001E7EAA91510>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x000001E7E8E81CF0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x000001E7E8E309D0>
+    └ <Handle Task.task_wakeup(<_GatheringFu...result=[None]>)>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<_GatheringFu...result=[None]>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<_GatheringFu...result=[None]>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<_GatheringFu...result=[None]>)>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 476, in check_and_run_matcher
+    await _run_matcher(
+          └ <function _run_matcher at 0x000001E7EB1A9750>
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 428, in _run_matcher
+    await matcher.run(bot, event, state, stack, dependency_cache)
+          │       │   │    │      │      │      └ {<function _event_to_me at 0x000001E7EB0B6A70>: <Task finished name='Task-88834804' coro=<_event_to_me() done, defined at C:\...
+          │       │   │    │      │      └ <contextlib.AsyncExitStack object at 0x000001E78087EAA0>
+          │       │   │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}}
+          │       │   │    └ PrivateMessageEvent(time=1735149945, self_id=3973508735, post_type='message', sub_type='friend', user_id=2747277822, message_...
+          │       │   └ Bot(type='OneBot V11', self_id='3973508735')
+          │       └ <function Matcher.run at 0x000001E7EB0B68C0>
+          └ Matcher(type='message', module=zhenxun.plugins.nonebot_plugin_sparkapi.matchers.block_private, lineno=11)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 850, in run
+    await self.simple_run(bot, event, state, stack, dependency_cache)
+          │    │          │    │      │      │      └ {<function _event_to_me at 0x000001E7EB0B6A70>: <Task finished name='Task-88834804' coro=<_event_to_me() done, defined at C:\...
+          │    │          │    │      │      └ <contextlib.AsyncExitStack object at 0x000001E78087EAA0>
+          │    │          │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}}
+          │    │          │    └ PrivateMessageEvent(time=1735149945, self_id=3973508735, post_type='message', sub_type='friend', user_id=2747277822, message_...
+          │    │          └ Bot(type='OneBot V11', self_id='3973508735')
+          │    └ <function Matcher.simple_run at 0x000001E7EB0B6830>
+          └ Matcher(type='message', module=zhenxun.plugins.nonebot_plugin_sparkapi.matchers.block_private, lineno=11)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 825, in simple_run
+    await handler(
+          └ Dependent(call=_)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\dependencies\__init__.py", line 94, in __call__
+    return await cast(Callable[..., Awaitable[R]], self.call)(**values)
+                 │    │             │         │    │    │       └ {}
+                 │    │             │         │    │    └ <function _ at 0x000001E7FACDEEF0>
+                 │    │             │         │    └ Dependent(call=_)
+                 │    │             │         └ ~R
+                 │    │             └ <class 'collections.abc.Awaitable'>
+                 │    └ typing.Callable
+                 └ <function cast at 0x000001E7E8C104C0>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\matchers\block_private.py", line 18, in _
+    await matcher_blockprivate.finish("私聊功能已关闭！如有需要，请联系管理员。")
+          │                    └ <classmethod(<function Matcher.finish at 0x000001E7EB0B5D80>)>
+          └ Matcher(type='message', module=zhenxun.plugins.nonebot_plugin_sparkapi.matchers.block_private, lineno=11)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 582, in finish
+    await cls.send(message, **kwargs)
+          │   │    │          └ {}
+          │   │    └ '私聊功能已关闭！如有需要，请联系管理员。'
+          │   └ <classmethod(<function Matcher.send at 0x000001E7EB0B5CF0>)>
+          └ Matcher(type='message', module=zhenxun.plugins.nonebot_plugin_sparkapi.matchers.block_private, lineno=11)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 566, in send
+    return await bot.send(event=event, message=_message, **kwargs)
+                 │   │          │              │           └ {}
+                 │   │          │              └ '私聊功能已关闭！如有需要，请联系管理员。'
+                 │   │          └ PrivateMessageEvent(time=1735149945, self_id=3973508735, post_type='message', sub_type='friend', user_id=2747277822, message_...
+                 │   └ <function Bot.send at 0x000001E7EB5B4EE0>
+                 └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\bot.py", line 237, in send
+    return await self.__class__.send_handler(self, event, message, **kwargs)
+                 │    │                      │     │      │          └ {}
+                 │    │                      │     │      └ '私聊功能已关闭！如有需要，请联系管理员。'
+                 │    │                      │     └ PrivateMessageEvent(time=1735149945, self_id=3973508735, post_type='message', sub_type='friend', user_id=2747277822, message_...
+                 │    │                      └ Bot(type='OneBot V11', self_id='3973508735')
+                 │    └ <attribute '__class__' of 'object' objects>
+                 └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\bot.py", line 190, in send
+    return await bot.send_msg(**params)
+                 │              └ {'user_id': 2747277822, 'message_type': 'private', 'message': [MessageSegment(type='text', data={'text': '私聊功能已关闭！如有需要，请联系管理员...
+                 └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\adapter\bot.py", line 122, in call_api
+    raise exception
+          └ ActionFailed(status='failed', retcode=1200, data=None, message='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgServic...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\adapter\bot.py", line 97, in call_api
+    result = await self.adapter._call_api(self, api, **data)
+                   │    │       │         │     │      └ {'user_id': 2747277822, 'message_type': 'private', 'message': [MessageSegment(type='text', data={'text': '私聊功能已关闭！如有需要，请联系管理员...
+                   │    │       │         │     └ 'send_msg'
+                   │    │       │         └ Bot(type='OneBot V11', self_id='3973508735')
+                   │    │       └ <function Adapter._call_api at 0x000001E7E8958820>
+                   │    └ Adapter(name='OneBot V11')
+                   └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\adapter.py", line 147, in _call_api
+    return handle_api_result(await self._result_store.fetch(seq, timeout))
+           │                       │    │             │     │    └ 30.0
+           │                       │    │             │     └ 73018
+           │                       │    │             └ <function ResultStore.fetch at 0x000001E7EB5B6050>
+           │                       │    └ <nonebot.adapters.onebot.store.ResultStore object at 0x000001E7EB2AD960>
+           │                       └ Adapter(name='OneBot V11')
+           └ <function handle_api_result at 0x000001E7EB545000>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\utils.py", line 58, in handle_api_result
+    raise ActionFailed(**result)
+          │              └ {'status': 'failed', 'retcode': 1200, 'data': None, 'message': 'Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgServic...
+          └ <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>
+
+nonebot.adapters.onebot.v11.exception.ActionFailed: ActionFailed(status='failed', retcode=1200, data=None, message='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', wording='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', echo='73018')
+12-26 03:01:00 [ERROR] zhenxun | 清理AI日常聊天数据失败... || 错误 <class 'FileNotFoundError'>: [WinError 3] 系统找不到指定的路径。: 'C:\\Users\\Administrator\\AppData\\Local\\nonebot2\\nonebot_plugin_sparkapi'
+12-26 04:30:07 [ERROR] zhenxun | 更新色图 4.jpg 错误 <class 'FileExistsError'>: [WinError 183] 当文件已存在时，无法创建该文件。: 'resources\\temp\\4.jpg' -> 'resources\\image\\_setu\\4.jpg'
+12-26 04:30:08 [ERROR] zhenxun | 更新色图 3.jpg 错误 <class 'FileExistsError'>: [WinError 183] 当文件已存在时，无法创建该文件。: 'resources\\temp\\3.jpg' -> 'resources\\image\\_setu\\3.jpg'
+12-26 06:01:01 [ERROR] zhenxun | CMD[被动早晚安] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='73493')
+12-26 09:01:01 [ERROR] zhenxun | CMD[被动每日新闻] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='73857')
+12-26 09:01:02 [ERROR] zhenxun | 下载 ['https://api.03c3.cn/api/zb'] 下载超时.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\moyu1735174860.jpeg
+12-26 09:01:02 [ERROR] apscheduler | Job "_ (trigger: cron[hour='9', minute='1'], next run at: 2024-12-27 09:01:00 CST)" raised an exception
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 27, in <module>
+    nonebot.run()
+    │       └ <function run at 0x000001E7EB056290>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\__init__.py", line 335, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x000001E7EB0560E0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\drivers\fastapi.py", line 186, in run
+    uvicorn.run(
+    │       └ <function run at 0x000001E7EB82BD00>
+    └ <module 'uvicorn' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\main.py", line 579, in run
+    server.run()
+    │      └ <function Server.run at 0x000001E7EB82B640>
+    └ <uvicorn.server.Server object at 0x000001E7FC34C7C0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x000001E7EB82B6D0>
+           │       │   └ <uvicorn.server.Server object at 0x000001E7FC34C7C0>
+           │       └ <function run at 0x000001E7E8D80E50>
+           └ <module 'asyncio' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x000001E7EDB73DF0>
+           │    └ <function BaseEventLoop.run_until_complete at 0x000001E7E8E80280>
+           └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x000001E7EAA91510>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x000001E7E8E81CF0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x000001E7E8E309D0>
+    └ <Handle <TaskStepMethWrapper object at 0x000001E7806E6080>()>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <TaskStepMethWrapper object at 0x000001E7806E6080>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <TaskStepMethWrapper object at 0x000001E7806E6080>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <TaskStepMethWrapper object at 0x000001E7806E6080>()>
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\apscheduler\executors\base_py3.py", line 30, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+                   │   │     │   │       │   └ <member 'kwargs' of 'Job' objects>
+                   │   │     │   │       └ <Job (id=aea298b7c2c14c4f9a67d2c76a3584d9 name=_)>
+                   │   │     │   └ <member 'args' of 'Job' objects>
+                   │   │     └ <Job (id=aea298b7c2c14c4f9a67d2c76a3584d9 name=_)>
+                   │   └ <member 'func' of 'Job' objects>
+                   └ <Job (id=aea298b7c2c14c4f9a67d2c76a3584d9 name=_)>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\moyu.py", line 101, in _
+    await broadcast_group(receipt, log_cmd="被动每日新闻")
+          │               └ []
+          └ <function broadcast_group at 0x000001E7EF7AAD40>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\utils\platform.py", line 593, in broadcast_group
+    raise ValueError("群聊广播消息不能为空")
+
+ValueError: 群聊广播消息不能为空
+12-26 09:40:26 [ERROR] zhenxun | 下载 ['https://api.03c3.cn/api/zb'] 下载超时.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\moyu1735177226.jpeg
+12-26 09:40:27 [ERROR] zhenxun | Adapter[OneBot V11] 平台[qq] 群聊[546881717] 用户[843298567] CMD[moyu] 摸鱼接口错误 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: 消息体无法解析, 请检查是否发送了不支持的消息类型\n    at OneBotMsgApi.sendMsgWithOb11UniqueId (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:26617:13)\n    at SendMsg._handle (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33384:56)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async SendMsg.websocketHandle (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33283:23)\n    at async OB11ActiveWebSocketAdapter.handleMessage (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:9469:21)', wording='Error: 消息体无法解析, 请检查是否发送了不支持的消息类型\n    at OneBotMsgApi.sendMsgWithOb11UniqueId (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:26617:13)\n    at SendMsg._handle (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33384:56)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async SendMsg.websocketHandle (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33283:23)\n    at async OB11ActiveWebSocketAdapter.handleMessage (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:9469:21)', echo='73945')
+12-26 09:40:38 [ERROR] zhenxun | 下载 ['https://api.03c3.cn/api/zb'] 下载超时.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\moyu1735177238.jpeg
+12-26 09:40:39 [ERROR] zhenxun | Adapter[OneBot V11] 平台[qq] 用户[843298567] CMD[moyu] 摸鱼接口错误 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: 消息体无法解析, 请检查是否发送了不支持的消息类型\n    at OneBotMsgApi.sendMsgWithOb11UniqueId (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:26617:13)\n    at SendMsg._handle (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33384:56)\n    at async SendMsg.websocketHandle (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33283:23)\n    at async OB11ActiveWebSocketAdapter.handleMessage (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:9469:21)', wording='Error: 消息体无法解析, 请检查是否发送了不支持的消息类型\n    at OneBotMsgApi.sendMsgWithOb11UniqueId (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:26617:13)\n    at SendMsg._handle (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33384:56)\n    at async SendMsg.websocketHandle (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:33283:23)\n    at async OB11ActiveWebSocketAdapter.handleMessage (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:9469:21)', echo='73948')

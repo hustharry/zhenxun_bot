@@ -1,0 +1,1314 @@
+02-02 00:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-02 00:17:14 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1845626950 from 932348537@[群:1003578395] '波波这么节俭的人'
+02-02 00:17:14 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 00:17:14 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 00:17:14 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 00:17:14 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 00:17:14 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 00:17:14 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 00:17:15 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 00:17:15 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 00:17:17 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1967241449 from 932348537@[群:1003578395] '没问题的'
+02-02 00:17:17 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 00:17:17 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 00:17:17 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 00:17:17 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 00:17:17 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 00:17:17 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 00:17:17 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 00:17:17 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 00:17:48 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1357198657 from 645842705@[群:1003578395] '没买车的想法'
+02-02 00:17:48 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 00:17:48 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 00:17:48 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 00:17:48 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 00:17:48 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 00:17:48 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 00:17:48 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 00:17:48 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 00:18:14 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1806510880 from 645842705@[群:1003578395] '除非买车比坐公共交通省钱或者方便的多'
+02-02 00:18:14 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 00:18:14 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 00:18:14 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 00:18:14 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 00:18:14 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 00:18:14 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 00:18:15 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 00:18:15 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 00:28:19 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1025632048 from 932348537@[群:1003578395] '那就存钱'
+02-02 00:28:19 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 00:28:19 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 00:28:19 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 00:28:19 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 00:28:19 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 00:28:19 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 00:28:19 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 00:28:19 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 00:28:26 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1705488244 from 932348537@[群:1003578395] '等有想法再买'
+02-02 00:28:26 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 00:28:26 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 00:28:26 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 00:28:26 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 00:28:26 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 00:28:26 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 00:28:27 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 00:28:27 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 00:35:09 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1003123536 from 932348537@[群:1003578395] '[json:data={"app":"com.tencent.tuwen.lua","bizsrc":"qqconnect.sdkshare","confi...]'
+02-02 00:35:09 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 00:35:09 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 00:35:10 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 00:35:10 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 00:35:10 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 00:35:10 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 00:35:10 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 00:35:10 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 00:35:30 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 409480636 from 932348537@[群:1003578395] '本日哥布林大学习，请群友记得学习'
+02-02 00:35:30 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 00:35:30 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 00:35:30 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 00:35:30 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 00:35:30 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 00:35:30 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 00:35:30 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 00:35:30 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 00:36:15 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1470701423 from 645842705@[群:1003578395] '哥布林只想绑一个回家'
+02-02 00:36:15 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 00:36:15 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 00:36:15 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 00:36:15 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 00:36:15 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 00:36:15 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 00:36:16 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 00:36:16 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 01:01:00 [INFO] zhenxun | CMD[定时任务] 自动清理临时数据完成，共清理了 13.44MB 的数据...
+02-02 01:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-02 02:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-02 03:01:00 [ERROR] zhenxun | 清理AI日常聊天数据失败... || 错误 <class 'FileNotFoundError'>: [WinError 3] 系统找不到指定的路径。: 'C:\\Users\\Administrator\\AppData\\Local\\nonebot2\\nonebot_plugin_sparkapi'
+02-02 03:01:00 [INFO] zhenxun | 自动更新好友信息成功...
+02-02 03:01:00 [INFO] zhenxun | 自动更新群组成员信息成功...
+02-02 03:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-02 03:25:01 [INFO] zhenxun | CMD[自动备份] 自动备份成功...
+02-02 04:01:00 [WARNING] zhenxun | 当前无UP池或 prts_up_char.json 文件不存在
+02-02 04:01:00 [WARNING] zhenxun | 坎公骑冠剑UP更新出错 <class 'IndexError'>：list index out of range
+02-02 04:01:00 [WARNING] zhenxun | guardian_up_char 解析出错
+02-02 04:01:00 [WARNING] zhenxun | 赛马娘UP更新出错 || 错误<class 'AttributeError'>: 'NoneType' object has no attribute 'find'
+02-02 04:01:00 [WARNING] zhenxun | pretty_up_char 解析出错
+02-02 04:01:01 [WARNING] zhenxun | 原神 获取额外信息错误 旅行者火
+02-02 04:01:04 [WARNING] zhenxun | 原神 获取额外信息错误 旅行者水
+02-02 04:01:08 [WARNING] zhenxun | 原神 获取额外信息错误 旅行者草
+02-02 04:01:10 [WARNING] zhenxun | 原神 获取额外信息错误 旅行者雷
+02-02 04:01:13 [WARNING] zhenxun | 原神 获取额外信息错误 旅行者风
+02-02 04:01:13 [WARNING] zhenxun | 原神 获取额外信息错误 旅行者岩
+02-02 04:01:16 [INFO] zhenxun | 原神 更新成功
+02-02 04:01:16 [INFO] zhenxun | 原神 武器更新成功
+02-02 04:01:17 [INFO] zhenxun | 成功获取原神当前up信息...当前up池: 「流霆贯夜」 & 「炉边烬影」 & 「神铸赋形」
+02-02 04:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-02 04:30:07 [INFO] zhenxun | 下载 https://i.pixiv.re/img-original/img/2023/09/08/00/01/37/111530368_p0.jpg 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\4.jpg
+02-02 04:30:07 [INFO] zhenxun | 不需要压缩，移动图片resources\temp/4.jpg --> /resources\image\_setu/4.jpg
+02-02 04:30:07 [ERROR] zhenxun | 更新色图 4.jpg 错误 <class 'FileExistsError'>: [WinError 183] 当文件已存在时，无法创建该文件。: 'resources\\temp\\4.jpg' -> 'resources\\image\\_setu\\4.jpg'
+02-02 04:30:15 [INFO] zhenxun | 下载 https://i.pixiv.re/img-original/img/2022/12/30/21/04/18/104052603_p0.jpg 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\3.jpg
+02-02 04:30:15 [INFO] zhenxun | 不需要压缩，移动图片resources\temp/3.jpg --> /resources\image\_setu/3.jpg
+02-02 04:30:15 [ERROR] zhenxun | 更新色图 3.jpg 错误 <class 'FileExistsError'>: [WinError 183] 当文件已存在时，无法创建该文件。: 'resources\\temp\\3.jpg' -> 'resources\\image\\_setu\\3.jpg'
+02-02 04:30:19 [INFO] zhenxun | 下载 https://i.pixiv.re/img-original/img/2023/09/09/18/30/20/111577264_p0.png 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\2.jpg
+02-02 04:30:25 [INFO] zhenxun | 下载 https://i.pixiv.re/img-original/img/2023/01/01/17/17/43/104132686_p0.png 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\1.jpg
+02-02 04:30:30 [INFO] zhenxun | 下载 https://i.pixiv.re/img-original/img/2022/01/28/15/00/34/95827678_p0.jpg 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\0.jpg
+02-02 04:30:36 [INFO] zhenxun | 下载 https://i.pixiv.re/img-original/img/2022/10/13/01/09/34/101889280_p0.png 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\0.jpg
+02-02 04:30:36 [INFO] zhenxun | CMD[自动更新色图] ("2025-02-02 04:30:36 更新 色图 完成，本地存在 6 张，实际更新 4 张，以下为更新时未知错误：\n更新色图 4.jpg 错误 <class 'FileExistsError'>: [WinError 183] 当文件已存在时，无法创建该文件。: 'resources\\\\temp\\\\4.jpg' -> 'resources\\\\image\\\\_setu\\\\4.jpg'",)
+02-02 05:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-02 06:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-02 06:01:00 [INFO] zhenxun | group list is [<GroupConsole>, <GroupConsole>, <GroupConsole>]
+02-02 06:01:00 [INFO] zhenxun | key is 1003578395:None, check_func is <function check at 0x000002E5674B0A60>
+02-02 06:01:00 [INFO] zhenxun | is_run value False
+02-02 06:01:00 [INFO] zhenxun | key is 992333365:None, check_func is <function check at 0x000002E5674B0A60>
+02-02 06:01:00 [INFO] zhenxun | is_run value True
+02-02 06:01:00 [INFO] zhenxun | target is Target({'id': '992333365', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-02 06:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-02 06:01:01 [ERROR] zhenxun | CMD[被动早晚安] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='87749')
+02-02 06:01:01 [INFO] zhenxun | key is 546881717:None, check_func is <function check at 0x000002E5674B0A60>
+02-02 06:01:01 [INFO] zhenxun | is_run value True
+02-02 06:01:01 [INFO] zhenxun | target is Target({'id': '546881717', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-02 06:01:01 [INFO] zhenxun | begin to build uni message!!!
+02-02 06:01:02 [INFO] zhenxun | 每日早安发送...
+02-02 06:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-02 07:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-02 08:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-02 09:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-02 09:01:00 [INFO] zhenxun | group list is [<GroupConsole>, <GroupConsole>, <GroupConsole>]
+02-02 09:01:00 [INFO] zhenxun | key is 1003578395:None, check_func is None
+02-02 09:01:00 [INFO] zhenxun | is_run value True
+02-02 09:01:00 [INFO] zhenxun | target is Target({'id': '1003578395', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-02 09:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-02 09:01:00 [INFO] zhenxun | key is 992333365:None, check_func is None
+02-02 09:01:00 [INFO] zhenxun | is_run value True
+02-02 09:01:00 [INFO] zhenxun | target is Target({'id': '992333365', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-02 09:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-02 09:01:00 [ERROR] zhenxun | CMD[被动每日新闻] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='88113')
+02-02 09:01:00 [INFO] zhenxun | key is 546881717:None, check_func is None
+02-02 09:01:00 [INFO] zhenxun | is_run value True
+02-02 09:01:00 [INFO] zhenxun | target is Target({'id': '546881717', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-02 09:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-02 09:01:01 [INFO] zhenxun | 每日摸鱼发送...
+02-02 09:01:03 [INFO] zhenxun | 下载 https://api.cenguigui.cn/api/60s/ 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\moyu1738458060.jpeg
+02-02 09:01:03 [INFO] zhenxun | begin to build uni message!!!
+02-02 09:01:03 [INFO] zhenxun | group list is [<GroupConsole>, <GroupConsole>, <GroupConsole>]
+02-02 09:01:03 [INFO] zhenxun | key is 1003578395:None, check_func is None
+02-02 09:01:03 [INFO] zhenxun | is_run value True
+02-02 09:01:03 [INFO] zhenxun | target is Target({'id': '1003578395', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-02 09:01:03 [INFO] zhenxun | begin to build uni message!!!
+02-02 09:01:05 [INFO] zhenxun | key is 992333365:None, check_func is None
+02-02 09:01:05 [INFO] zhenxun | is_run value True
+02-02 09:01:05 [INFO] zhenxun | target is Target({'id': '992333365', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-02 09:01:05 [INFO] zhenxun | begin to build uni message!!!
+02-02 09:01:06 [ERROR] zhenxun | CMD[被动每日新闻] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='88117')
+02-02 09:01:06 [INFO] zhenxun | key is 546881717:None, check_func is None
+02-02 09:01:06 [INFO] zhenxun | is_run value True
+02-02 09:01:06 [INFO] zhenxun | target is Target({'id': '546881717', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-02 09:01:06 [INFO] zhenxun | begin to build uni message!!!
+02-02 09:01:07 [INFO] zhenxun | 发送摸鱼 [image]
+02-02 09:01:18 [INFO] zhenxun | 自动生成日报成功...
+02-02 09:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-02 10:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-02 10:27:55 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 234533917 from 1532233140@[群:1003578395] '打车比买车还便宜'
+02-02 10:27:55 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 10:27:55 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 10:27:55 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 10:27:55 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 10:27:55 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 10:27:55 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 10:27:55 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 10:27:55 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 10:27:58 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1061518342 from 1532233140@[群:1003578395] '[face:id=262]'
+02-02 10:27:58 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 10:27:58 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 10:27:58 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 10:27:58 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 10:27:58 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 10:27:58 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 10:27:58 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 10:27:58 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 10:28:09 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1719829134 from 1532233140@[群:1003578395] '大城市还要停车费'
+02-02 10:28:09 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 10:28:09 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 10:28:09 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 10:28:09 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 10:28:09 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 10:28:09 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 10:28:09 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 10:28:09 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 10:35:17 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 604738796 from 932348537@[群:1003578395] '车主要是用来提供情绪价值的'
+02-02 10:35:17 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 10:35:17 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 10:35:17 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 10:35:17 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 10:35:17 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 10:35:17 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 10:35:17 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 10:35:17 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 10:35:55 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1486833031 from 932348537@[群:1003578395] '就像房子一样，你租房租一辈子肯定也比你买房便宜'
+02-02 10:35:55 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 10:35:55 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 10:35:55 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 10:35:55 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 10:35:55 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 10:35:55 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 10:35:55 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 10:35:55 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 10:41:52 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 270731171 from 645842705@[群:1003578395] '100w的房，月租该是多少'
+02-02 10:41:52 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 10:41:52 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 10:41:52 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 10:41:52 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 10:41:52 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 10:41:52 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 10:41:53 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 10:41:53 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 10:42:47 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1382844661 from 645842705@[群:1003578395] '感觉买房自己住还是有必要的'
+02-02 10:42:47 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 10:42:47 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 10:42:47 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 10:42:47 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 10:42:47 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 10:42:47 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 10:42:47 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 10:42:47 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 10:43:12 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1195717755 from 645842705@[群:1003578395] '工作固定的话'
+02-02 10:43:12 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 10:43:12 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 10:43:12 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 10:43:12 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 10:43:12 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 10:43:12 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 10:43:12 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 10:43:12 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 10:48:38 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1165001826 from 932348537@[群:1003578395] '算你顶多住50年了'
+02-02 10:48:38 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 10:48:38 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 10:48:38 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 10:48:38 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 10:48:38 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 10:48:38 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 10:48:38 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 10:48:38 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 10:48:47 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1292810313 from 932348537@[群:1003578395] '100w首付20贷款80'
+02-02 10:48:47 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 10:48:47 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 10:48:47 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 10:48:47 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 10:48:47 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 10:48:47 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 10:48:47 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 10:48:47 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 10:49:04 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1397217879 from 932348537@[群:1003578395] '总花费差不多180w'
+02-02 10:49:04 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 10:49:04 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 10:49:04 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 10:49:04 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 10:49:04 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 10:49:04 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 10:49:04 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 10:49:04 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 10:49:22 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 909120443 from 932348537@[群:1003578395] '每年3.6w，每个月3000'
+02-02 10:49:22 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 10:49:22 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 10:49:22 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 10:49:22 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 10:49:22 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 10:49:22 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 10:49:23 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 10:49:23 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 10:49:47 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 259104750 from 645842705@[群:1003578395] '100w变成180w，有这么夸张吗'
+02-02 10:49:47 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 10:49:47 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 10:49:47 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 10:49:47 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 10:49:47 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 10:49:47 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 10:49:47 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 10:49:47 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 10:50:11 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1803472188 from 932348537@[群:1003578395] '也得看你贷款几年吧'
+02-02 10:50:11 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 10:50:11 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 10:50:11 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 10:50:11 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 10:50:11 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 10:50:11 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 10:50:11 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 10:50:11 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 10:50:33 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1254984003 from 645842705@[群:1003578395] '3年工资，全款拿下[face:id=179]'
+02-02 10:50:33 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 10:50:33 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 10:50:33 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 10:50:33 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 10:50:33 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 10:50:33 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 10:50:33 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 10:50:33 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 10:50:39 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 260108404 from 645842705@[群:1003578395] '相信你'
+02-02 10:50:39 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 10:50:39 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 10:50:39 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 10:50:39 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 10:50:39 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 10:50:39 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 10:50:39 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 10:50:39 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 10:51:06 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 161254481 from 645842705@[群:1003578395] '利息占80%我肯定不买，奥日'
+02-02 10:51:06 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 10:51:06 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 10:51:06 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 10:51:06 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 10:51:06 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 10:51:06 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 10:51:07 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 10:51:07 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 10:53:44 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 2081820911 from 932348537@[群:1003578395] '我肯定还不考虑买房'
+02-02 10:53:44 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 10:53:44 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 10:53:44 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 10:53:44 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 10:53:44 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 10:53:44 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 10:53:44 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 10:53:44 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 10:54:06 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 2062270726 from 932348537@[群:1003578395] '没女朋友，买啥[face:id=179]'
+02-02 10:54:06 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 10:54:07 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 10:54:07 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 10:54:07 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 10:54:07 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 10:54:07 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 10:54:07 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 10:54:07 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 10:58:50 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1560822940 from 932348537@[群:1003578395] '[image:file=000000924e61704361744f6e65426f747c4d736746696c657c327c3130303335373...,sub_type=0,file_id=000000924e61704361744f6e65426f747c4d736746696c657c327c3130303335373...,url=https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=EhTb48VQ...,file_size=105429,file_unique=156CB9F5C902138A7948C34081B8B1AB.jpg]'
+02-02 10:58:50 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 10:58:50 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 10:58:50 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 10:58:50 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 10:58:50 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 10:58:51 [INFO] zhenxun | 下载 https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=EhTb48VQLWtFiX55j5JfB0rOtek-DhjVtwYg_wooy6TOo_-jiwMyBHByb2RQgL2jAVoQpg3l8hXLgsI5Qk9ezNTRBA&spec=0&rkey=CAQSKAB6JWENi5LMHu2zvktAWWQqmTIrDXHhsMLRZlk1TYxKRGualyqD4DM 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\compare_download__mute__img.jpg
+02-02 10:58:51 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 10:58:52 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 10:58:52 [INFO] zhenxun | 下载 https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=EhTb48VQLWtFiX55j5JfB0rOtek-DhjVtwYg_wooy6TOo_-jiwMyBHByb2RQgL2jAVoQpg3l8hXLgsI5Qk9ezNTRBA&spec=0&rkey=CAQSKAB6JWENi5LMHu2zvktAWWQqmTIrDXHhsMLRZlk1TYxKRGualyqD4DM 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\compare_download_1003578395_img.jpg
+02-02 10:58:52 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 10:58:59 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1148095606 from 932348537@[群:1003578395] '帮你问gpt了，不用这么多[face:id=179]'
+02-02 10:58:59 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 10:58:59 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 10:58:59 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 10:58:59 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 10:58:59 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 10:58:59 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 10:58:59 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 10:58:59 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 10:59:13 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1257509473 from 932348537@[群:1003578395] '现在贷款利率降了很多'
+02-02 10:59:13 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 10:59:13 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 10:59:13 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 10:59:13 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 10:59:13 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 10:59:13 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 10:59:13 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 10:59:13 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 11:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-02 11:04:54 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 677202 from 645842705@[群:1003578395] '得全款，买不起就不买'
+02-02 11:04:54 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 11:04:54 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 11:04:54 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 11:04:54 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 11:04:54 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 11:04:54 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 11:04:55 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 11:04:55 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 11:05:13 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 702330450 from 645842705@[群:1003578395] '讨厌贷款，花呗我都不用的'
+02-02 11:05:13 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 11:05:13 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 11:05:13 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 11:05:13 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 11:05:13 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 11:05:13 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 11:05:14 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 11:05:14 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 11:08:10 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 167740850 from 932348537@[群:1003578395] '房全款有点难'
+02-02 11:08:10 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 11:08:10 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 11:08:10 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 11:08:10 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 11:08:10 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 11:08:10 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 11:08:10 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 11:08:10 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 11:08:20 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 342095677 from 932348537@[群:1003578395] '100w你只能回老家买了'
+02-02 11:08:20 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 11:08:20 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 11:08:20 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 11:08:20 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 11:08:20 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 11:08:20 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 11:08:20 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 11:08:20 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 11:08:45 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1654689402 from 932348537@[群:1003578395] '你还要考虑装修，家具'
+02-02 11:08:45 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 11:08:45 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 11:08:45 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 11:08:45 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 11:08:45 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 11:08:45 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 11:08:45 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 11:08:45 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 11:09:18 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 748799171 from 645842705@[群:1003578395] '老家，没房买，乡下都是自己起'
+02-02 11:09:18 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 11:09:18 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 11:09:18 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 11:09:18 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 11:09:18 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 11:09:18 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 11:09:18 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 11:09:18 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 11:09:32 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1905111512 from 932348537@[群:1003578395] '花费至少120w'
+02-02 11:09:32 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 11:09:32 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 11:09:32 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 11:09:32 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 11:09:32 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 11:09:32 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 11:09:32 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 11:09:32 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 11:09:52 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1752431927 from 932348537@[群:1003578395] '那肯定是买县城啊'
+02-02 11:09:52 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 11:09:52 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 11:09:52 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 11:09:52 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 11:09:52 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 11:09:52 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 11:09:52 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 11:09:52 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 11:10:57 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1469945789 from 645842705@[群:1003578395] '对县城没啥兴趣，老家那叫归宿'
+02-02 11:10:57 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 11:10:57 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 11:10:57 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 11:10:57 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 11:10:57 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 11:10:57 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 11:10:57 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 11:10:57 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 11:11:02 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 782555350 from 932348537@[群:1003578395] '你如果在工作地买，我估计至少200w[face:id=179]'
+02-02 11:11:02 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 11:11:02 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 11:11:02 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 11:11:02 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 11:11:02 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 11:11:02 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 11:11:02 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 11:11:02 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 11:11:04 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1517564367 from 645842705@[群:1003578395] '县城是个啥'
+02-02 11:11:04 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 11:11:04 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 11:11:04 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 11:11:04 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 11:11:04 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 11:11:04 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 11:11:04 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 11:11:04 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 11:12:53 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1457224267 from 932348537@[群:1003578395] '那就自建呗'
+02-02 11:12:53 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 11:12:53 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 11:12:53 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 11:12:53 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 11:12:53 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 11:12:53 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 11:12:53 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 11:12:53 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 11:13:56 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 354959356 from 932348537@[群:1003578395] '那就便宜了，建个3层，估计不用50w'
+02-02 11:13:56 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 11:13:56 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 11:13:56 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 11:13:56 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 11:13:56 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 11:13:56 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 11:13:56 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 11:13:56 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 11:14:25 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1424142166 from 645842705@[群:1003578395] '差不多就50w吧'
+02-02 11:14:25 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 11:14:25 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 11:14:25 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 11:14:25 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 11:14:25 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 11:14:25 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 11:14:25 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 11:14:25 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 11:27:03 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 713820783 from 1532233140@[群:1003578395] '现在双峰要80w'
+02-02 11:27:03 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 11:27:03 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 11:27:03 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 11:27:03 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 11:27:03 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 11:27:03 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 11:27:03 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 11:27:03 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 11:41:13 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 182168061 from 932348537@[群:1003578395] '找熟人[face:id=317]'
+02-02 11:41:13 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 11:41:13 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 11:41:13 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 11:41:13 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 11:41:13 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 11:41:13 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 11:41:14 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 11:41:14 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 11:41:42 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 101833368 from 932348537@[群:1003578395] '我舅舅搞房地产的，他上一年在乡下自建3层的房子，只要40w'
+02-02 11:41:42 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 11:41:42 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 11:41:42 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 11:41:42 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 11:41:42 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 11:41:42 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 11:41:42 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 11:41:42 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 11:52:07 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1511642977 from 843298567@[群:546881717] '[image:file=000000904e61704361744f6e65426f747c4d736746696c657c327c3534363838313...,sub_type=0,file_id=000000904e61704361744f6e65426f747c4d736746696c657c327c3534363838313...,url=https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=EhQh-X5i...,file_size=1213684,file_unique=C31DB1C8A79F9D3F21172149D37163DB.jpg]'
+02-02 11:52:07 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 11:52:07 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 11:52:08 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 11:52:08 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 11:52:08 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 11:52:08 [INFO] zhenxun | 下载 https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=EhQh-X5iKdPb9iyjaiyEKkBMLUKqLRj0iUog_woo4-f1loukiwMyBHByb2RQgL2jAVoQKsFVqXhy6jsQfP_XPKMDow&spec=0&rkey=CAESKBkcro_MGujoh45695wDzOI4FKQkxfx3ObSehLQF2ZkwzkrAVuLgjG0 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\compare_download__mute__img.jpg
+02-02 11:52:09 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 11:52:09 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 11:52:10 [INFO] zhenxun | 下载 https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=EhQh-X5iKdPb9iyjaiyEKkBMLUKqLRj0iUog_woo4-f1loukiwMyBHByb2RQgL2jAVoQKsFVqXhy6jsQfP_XPKMDow&spec=0&rkey=CAESKBkcro_MGujoh45695wDzOI4FKQkxfx3ObSehLQF2ZkwzkrAVuLgjG0 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\compare_download_546881717_img.jpg
+02-02 11:52:10 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 11:54:45 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1860063550 from 645842705@[群:1003578395] '房地产亲戚！[face:id=179]'
+02-02 11:54:45 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 11:54:45 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 11:54:45 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 11:54:45 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 11:54:45 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 11:54:45 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 11:54:45 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 11:54:45 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 11:55:07 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1756859812 from 457891411@[群:546881717] '椰汁哥的小鸟😍'
+02-02 11:55:07 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 11:55:07 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 11:55:07 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 11:55:07 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 11:55:07 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 11:55:07 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 11:55:08 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 11:55:08 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 12:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-02 13:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-02 13:12:35 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1297573685 from 782877431@[群:546881717] '[image:file=000000904e61704361744f6e65426f747c4d736746696c657c327c3534363838313...,sub_type=1,file_id=000000904e61704361744f6e65426f747c4d736746696c657c327c3534363838313...,url=https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=EhSz57wW...,file_size=36639,file_unique=173DAB9903DC2FB202F0E84A13891341.jpg]'
+02-02 13:12:35 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 13:12:35 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 13:12:36 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 13:12:36 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 13:12:36 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 13:12:36 [INFO] zhenxun | 下载 https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=EhSz57wWZQEXHqlyMJeHEZnnPv080hifngIg_wooieuQlp2kiwMyBHByb2RQgL2jAVoQ0JRTDkgzcG28BqZwYvHJxg&spec=0&rkey=CAISKKSBekjVG1fMpapXUszj6rXNC80h5MUqd1HDbVHS3GWRqLYvJNAyAHU 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\compare_download__mute__img.jpg
+02-02 13:12:36 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 13:12:37 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 13:12:37 [INFO] zhenxun | 下载 https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=EhSz57wWZQEXHqlyMJeHEZnnPv080hifngIg_wooieuQlp2kiwMyBHByb2RQgL2jAVoQ0JRTDkgzcG28BqZwYvHJxg&spec=0&rkey=CAISKKSBekjVG1fMpapXUszj6rXNC80h5MUqd1HDbVHS3GWRqLYvJNAyAHU 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\compare_download_546881717_img.jpg
+02-02 13:12:37 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 13:18:51 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 2005477783 from 782877431@[群:546881717] 'lol！'
+02-02 13:18:51 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 13:18:51 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 13:18:51 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 13:18:51 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 13:18:51 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 13:18:51 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 13:18:52 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 13:18:52 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 13:23:51 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.private.friend]: Message 1302686005 from 2747277822 '[json:data={"app":"com.tencent.gamecenter.mall","desc":"超级福利丨领整卡+百抽。","meta":{...]'
+02-02 13:23:51 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 13:23:51 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 13:23:51 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 13:23:51 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 13:23:51 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 13:23:51 [ERROR] nonebot | Running Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) failed.
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 27, in <module>
+    nonebot.run()
+    │       └ <function run at 0x000002E5628C6290>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\__init__.py", line 335, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x000002E5628C60E0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\drivers\fastapi.py", line 186, in run
+    uvicorn.run(
+    │       └ <function run at 0x000002E56309BD00>
+    └ <module 'uvicorn' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\main.py", line 579, in run
+    server.run()
+    │      └ <function Server.run at 0x000002E56309B640>
+    └ <uvicorn.server.Server object at 0x000002E5733A1CC0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x000002E56309B6D0>
+           │       │   └ <uvicorn.server.Server object at 0x000002E5733A1CC0>
+           │       └ <function run at 0x000002E5605B0E50>
+           └ <module 'asyncio' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x000002E572EFC0B0>
+           │    └ <function BaseEventLoop.run_until_complete at 0x000002E5606B0280>
+           └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x000002E5622F1510>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x000002E5606B1CF0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x000002E5606609D0>
+    └ <Handle Task.task_wakeup(<_GatheringFu...0862fba'}})]]>)>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<_GatheringFu...0862fba'}})]]>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<_GatheringFu...0862fba'}})]]>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<_GatheringFu...0862fba'}})]]>)>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 476, in check_and_run_matcher
+    await _run_matcher(
+          └ <function _run_matcher at 0x000002E562A19750>
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 428, in _run_matcher
+    await matcher.run(bot, event, state, stack, dependency_cache)
+          │       │   │    │      │      │      └ {<function _event_to_me at 0x000002E562926A70>: <Task finished name='Task-109043820' coro=<_event_to_me() done, defined at C:...
+          │       │   │    │      │      └ <contextlib.AsyncExitStack object at 0x000002E573CBEBC0>
+          │       │   │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}}
+          │       │   │    └ PrivateMessageEvent(time=1738473831, self_id=3973508735, post_type='message', sub_type='friend', user_id=2747277822, message_...
+          │       │   └ Bot(type='OneBot V11', self_id='3973508735')
+          │       └ <function Matcher.run at 0x000002E5629268C0>
+          └ Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 850, in run
+    await self.simple_run(bot, event, state, stack, dependency_cache)
+          │    │          │    │      │      │      └ {<function _event_to_me at 0x000002E562926A70>: <Task finished name='Task-109043820' coro=<_event_to_me() done, defined at C:...
+          │    │          │    │      │      └ <contextlib.AsyncExitStack object at 0x000002E573CBEBC0>
+          │    │          │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}}
+          │    │          │    └ PrivateMessageEvent(time=1738473831, self_id=3973508735, post_type='message', sub_type='friend', user_id=2747277822, message_...
+          │    │          └ Bot(type='OneBot V11', self_id='3973508735')
+          │    └ <function Matcher.simple_run at 0x000002E562926830>
+          └ Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 825, in simple_run
+    await handler(
+          └ Dependent(call=_)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\dependencies\__init__.py", line 94, in __call__
+    return await cast(Callable[..., Awaitable[R]], self.call)(**values)
+                 │    │             │         │    │    │       └ {'session': Session(bot_id='3973508735', bot_type='OneBot V11', platform='qq', level=<SessionLevel.LEVEL1: 1>, id1='274727782...
+                 │    │             │         │    │    └ <function _ at 0x000002E5720B08B0>
+                 │    │             │         │    └ Dependent(call=_)
+                 │    │             │         └ ~R
+                 │    │             └ <class 'collections.abc.Awaitable'>
+                 │    └ typing.Callable
+                 └ <function cast at 0x000002E5604404C0>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\parse_bilibili\__init__.py", line 86, in _
+    get_url = (qqdocurl_value if qqdocurl_value else jumpUrl_value).split("?")[
+               │                 │                   └ {}
+               │                 └ {}
+               └ {}
+
+AttributeError: 'dict' object has no attribute 'split'
+02-02 13:23:51 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 13:23:51 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.nonebot_plugin_sparkapi.matchers.block_private, lineno=11)
+02-02 13:24:01 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.nonebot_plugin_sparkapi.matchers.block_private, lineno=11) running complete
+02-02 13:24:01 [ERROR] nonebot | Running Matcher(type='message', module=zhenxun.plugins.nonebot_plugin_sparkapi.matchers.block_private, lineno=11) failed.
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 27, in <module>
+    nonebot.run()
+    │       └ <function run at 0x000002E5628C6290>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\__init__.py", line 335, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x000002E5628C60E0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\drivers\fastapi.py", line 186, in run
+    uvicorn.run(
+    │       └ <function run at 0x000002E56309BD00>
+    └ <module 'uvicorn' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\main.py", line 579, in run
+    server.run()
+    │      └ <function Server.run at 0x000002E56309B640>
+    └ <uvicorn.server.Server object at 0x000002E5733A1CC0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x000002E56309B6D0>
+           │       │   └ <uvicorn.server.Server object at 0x000002E5733A1CC0>
+           │       └ <function run at 0x000002E5605B0E50>
+           └ <module 'asyncio' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x000002E572EFC0B0>
+           │    └ <function BaseEventLoop.run_until_complete at 0x000002E5606B0280>
+           └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x000002E5622F1510>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x000002E5606B1CF0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x000002E5606609D0>
+    └ <Handle Task.task_wakeup(<_GatheringFu...result=[None]>)>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<_GatheringFu...result=[None]>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<_GatheringFu...result=[None]>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<_GatheringFu...result=[None]>)>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 476, in check_and_run_matcher
+    await _run_matcher(
+          └ <function _run_matcher at 0x000002E562A19750>
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 428, in _run_matcher
+    await matcher.run(bot, event, state, stack, dependency_cache)
+          │       │   │    │      │      │      └ {<function _event_to_me at 0x000002E562926A70>: <Task finished name='Task-109043820' coro=<_event_to_me() done, defined at C:...
+          │       │   │    │      │      └ <contextlib.AsyncExitStack object at 0x000002E573CBEBC0>
+          │       │   │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}}
+          │       │   │    └ PrivateMessageEvent(time=1738473831, self_id=3973508735, post_type='message', sub_type='friend', user_id=2747277822, message_...
+          │       │   └ Bot(type='OneBot V11', self_id='3973508735')
+          │       └ <function Matcher.run at 0x000002E5629268C0>
+          └ Matcher(type='message', module=zhenxun.plugins.nonebot_plugin_sparkapi.matchers.block_private, lineno=11)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 850, in run
+    await self.simple_run(bot, event, state, stack, dependency_cache)
+          │    │          │    │      │      │      └ {<function _event_to_me at 0x000002E562926A70>: <Task finished name='Task-109043820' coro=<_event_to_me() done, defined at C:...
+          │    │          │    │      │      └ <contextlib.AsyncExitStack object at 0x000002E573CBEBC0>
+          │    │          │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}}
+          │    │          │    └ PrivateMessageEvent(time=1738473831, self_id=3973508735, post_type='message', sub_type='friend', user_id=2747277822, message_...
+          │    │          └ Bot(type='OneBot V11', self_id='3973508735')
+          │    └ <function Matcher.simple_run at 0x000002E562926830>
+          └ Matcher(type='message', module=zhenxun.plugins.nonebot_plugin_sparkapi.matchers.block_private, lineno=11)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 825, in simple_run
+    await handler(
+          └ Dependent(call=_)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\dependencies\__init__.py", line 94, in __call__
+    return await cast(Callable[..., Awaitable[R]], self.call)(**values)
+                 │    │             │         │    │    │       └ {}
+                 │    │             │         │    │    └ <function _ at 0x000002E57257A680>
+                 │    │             │         │    └ Dependent(call=_)
+                 │    │             │         └ ~R
+                 │    │             └ <class 'collections.abc.Awaitable'>
+                 │    └ typing.Callable
+                 └ <function cast at 0x000002E5604404C0>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\matchers\block_private.py", line 18, in _
+    await matcher_blockprivate.finish("私聊功能已关闭！如有需要，请联系管理员。")
+          │                    └ <classmethod(<function Matcher.finish at 0x000002E562925D80>)>
+          └ Matcher(type='message', module=zhenxun.plugins.nonebot_plugin_sparkapi.matchers.block_private, lineno=11)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 582, in finish
+    await cls.send(message, **kwargs)
+          │   │    │          └ {}
+          │   │    └ '私聊功能已关闭！如有需要，请联系管理员。'
+          │   └ <classmethod(<function Matcher.send at 0x000002E562925CF0>)>
+          └ Matcher(type='message', module=zhenxun.plugins.nonebot_plugin_sparkapi.matchers.block_private, lineno=11)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 566, in send
+    return await bot.send(event=event, message=_message, **kwargs)
+                 │   │          │              │           └ {}
+                 │   │          │              └ '私聊功能已关闭！如有需要，请联系管理员。'
+                 │   │          └ PrivateMessageEvent(time=1738473831, self_id=3973508735, post_type='message', sub_type='friend', user_id=2747277822, message_...
+                 │   └ <function Bot.send at 0x000002E562E24EE0>
+                 └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\bot.py", line 237, in send
+    return await self.__class__.send_handler(self, event, message, **kwargs)
+                 │    │                      │     │      │          └ {}
+                 │    │                      │     │      └ '私聊功能已关闭！如有需要，请联系管理员。'
+                 │    │                      │     └ PrivateMessageEvent(time=1738473831, self_id=3973508735, post_type='message', sub_type='friend', user_id=2747277822, message_...
+                 │    │                      └ Bot(type='OneBot V11', self_id='3973508735')
+                 │    └ <attribute '__class__' of 'object' objects>
+                 └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\bot.py", line 190, in send
+    return await bot.send_msg(**params)
+                 │              └ {'user_id': 2747277822, 'message_type': 'private', 'message': [MessageSegment(type='text', data={'text': '私聊功能已关闭！如有需要，请联系管理员...
+                 └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\adapter\bot.py", line 122, in call_api
+    raise exception
+          └ ActionFailed(status='failed', retcode=1200, data=None, message='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgServic...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\adapter\bot.py", line 97, in call_api
+    result = await self.adapter._call_api(self, api, **data)
+                   │    │       │         │     │      └ {'user_id': 2747277822, 'message_type': 'private', 'message': [MessageSegment(type='text', data={'text': '私聊功能已关闭！如有需要，请联系管理员...
+                   │    │       │         │     └ 'send_msg'
+                   │    │       │         └ Bot(type='OneBot V11', self_id='3973508735')
+                   │    │       └ <function Adapter._call_api at 0x000002E560138820>
+                   │    └ Adapter(name='OneBot V11')
+                   └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\adapter.py", line 147, in _call_api
+    return handle_api_result(await self._result_store.fetch(seq, timeout))
+           │                       │    │             │     │    └ 30.0
+           │                       │    │             │     └ 88737
+           │                       │    │             └ <function ResultStore.fetch at 0x000002E562E26050>
+           │                       │    └ <nonebot.adapters.onebot.store.ResultStore object at 0x000002E562ACD960>
+           │                       └ Adapter(name='OneBot V11')
+           └ <function handle_api_result at 0x000002E562DB5000>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\utils.py", line 58, in handle_api_result
+    raise ActionFailed(**result)
+          │              └ {'status': 'failed', 'retcode': 1200, 'data': None, 'message': 'Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgServic...
+          └ <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>
+
+nonebot.adapters.onebot.v11.exception.ActionFailed: ActionFailed(status='failed', retcode=1200, data=None, message='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', wording='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', echo='88737')
+02-02 13:38:27 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 2038334608 from 499736955@[群:546881717] 'LOL！'
+02-02 13:38:27 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 13:38:27 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 13:38:28 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 13:38:28 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 13:38:28 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 13:38:28 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 13:38:28 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 13:38:28 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 13:41:43 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 230196258 from 457891411@[群:546881717] '人呐！'
+02-02 13:41:43 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 13:41:43 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 13:41:43 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 13:41:43 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 13:41:43 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 13:41:43 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 13:41:43 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 13:41:43 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 13:41:45 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 1291076989 from 457891411@[群:546881717] '没人哒！'
+02-02 13:41:45 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 13:41:45 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 13:41:45 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 13:41:45 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 13:41:45 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 13:41:45 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 13:41:45 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 13:41:45 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 13:53:46 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 2125268974 from 782877431@[群:546881717] '?'
+02-02 13:53:46 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 13:53:46 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 13:53:47 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 13:53:47 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 13:53:47 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 13:53:47 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 13:53:47 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 13:53:47 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 14:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-02 15:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-02 15:01:00 [INFO] zhenxun | group list is [<GroupConsole>, <GroupConsole>, <GroupConsole>]
+02-02 15:01:00 [INFO] zhenxun | key is 1003578395:None, check_func is None
+02-02 15:01:00 [INFO] zhenxun | is_run value True
+02-02 15:01:00 [INFO] zhenxun | target is Target({'id': '1003578395', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-02 15:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-02 15:01:00 [INFO] zhenxun | key is 992333365:None, check_func is None
+02-02 15:01:00 [INFO] zhenxun | is_run value True
+02-02 15:01:00 [INFO] zhenxun | target is Target({'id': '992333365', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-02 15:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-02 15:01:00 [ERROR] zhenxun | CMD[真寻日报] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='88938')
+02-02 15:01:00 [INFO] zhenxun | key is 546881717:None, check_func is None
+02-02 15:01:00 [INFO] zhenxun | is_run value True
+02-02 15:01:00 [INFO] zhenxun | target is Target({'id': '546881717', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-02 15:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-02 15:01:01 [INFO] zhenxun | begin to build uni message!!!
+02-02 15:01:01 [INFO] zhenxun | group list is [<GroupConsole>, <GroupConsole>, <GroupConsole>]
+02-02 15:01:01 [INFO] zhenxun | key is 1003578395:None, check_func is None
+02-02 15:01:01 [INFO] zhenxun | is_run value True
+02-02 15:01:01 [INFO] zhenxun | target is Target({'id': '1003578395', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-02 15:01:01 [INFO] zhenxun | begin to build uni message!!!
+02-02 15:01:04 [INFO] zhenxun | key is 992333365:None, check_func is None
+02-02 15:01:04 [INFO] zhenxun | is_run value True
+02-02 15:01:04 [INFO] zhenxun | target is Target({'id': '992333365', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-02 15:01:04 [INFO] zhenxun | begin to build uni message!!!
+02-02 15:01:04 [ERROR] zhenxun | CMD[真寻日报] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='88942')
+02-02 15:01:04 [INFO] zhenxun | key is 546881717:None, check_func is None
+02-02 15:01:04 [INFO] zhenxun | is_run value True
+02-02 15:01:04 [INFO] zhenxun | target is Target({'id': '546881717', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-02 15:01:04 [INFO] zhenxun | begin to build uni message!!!
+02-02 15:01:05 [INFO] zhenxun | 每日真寻日报发送...
+02-02 15:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-02 16:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-02 17:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-02 18:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-02 18:01:00 [INFO] zhenxun | group list is [<GroupConsole>, <GroupConsole>, <GroupConsole>]
+02-02 18:01:00 [INFO] zhenxun | key is 1003578395:None, check_func is None
+02-02 18:01:00 [INFO] zhenxun | is_run value True
+02-02 18:01:00 [INFO] zhenxun | target is Target({'id': '1003578395', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-02 18:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-02 18:01:00 [INFO] zhenxun | 成功获取原神当前up信息...当前up池: 「流霆贯夜」 & 「炉边烬影」 & 「神铸赋形」
+02-02 18:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-02 18:01:00 [INFO] zhenxun | key is 992333365:None, check_func is None
+02-02 18:01:00 [INFO] zhenxun | is_run value True
+02-02 18:01:00 [INFO] zhenxun | target is Target({'id': '992333365', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-02 18:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-02 18:01:01 [ERROR] zhenxun | CMD[被动查询微博热搜] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='89306')
+02-02 18:01:01 [INFO] zhenxun | key is 546881717:None, check_func is None
+02-02 18:01:01 [INFO] zhenxun | is_run value True
+02-02 18:01:01 [INFO] zhenxun | target is Target({'id': '546881717', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-02 18:01:01 [INFO] zhenxun | begin to build uni message!!!
+02-02 18:01:01 [INFO] zhenxun | begin to build uni message!!!
+02-02 18:01:01 [INFO] zhenxun | group list is [<GroupConsole>, <GroupConsole>, <GroupConsole>]
+02-02 18:01:01 [INFO] zhenxun | key is 1003578395:None, check_func is None
+02-02 18:01:01 [INFO] zhenxun | is_run value True
+02-02 18:01:01 [INFO] zhenxun | target is Target({'id': '1003578395', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-02 18:01:01 [INFO] zhenxun | begin to build uni message!!!
+02-02 18:01:04 [INFO] zhenxun | key is 992333365:None, check_func is None
+02-02 18:01:04 [INFO] zhenxun | is_run value True
+02-02 18:01:04 [INFO] zhenxun | target is Target({'id': '992333365', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-02 18:01:04 [INFO] zhenxun | begin to build uni message!!!
+02-02 18:01:04 [ERROR] zhenxun | CMD[被动查询微博热搜] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 120,\n    "errMsg": ""\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='89310')
+02-02 18:01:04 [INFO] zhenxun | key is 546881717:None, check_func is None
+02-02 18:01:04 [INFO] zhenxun | is_run value True
+02-02 18:01:04 [INFO] zhenxun | target is Target({'id': '546881717', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-02 18:01:04 [INFO] zhenxun | begin to build uni message!!!
+02-02 18:01:05 [INFO] zhenxun | 定时查询微博热搜
+02-02 18:01:44 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 596526536 from 645842705@[群:1003578395] '怎么天天热搜哪吒都占一大半'
+02-02 18:01:44 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 18:01:44 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 18:01:44 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 18:01:44 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 18:01:44 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 18:01:44 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 18:01:44 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 18:01:44 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 18:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-02 18:27:17 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.private.friend]: Message 1131402840 from 2747277822 '[json:data={"app":"com.tencent.gamecenter.mall","desc":"燕云十六声PC官服预下载开启","meta"...]'
+02-02 18:27:17 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 18:27:17 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 18:27:18 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 18:27:18 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 18:27:18 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 18:27:18 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 18:27:18 [ERROR] nonebot | Running Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) failed.
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 27, in <module>
+    nonebot.run()
+    │       └ <function run at 0x000002E5628C6290>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\__init__.py", line 335, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x000002E5628C60E0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\drivers\fastapi.py", line 186, in run
+    uvicorn.run(
+    │       └ <function run at 0x000002E56309BD00>
+    └ <module 'uvicorn' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\main.py", line 579, in run
+    server.run()
+    │      └ <function Server.run at 0x000002E56309B640>
+    └ <uvicorn.server.Server object at 0x000002E5733A1CC0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x000002E56309B6D0>
+           │       │   └ <uvicorn.server.Server object at 0x000002E5733A1CC0>
+           │       └ <function run at 0x000002E5605B0E50>
+           └ <module 'asyncio' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x000002E572EFC0B0>
+           │    └ <function BaseEventLoop.run_until_complete at 0x000002E5606B0280>
+           └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x000002E5622F1510>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x000002E5606B1CF0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x000002E5606609D0>
+    └ <Handle Task.task_wakeup(<_GatheringFu...7416de9'}})]]>)>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<_GatheringFu...7416de9'}})]]>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<_GatheringFu...7416de9'}})]]>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<_GatheringFu...7416de9'}})]]>)>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 476, in check_and_run_matcher
+    await _run_matcher(
+          └ <function _run_matcher at 0x000002E562A19750>
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 428, in _run_matcher
+    await matcher.run(bot, event, state, stack, dependency_cache)
+          │       │   │    │      │      │      └ {<function _event_to_me at 0x000002E562926A70>: <Task finished name='Task-109809329' coro=<_event_to_me() done, defined at C:...
+          │       │   │    │      │      └ <contextlib.AsyncExitStack object at 0x000002E578B05F60>
+          │       │   │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}}
+          │       │   │    └ PrivateMessageEvent(time=1738492037, self_id=3973508735, post_type='message', sub_type='friend', user_id=2747277822, message_...
+          │       │   └ Bot(type='OneBot V11', self_id='3973508735')
+          │       └ <function Matcher.run at 0x000002E5629268C0>
+          └ Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 850, in run
+    await self.simple_run(bot, event, state, stack, dependency_cache)
+          │    │          │    │      │      │      └ {<function _event_to_me at 0x000002E562926A70>: <Task finished name='Task-109809329' coro=<_event_to_me() done, defined at C:...
+          │    │          │    │      │      └ <contextlib.AsyncExitStack object at 0x000002E578B05F60>
+          │    │          │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}}
+          │    │          │    └ PrivateMessageEvent(time=1738492037, self_id=3973508735, post_type='message', sub_type='friend', user_id=2747277822, message_...
+          │    │          └ Bot(type='OneBot V11', self_id='3973508735')
+          │    └ <function Matcher.simple_run at 0x000002E562926830>
+          └ Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 825, in simple_run
+    await handler(
+          └ Dependent(call=_)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\dependencies\__init__.py", line 94, in __call__
+    return await cast(Callable[..., Awaitable[R]], self.call)(**values)
+                 │    │             │         │    │    │       └ {'session': Session(bot_id='3973508735', bot_type='OneBot V11', platform='qq', level=<SessionLevel.LEVEL1: 1>, id1='274727782...
+                 │    │             │         │    │    └ <function _ at 0x000002E5720B08B0>
+                 │    │             │         │    └ Dependent(call=_)
+                 │    │             │         └ ~R
+                 │    │             └ <class 'collections.abc.Awaitable'>
+                 │    └ typing.Callable
+                 └ <function cast at 0x000002E5604404C0>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\parse_bilibili\__init__.py", line 86, in _
+    get_url = (qqdocurl_value if qqdocurl_value else jumpUrl_value).split("?")[
+               │                 │                   └ {}
+               │                 └ {}
+               └ {}
+
+AttributeError: 'dict' object has no attribute 'split'
+02-02 18:27:18 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.nonebot_plugin_sparkapi.matchers.block_private, lineno=11)
+02-02 18:27:28 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.nonebot_plugin_sparkapi.matchers.block_private, lineno=11) running complete
+02-02 18:27:28 [ERROR] nonebot | Running Matcher(type='message', module=zhenxun.plugins.nonebot_plugin_sparkapi.matchers.block_private, lineno=11) failed.
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 27, in <module>
+    nonebot.run()
+    │       └ <function run at 0x000002E5628C6290>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\__init__.py", line 335, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x000002E5628C60E0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\drivers\fastapi.py", line 186, in run
+    uvicorn.run(
+    │       └ <function run at 0x000002E56309BD00>
+    └ <module 'uvicorn' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\main.py", line 579, in run
+    server.run()
+    │      └ <function Server.run at 0x000002E56309B640>
+    └ <uvicorn.server.Server object at 0x000002E5733A1CC0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x000002E56309B6D0>
+           │       │   └ <uvicorn.server.Server object at 0x000002E5733A1CC0>
+           │       └ <function run at 0x000002E5605B0E50>
+           └ <module 'asyncio' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x000002E572EFC0B0>
+           │    └ <function BaseEventLoop.run_until_complete at 0x000002E5606B0280>
+           └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x000002E5622F1510>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x000002E5606B1CF0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x000002E5606609D0>
+    └ <Handle Task.task_wakeup(<_GatheringFu...result=[None]>)>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<_GatheringFu...result=[None]>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<_GatheringFu...result=[None]>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<_GatheringFu...result=[None]>)>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 476, in check_and_run_matcher
+    await _run_matcher(
+          └ <function _run_matcher at 0x000002E562A19750>
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 428, in _run_matcher
+    await matcher.run(bot, event, state, stack, dependency_cache)
+          │       │   │    │      │      │      └ {<function _event_to_me at 0x000002E562926A70>: <Task finished name='Task-109809329' coro=<_event_to_me() done, defined at C:...
+          │       │   │    │      │      └ <contextlib.AsyncExitStack object at 0x000002E578B05F60>
+          │       │   │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}}
+          │       │   │    └ PrivateMessageEvent(time=1738492037, self_id=3973508735, post_type='message', sub_type='friend', user_id=2747277822, message_...
+          │       │   └ Bot(type='OneBot V11', self_id='3973508735')
+          │       └ <function Matcher.run at 0x000002E5629268C0>
+          └ Matcher(type='message', module=zhenxun.plugins.nonebot_plugin_sparkapi.matchers.block_private, lineno=11)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 850, in run
+    await self.simple_run(bot, event, state, stack, dependency_cache)
+          │    │          │    │      │      │      └ {<function _event_to_me at 0x000002E562926A70>: <Task finished name='Task-109809329' coro=<_event_to_me() done, defined at C:...
+          │    │          │    │      │      └ <contextlib.AsyncExitStack object at 0x000002E578B05F60>
+          │    │          │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}}
+          │    │          │    └ PrivateMessageEvent(time=1738492037, self_id=3973508735, post_type='message', sub_type='friend', user_id=2747277822, message_...
+          │    │          └ Bot(type='OneBot V11', self_id='3973508735')
+          │    └ <function Matcher.simple_run at 0x000002E562926830>
+          └ Matcher(type='message', module=zhenxun.plugins.nonebot_plugin_sparkapi.matchers.block_private, lineno=11)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 825, in simple_run
+    await handler(
+          └ Dependent(call=_)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\dependencies\__init__.py", line 94, in __call__
+    return await cast(Callable[..., Awaitable[R]], self.call)(**values)
+                 │    │             │         │    │    │       └ {}
+                 │    │             │         │    │    └ <function _ at 0x000002E57257A680>
+                 │    │             │         │    └ Dependent(call=_)
+                 │    │             │         └ ~R
+                 │    │             └ <class 'collections.abc.Awaitable'>
+                 │    └ typing.Callable
+                 └ <function cast at 0x000002E5604404C0>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\matchers\block_private.py", line 18, in _
+    await matcher_blockprivate.finish("私聊功能已关闭！如有需要，请联系管理员。")
+          │                    └ <classmethod(<function Matcher.finish at 0x000002E562925D80>)>
+          └ Matcher(type='message', module=zhenxun.plugins.nonebot_plugin_sparkapi.matchers.block_private, lineno=11)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 582, in finish
+    await cls.send(message, **kwargs)
+          │   │    │          └ {}
+          │   │    └ '私聊功能已关闭！如有需要，请联系管理员。'
+          │   └ <classmethod(<function Matcher.send at 0x000002E562925CF0>)>
+          └ Matcher(type='message', module=zhenxun.plugins.nonebot_plugin_sparkapi.matchers.block_private, lineno=11)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 566, in send
+    return await bot.send(event=event, message=_message, **kwargs)
+                 │   │          │              │           └ {}
+                 │   │          │              └ '私聊功能已关闭！如有需要，请联系管理员。'
+                 │   │          └ PrivateMessageEvent(time=1738492037, self_id=3973508735, post_type='message', sub_type='friend', user_id=2747277822, message_...
+                 │   └ <function Bot.send at 0x000002E562E24EE0>
+                 └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\bot.py", line 237, in send
+    return await self.__class__.send_handler(self, event, message, **kwargs)
+                 │    │                      │     │      │          └ {}
+                 │    │                      │     │      └ '私聊功能已关闭！如有需要，请联系管理员。'
+                 │    │                      │     └ PrivateMessageEvent(time=1738492037, self_id=3973508735, post_type='message', sub_type='friend', user_id=2747277822, message_...
+                 │    │                      └ Bot(type='OneBot V11', self_id='3973508735')
+                 │    └ <attribute '__class__' of 'object' objects>
+                 └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\bot.py", line 190, in send
+    return await bot.send_msg(**params)
+                 │              └ {'user_id': 2747277822, 'message_type': 'private', 'message': [MessageSegment(type='text', data={'text': '私聊功能已关闭！如有需要，请联系管理员...
+                 └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\adapter\bot.py", line 122, in call_api
+    raise exception
+          └ ActionFailed(status='failed', retcode=1200, data=None, message='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgServic...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\adapter\bot.py", line 97, in call_api
+    result = await self.adapter._call_api(self, api, **data)
+                   │    │       │         │     │      └ {'user_id': 2747277822, 'message_type': 'private', 'message': [MessageSegment(type='text', data={'text': '私聊功能已关闭！如有需要，请联系管理员...
+                   │    │       │         │     └ 'send_msg'
+                   │    │       │         └ Bot(type='OneBot V11', self_id='3973508735')
+                   │    │       └ <function Adapter._call_api at 0x000002E560138820>
+                   │    └ Adapter(name='OneBot V11')
+                   └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\adapter.py", line 147, in _call_api
+    return handle_api_result(await self._result_store.fetch(seq, timeout))
+           │                       │    │             │     │    └ 30.0
+           │                       │    │             │     └ 89364
+           │                       │    │             └ <function ResultStore.fetch at 0x000002E562E26050>
+           │                       │    └ <nonebot.adapters.onebot.store.ResultStore object at 0x000002E562ACD960>
+           │                       └ Adapter(name='OneBot V11')
+           └ <function handle_api_result at 0x000002E562DB5000>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\utils.py", line 58, in handle_api_result
+    raise ActionFailed(**result)
+          │              └ {'status': 'failed', 'retcode': 1200, 'data': None, 'message': 'Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgServic...
+          └ <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>
+
+nonebot.adapters.onebot.v11.exception.ActionFailed: ActionFailed(status='failed', retcode=1200, data=None, message='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', wording='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', echo='89364')
+02-02 19:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-02 19:08:00 [WARNING] apscheduler | Run time of job "_ (trigger: interval[0:01:00], next run at: 2025-02-02 19:08:58 CST)" was missed by 0:00:01.307807
+02-02 19:24:16 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 541472815 from 1037450768@[群:1003578395] '票房冠军嘛'
+02-02 19:24:16 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 19:24:16 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 19:24:16 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 19:24:16 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 19:24:16 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 19:24:16 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 19:24:17 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 19:24:17 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 19:31:57 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 2117911379 from 1046393368@[群:546881717] 'lol'
+02-02 19:31:57 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 19:31:57 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 19:31:57 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 19:31:57 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 19:31:57 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 19:31:57 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 19:31:57 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 19:31:57 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 19:34:03 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 845683831 from 457891411@[群:546881717] 'lol'
+02-02 19:34:03 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 19:34:03 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 19:34:03 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 19:34:03 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 19:34:03 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 19:34:03 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 19:34:03 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 19:34:03 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 19:53:51 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 2147081745 from 1095712946@[群:546881717] 'lol'
+02-02 19:53:51 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-02 19:53:51 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-02 19:53:51 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-02 19:53:51 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-02 19:53:51 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-02 19:53:51 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-02 19:53:52 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+02-02 19:53:52 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete
+02-02 20:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-02 21:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-02 22:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-02 23:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-02 23:59:00 [INFO] zhenxun | begin to build uni message!!!
+02-02 23:59:00 [INFO] zhenxun | group list is [<GroupConsole>, <GroupConsole>, <GroupConsole>]
+02-02 23:59:00 [INFO] zhenxun | key is 1003578395:None, check_func is <function check at 0x000002E5674B0A60>
+02-02 23:59:00 [INFO] zhenxun | is_run value False
+02-02 23:59:00 [INFO] zhenxun | key is 992333365:None, check_func is <function check at 0x000002E5674B0A60>
+02-02 23:59:00 [INFO] zhenxun | is_run value True
+02-02 23:59:00 [INFO] zhenxun | target is Target({'id': '992333365', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-02 23:59:00 [INFO] zhenxun | begin to build uni message!!!
+02-02 23:59:00 [ERROR] zhenxun | CMD[被动早晚安] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": -1,\n    "errMsg": "rich media transfer failed"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": -1,\n    "errMsg": "rich media transfer failed"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='90044')
+02-02 23:59:00 [INFO] zhenxun | key is 546881717:None, check_func is <function check at 0x000002E5674B0A60>
+02-02 23:59:00 [INFO] zhenxun | is_run value True
+02-02 23:59:00 [INFO] zhenxun | target is Target({'id': '546881717', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-02 23:59:00 [INFO] zhenxun | begin to build uni message!!!
+02-02 23:59:00 [ERROR] zhenxun | CMD[被动早晚安] [Target]([546881717:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": -1,\n    "errMsg": "rich media transfer failed"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": -1,\n    "errMsg": "rich media transfer failed"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='90045')
+02-02 23:59:00 [INFO] zhenxun | 每日晚安发送...

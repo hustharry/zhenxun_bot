@@ -1,0 +1,360 @@
+09-18 23:11:58 [INFO] zhenxun | 加载配置完成，共加载 40 个配置组及对应 123 个配置项
+09-18 23:12:01 [SUCCESS] nonebot | Succeeded to load plugin "nonebot_plugin_apscheduler"
+09-18 23:12:02 [SUCCESS] nonebot | Succeeded to load plugin "nonebot_plugin_alconna:uniseg" from "nonebot_plugin_alconna.uniseg"
+09-18 23:12:02 [SUCCESS] nonebot | Succeeded to load plugin "nonebot_plugin_alconna"
+09-18 23:12:02 [SUCCESS] nonebot | Succeeded to load plugin "nonebot_plugin_userinfo"
+09-18 23:12:03 [SUCCESS] nonebot | Succeeded to load plugin "nonebot_plugin_htmlrender"
+09-18 23:12:04 [SUCCESS] nonebot | Succeeded to load plugin "about" from "zhenxun.builtin_plugins.about"
+09-18 23:12:04 [SUCCESS] nonebot | Succeeded to load plugin "nickname" from "zhenxun.builtin_plugins.nickname"
+09-18 23:12:05 [SUCCESS] nonebot | Succeeded to load plugin "web_ui" from "zhenxun.builtin_plugins.web_ui"
+09-18 23:12:05 [SUCCESS] nonebot | Succeeded to load plugin "scripts" from "zhenxun.builtin_plugins.scripts"
+09-18 23:12:05 [SUCCESS] nonebot | Succeeded to load plugin "restart" from "zhenxun.builtin_plugins.restart"
+09-18 23:12:05 [SUCCESS] nonebot | Succeeded to load plugin "superuser:reload_setting" from "zhenxun.builtin_plugins.superuser.reload_setting"
+09-18 23:12:08 [SUCCESS] nonebot | Succeeded to load plugin "superuser:request_manage" from "zhenxun.builtin_plugins.superuser.request_manage"
+09-18 23:12:08 [SUCCESS] nonebot | Succeeded to load plugin "superuser:update_fg_info" from "zhenxun.builtin_plugins.superuser.update_fg_info"
+09-18 23:12:08 [SUCCESS] nonebot | Succeeded to load plugin "superuser:fg_manage" from "zhenxun.builtin_plugins.superuser.fg_manage"
+09-18 23:12:08 [SUCCESS] nonebot | Succeeded to load plugin "superuser:exec_sql" from "zhenxun.builtin_plugins.superuser.exec_sql"
+09-18 23:12:08 [SUCCESS] nonebot | Succeeded to load plugin "superuser:super_help" from "zhenxun.builtin_plugins.superuser.super_help"
+09-18 23:12:08 [SUCCESS] nonebot | Succeeded to load plugin "superuser:set_admin" from "zhenxun.builtin_plugins.superuser.set_admin"
+09-18 23:12:08 [SUCCESS] nonebot | Succeeded to load plugin "superuser:group_manage" from "zhenxun.builtin_plugins.superuser.group_manage"
+09-18 23:12:08 [SUCCESS] nonebot | Succeeded to load plugin "superuser:broadcast" from "zhenxun.builtin_plugins.superuser.broadcast"
+09-18 23:12:08 [SUCCESS] nonebot | Succeeded to load plugin "superuser:clear_data" from "zhenxun.builtin_plugins.superuser.clear_data"
+09-18 23:12:08 [SUCCESS] nonebot | Succeeded to load plugin "superuser" from "zhenxun.builtin_plugins.superuser"
+09-18 23:12:08 [SUCCESS] nonebot | Succeeded to load plugin "record_request" from "zhenxun.builtin_plugins.record_request"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "admin:plugin_switch" from "zhenxun.builtin_plugins.admin.plugin_switch"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "admin:ban" from "zhenxun.builtin_plugins.admin.ban"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "admin:group_update" from "zhenxun.builtin_plugins.admin.group_update"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "admin:admin_watch" from "zhenxun.builtin_plugins.admin.admin_watch"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "admin:group_member_update" from "zhenxun.builtin_plugins.admin.group_member_update"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "admin:admin_help" from "zhenxun.builtin_plugins.admin.admin_help"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "admin:welcome_message" from "zhenxun.builtin_plugins.admin.welcome_message"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "admin" from "zhenxun.builtin_plugins.admin"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "help_help" from "zhenxun.builtin_plugins.help_help"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "init:init_config" from "zhenxun.builtin_plugins.init.init_config"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "init:init_plugin" from "zhenxun.builtin_plugins.init.init_plugin"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "init" from "zhenxun.builtin_plugins.init"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "platform:group_handle" from "zhenxun.builtin_plugins.platform.qq.group_handle"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "platform" from "zhenxun.builtin_plugins.platform"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "help" from "zhenxun.builtin_plugins.help"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "hooks:ban_hook" from "zhenxun.builtin_plugins.hooks.ban_hook"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "hooks:chkdsk_hook" from "zhenxun.builtin_plugins.hooks.chkdsk_hook"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "hooks:withdraw_hook" from "zhenxun.builtin_plugins.hooks.withdraw_hook"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "hooks:auth_hook" from "zhenxun.builtin_plugins.hooks.auth_hook"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "hooks" from "zhenxun.builtin_plugins.hooks"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "scheduler:auto_backup" from "zhenxun.builtin_plugins.scheduler.auto_backup"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "scheduler:morning" from "zhenxun.builtin_plugins.scheduler.morning"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "scheduler:chat_check" from "zhenxun.builtin_plugins.scheduler.chat_check"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "scheduler:auto_update_group" from "zhenxun.builtin_plugins.scheduler.auto_update_group"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "scheduler" from "zhenxun.builtin_plugins.scheduler"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "auto_update" from "zhenxun.builtin_plugins.auto_update"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "plugin_store" from "zhenxun.builtin_plugins.plugin_store"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "shop" from "zhenxun.builtin_plugins.shop"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "check" from "zhenxun.builtin_plugins.check"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "sign_in" from "zhenxun.builtin_plugins.sign_in"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "statistics:statistics_handle" from "zhenxun.builtin_plugins.statistics.statistics_handle"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "statistics:statistics_hook" from "zhenxun.builtin_plugins.statistics.statistics_hook"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "statistics" from "zhenxun.builtin_plugins.statistics"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "chat_history:chat_message_handle" from "zhenxun.builtin_plugins.chat_history.chat_message_handle"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "chat_history:chat_message" from "zhenxun.builtin_plugins.chat_history.chat_message"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "chat_history" from "zhenxun.builtin_plugins.chat_history"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "wbtop" from "zhenxun.plugins.wbtop"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "bilibili_sub" from "zhenxun.plugins.bilibili_sub"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "fudu" from "zhenxun.plugins.fudu"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "search_buff_skin_price" from "zhenxun.plugins.search_buff_skin_price"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "epic" from "zhenxun.plugins.epic"
+09-18 23:12:09 [SUCCESS] nonebot | Succeeded to load plugin "poke" from "zhenxun.plugins.poke"
+09-18 23:12:12 [SUCCESS] nonebot | Succeeded to load plugin "word_clouds" from "zhenxun.plugins.word_clouds"
+09-18 23:12:12 [SUCCESS] nonebot | Succeeded to load plugin "image_management:image_management_log" from "zhenxun.plugins.image_management.image_management_log"
+09-18 23:12:12 [SUCCESS] nonebot | Succeeded to load plugin "image_management:send_image" from "zhenxun.plugins.image_management.send_image"
+09-18 23:12:12 [SUCCESS] nonebot | Succeeded to load plugin "image_management:delete_image" from "zhenxun.plugins.image_management.delete_image"
+09-18 23:12:12 [SUCCESS] nonebot | Succeeded to load plugin "image_management:move_image" from "zhenxun.plugins.image_management.move_image"
+09-18 23:12:12 [SUCCESS] nonebot | Succeeded to load plugin "image_management:upload_image" from "zhenxun.plugins.image_management.upload_image"
+09-18 23:12:12 [SUCCESS] nonebot | Succeeded to load plugin "image_management" from "zhenxun.plugins.image_management"
+09-18 23:12:13 [SUCCESS] nonebot | Succeeded to load plugin "ai" from "zhenxun.plugins.ai"
+09-18 23:12:13 [SUCCESS] nonebot | Succeeded to load plugin "what_anime" from "zhenxun.plugins.what_anime"
+09-18 23:12:13 [SUCCESS] nonebot | Succeeded to load plugin "pid_search" from "zhenxun.plugins.pid_search"
+09-18 23:12:13 [SUCCESS] nonebot | Succeeded to load plugin "pixiv_rank_search" from "zhenxun.plugins.pixiv_rank_search"
+09-18 23:12:13 [SUCCESS] nonebot | Succeeded to load plugin "search_anime" from "zhenxun.plugins.search_anime"
+09-18 23:12:13 [SUCCESS] nonebot | Succeeded to load plugin "group_welcome_msg" from "zhenxun.plugins.group_welcome_msg"
+09-18 23:12:13 [SUCCESS] nonebot | Succeeded to load plugin "bt" from "zhenxun.plugins.bt"
+09-18 23:12:13 [SUCCESS] nonebot | Succeeded to load plugin "nbnhhsh" from "zhenxun.plugins.nbnhhsh"
+09-18 23:12:13 [SUCCESS] nonebot | Succeeded to load plugin "github_sub" from "zhenxun.plugins.github_sub"
+09-18 23:12:13 [SUCCESS] nonebot | Succeeded to load plugin "word_bank:message_handle" from "zhenxun.plugins.word_bank.message_handle"
+09-18 23:12:13 [SUCCESS] nonebot | Succeeded to load plugin "word_bank:read_word_bank" from "zhenxun.plugins.word_bank.read_word_bank"
+09-18 23:12:13 [SUCCESS] nonebot | Succeeded to load plugin "word_bank:word_handle" from "zhenxun.plugins.word_bank.word_handle"
+09-18 23:12:13 [SUCCESS] nonebot | Succeeded to load plugin "word_bank" from "zhenxun.plugins.word_bank"
+09-18 23:12:13 [SUCCESS] nonebot | Succeeded to load plugin "dialogue" from "zhenxun.plugins.dialogue"
+09-18 23:12:13 [SUCCESS] nonebot | Succeeded to load plugin "coser" from "zhenxun.plugins.coser"
+09-18 23:12:15 [SUCCESS] nonebot | Succeeded to load plugin "draw_card" from "zhenxun.plugins.draw_card"
+09-18 23:12:15 [SUCCESS] nonebot | Succeeded to load plugin "roll" from "zhenxun.plugins.roll"
+09-18 23:12:15 [SUCCESS] nonebot | Succeeded to load plugin "translate" from "zhenxun.plugins.translate"
+09-18 23:12:15 [SUCCESS] nonebot | Succeeded to load plugin "russian" from "zhenxun.plugins.russian"
+09-18 23:12:15 [SUCCESS] nonebot | Succeeded to load plugin "gold_redbag" from "zhenxun.plugins.gold_redbag"
+09-18 23:12:15 [SUCCESS] nonebot | Succeeded to load plugin "luxun" from "zhenxun.plugins.luxun"
+09-18 23:12:15 [SUCCESS] nonebot | Succeeded to load plugin "black_word:model" from "zhenxun.plugins.black_word.model"
+09-18 23:12:15 [SUCCESS] nonebot | Succeeded to load plugin "black_word:utils" from "zhenxun.plugins.black_word.utils"
+09-18 23:12:15 [SUCCESS] nonebot | Succeeded to load plugin "black_word:black_word" from "zhenxun.plugins.black_word.black_word"
+09-18 23:12:15 [SUCCESS] nonebot | Succeeded to load plugin "black_word:black_watch" from "zhenxun.plugins.black_word.black_watch"
+09-18 23:12:15 [SUCCESS] nonebot | Succeeded to load plugin "black_word:data_source" from "zhenxun.plugins.black_word.data_source"
+09-18 23:12:15 [SUCCESS] nonebot | Succeeded to load plugin "black_word" from "zhenxun.plugins.black_word"
+09-18 23:12:15 [SUCCESS] nonebot | Succeeded to load plugin "mute:mute_setting" from "zhenxun.plugins.mute.mute_setting"
+09-18 23:12:15 [SUCCESS] nonebot | Succeeded to load plugin "mute:mute_message" from "zhenxun.plugins.mute.mute_message"
+09-18 23:12:15 [SUCCESS] nonebot | Succeeded to load plugin "mute" from "zhenxun.plugins.mute"
+09-18 23:12:15 [SUCCESS] nonebot | Succeeded to load plugin "send_setu_:send_setu" from "zhenxun.plugins.send_setu_.send_setu"
+09-18 23:12:15 [SUCCESS] nonebot | Succeeded to load plugin "send_setu_:update_setu" from "zhenxun.plugins.send_setu_.update_setu"
+09-18 23:12:15 [SUCCESS] nonebot | Succeeded to load plugin "send_setu_" from "zhenxun.plugins.send_setu_"
+09-18 23:12:15 [SUCCESS] nonebot | Succeeded to load plugin "quotations" from "zhenxun.plugins.quotations"
+09-18 23:12:15 [SUCCESS] nonebot | Succeeded to load plugin "search_image" from "zhenxun.plugins.search_image"
+09-18 23:12:16 [SUCCESS] nonebot | Succeeded to load plugin "open_cases" from "zhenxun.plugins.open_cases"
+09-18 23:12:16 [SUCCESS] nonebot | Succeeded to load plugin "pix_gallery:pix_show_info" from "zhenxun.plugins.pix_gallery.pix_show_info"
+09-18 23:12:16 [SUCCESS] nonebot | Succeeded to load plugin "pix_gallery:pix_pass_del_keyword" from "zhenxun.plugins.pix_gallery.pix_pass_del_keyword"
+09-18 23:12:16 [SUCCESS] nonebot | Succeeded to load plugin "pix_gallery:pix_add_keyword" from "zhenxun.plugins.pix_gallery.pix_add_keyword"
+09-18 23:12:16 [SUCCESS] nonebot | Succeeded to load plugin "pix_gallery:pix" from "zhenxun.plugins.pix_gallery.pix"
+09-18 23:12:16 [SUCCESS] nonebot | Succeeded to load plugin "pix_gallery:pix_update" from "zhenxun.plugins.pix_gallery.pix_update"
+09-18 23:12:16 [SUCCESS] nonebot | Succeeded to load plugin "pix_gallery" from "zhenxun.plugins.pix_gallery"
+09-18 23:12:16 [SUCCESS] nonebot | Succeeded to load plugin "parse_bilibili" from "zhenxun.plugins.parse_bilibili"
+09-18 23:12:16 [SUCCESS] nonebot | Succeeded to load plugin "one_friend" from "zhenxun.plugins.one_friend"
+09-18 23:12:16 [SUCCESS] nonebot | Running NoneBot...
+09-18 23:12:16 [INFO] uvicorn | Started server process [7268]
+09-18 23:12:16 [INFO] uvicorn | Waiting for application startup.
+09-18 23:12:18 [INFO] zhenxun | Database loaded successfully!
+09-18 23:12:18 [INFO] nonebot_plugin_apscheduler | Scheduler Started
+09-18 23:12:25 [INFO] nonebot_plugin_htmlrender | 使用 chromium 启动
+09-18 23:12:30 [INFO] nonebot_plugin_htmlrender | Browser Started.
+09-18 23:12:30 [INFO] zhenxun | CMD[Web UI] API启动成功
+09-18 23:12:39 [INFO] uvicorn | Application startup complete.
+09-18 23:12:39 [INFO] uvicorn | Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+09-18 23:12:43 [INFO] uvicorn | ('127.0.0.1', 51123) - "WebSocket /onebot/v11/ws" [accepted]
+09-18 23:12:43 [INFO] nonebot | OneBot V11 | Bot 3973508735 connected
+09-18 23:12:43 [INFO] websockets | connection open
+09-18 23:18:43 [INFO] uvicorn | Shutting down
+09-18 23:18:43 [WARNING] nonebot | OneBot V11 | WebSocket for Bot 3973508735 closed by peer
+09-18 23:18:43 [INFO] websockets | connection closed
+09-18 23:18:43 [INFO] uvicorn | Finished server process [7268]
+09-18 23:18:43 [INFO] nonebot_plugin_apscheduler | Scheduler Shutdown
+09-18 23:18:43 [INFO] nonebot_plugin_htmlrender | Browser Stopped.
+09-18 23:18:44 [ERROR] uvicorn | Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 68, in serve
+    with self.capture_signals():
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\starlette\routing.py", line 700, in lifespan
+    await receive()
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+09-18 23:47:32 [INFO] zhenxun | 加载配置完成，共加载 40 个配置组及对应 123 个配置项
+09-18 23:47:32 [SUCCESS] nonebot | Succeeded to load plugin "nonebot_plugin_apscheduler"
+09-18 23:47:32 [SUCCESS] nonebot | Succeeded to load plugin "nonebot_plugin_alconna:uniseg" from "nonebot_plugin_alconna.uniseg"
+09-18 23:47:32 [SUCCESS] nonebot | Succeeded to load plugin "nonebot_plugin_alconna"
+09-18 23:47:33 [SUCCESS] nonebot | Succeeded to load plugin "nonebot_plugin_userinfo"
+09-18 23:47:33 [SUCCESS] nonebot | Succeeded to load plugin "nonebot_plugin_htmlrender"
+09-18 23:47:34 [SUCCESS] nonebot | Succeeded to load plugin "auto_update" from "zhenxun.builtin_plugins.auto_update"
+09-18 23:47:34 [SUCCESS] nonebot | Succeeded to load plugin "nickname" from "zhenxun.builtin_plugins.nickname"
+09-18 23:47:34 [SUCCESS] nonebot | Succeeded to load plugin "superuser:set_admin" from "zhenxun.builtin_plugins.superuser.set_admin"
+09-18 23:47:34 [SUCCESS] nonebot | Succeeded to load plugin "superuser:broadcast" from "zhenxun.builtin_plugins.superuser.broadcast"
+09-18 23:47:36 [SUCCESS] nonebot | Succeeded to load plugin "superuser:exec_sql" from "zhenxun.builtin_plugins.superuser.exec_sql"
+09-18 23:47:37 [SUCCESS] nonebot | Succeeded to load plugin "superuser:clear_data" from "zhenxun.builtin_plugins.superuser.clear_data"
+09-18 23:47:37 [SUCCESS] nonebot | Succeeded to load plugin "superuser:request_manage" from "zhenxun.builtin_plugins.superuser.request_manage"
+09-18 23:47:37 [SUCCESS] nonebot | Succeeded to load plugin "superuser:fg_manage" from "zhenxun.builtin_plugins.superuser.fg_manage"
+09-18 23:47:37 [SUCCESS] nonebot | Succeeded to load plugin "superuser:update_fg_info" from "zhenxun.builtin_plugins.superuser.update_fg_info"
+09-18 23:47:37 [SUCCESS] nonebot | Succeeded to load plugin "superuser:reload_setting" from "zhenxun.builtin_plugins.superuser.reload_setting"
+09-18 23:47:37 [SUCCESS] nonebot | Succeeded to load plugin "superuser:super_help" from "zhenxun.builtin_plugins.superuser.super_help"
+09-18 23:47:37 [SUCCESS] nonebot | Succeeded to load plugin "superuser:group_manage" from "zhenxun.builtin_plugins.superuser.group_manage"
+09-18 23:47:37 [SUCCESS] nonebot | Succeeded to load plugin "superuser" from "zhenxun.builtin_plugins.superuser"
+09-18 23:47:37 [SUCCESS] nonebot | Succeeded to load plugin "help_help" from "zhenxun.builtin_plugins.help_help"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "web_ui" from "zhenxun.builtin_plugins.web_ui"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "about" from "zhenxun.builtin_plugins.about"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "scripts" from "zhenxun.builtin_plugins.scripts"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "chat_history:chat_message" from "zhenxun.builtin_plugins.chat_history.chat_message"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "chat_history:chat_message_handle" from "zhenxun.builtin_plugins.chat_history.chat_message_handle"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "chat_history" from "zhenxun.builtin_plugins.chat_history"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "platform:group_handle" from "zhenxun.builtin_plugins.platform.qq.group_handle"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "platform" from "zhenxun.builtin_plugins.platform"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "hooks:ban_hook" from "zhenxun.builtin_plugins.hooks.ban_hook"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "hooks:auth_hook" from "zhenxun.builtin_plugins.hooks.auth_hook"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "hooks:withdraw_hook" from "zhenxun.builtin_plugins.hooks.withdraw_hook"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "hooks:chkdsk_hook" from "zhenxun.builtin_plugins.hooks.chkdsk_hook"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "hooks" from "zhenxun.builtin_plugins.hooks"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "check" from "zhenxun.builtin_plugins.check"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "statistics:statistics_hook" from "zhenxun.builtin_plugins.statistics.statistics_hook"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "statistics:statistics_handle" from "zhenxun.builtin_plugins.statistics.statistics_handle"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "statistics" from "zhenxun.builtin_plugins.statistics"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "restart" from "zhenxun.builtin_plugins.restart"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "help" from "zhenxun.builtin_plugins.help"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "init:init_config" from "zhenxun.builtin_plugins.init.init_config"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "init:init_plugin" from "zhenxun.builtin_plugins.init.init_plugin"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "init" from "zhenxun.builtin_plugins.init"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "plugin_store" from "zhenxun.builtin_plugins.plugin_store"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "admin:admin_watch" from "zhenxun.builtin_plugins.admin.admin_watch"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "admin:ban" from "zhenxun.builtin_plugins.admin.ban"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "admin:plugin_switch" from "zhenxun.builtin_plugins.admin.plugin_switch"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "admin:admin_help" from "zhenxun.builtin_plugins.admin.admin_help"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "admin:group_update" from "zhenxun.builtin_plugins.admin.group_update"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "admin:welcome_message" from "zhenxun.builtin_plugins.admin.welcome_message"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "admin:group_member_update" from "zhenxun.builtin_plugins.admin.group_member_update"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "admin" from "zhenxun.builtin_plugins.admin"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "scheduler:morning" from "zhenxun.builtin_plugins.scheduler.morning"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "scheduler:chat_check" from "zhenxun.builtin_plugins.scheduler.chat_check"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "scheduler:auto_backup" from "zhenxun.builtin_plugins.scheduler.auto_backup"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "scheduler:auto_update_group" from "zhenxun.builtin_plugins.scheduler.auto_update_group"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "scheduler" from "zhenxun.builtin_plugins.scheduler"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "sign_in" from "zhenxun.builtin_plugins.sign_in"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "shop" from "zhenxun.builtin_plugins.shop"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "record_request" from "zhenxun.builtin_plugins.record_request"
+09-18 23:47:38 [SUCCESS] nonebot | Succeeded to load plugin "github_sub" from "zhenxun.plugins.github_sub"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "russian" from "zhenxun.plugins.russian"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "nbnhhsh" from "zhenxun.plugins.nbnhhsh"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "group_welcome_msg" from "zhenxun.plugins.group_welcome_msg"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "bt" from "zhenxun.plugins.bt"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "one_friend" from "zhenxun.plugins.one_friend"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "epic" from "zhenxun.plugins.epic"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "fudu" from "zhenxun.plugins.fudu"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "poke" from "zhenxun.plugins.poke"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "image_management:send_image" from "zhenxun.plugins.image_management.send_image"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "image_management:upload_image" from "zhenxun.plugins.image_management.upload_image"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "image_management:move_image" from "zhenxun.plugins.image_management.move_image"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "image_management:delete_image" from "zhenxun.plugins.image_management.delete_image"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "image_management:image_management_log" from "zhenxun.plugins.image_management.image_management_log"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "image_management" from "zhenxun.plugins.image_management"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "black_word:utils" from "zhenxun.plugins.black_word.utils"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "black_word:model" from "zhenxun.plugins.black_word.model"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "black_word:black_watch" from "zhenxun.plugins.black_word.black_watch"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "black_word:black_word" from "zhenxun.plugins.black_word.black_word"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "black_word:data_source" from "zhenxun.plugins.black_word.data_source"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "black_word" from "zhenxun.plugins.black_word"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "search_image" from "zhenxun.plugins.search_image"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "roll" from "zhenxun.plugins.roll"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "coser" from "zhenxun.plugins.coser"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "dialogue" from "zhenxun.plugins.dialogue"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "quotations" from "zhenxun.plugins.quotations"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "wbtop" from "zhenxun.plugins.wbtop"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "mute:mute_message" from "zhenxun.plugins.mute.mute_message"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "mute:mute_setting" from "zhenxun.plugins.mute.mute_setting"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "mute" from "zhenxun.plugins.mute"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "translate" from "zhenxun.plugins.translate"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "word_bank:read_word_bank" from "zhenxun.plugins.word_bank.read_word_bank"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "word_bank:message_handle" from "zhenxun.plugins.word_bank.message_handle"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "word_bank:word_handle" from "zhenxun.plugins.word_bank.word_handle"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "word_bank" from "zhenxun.plugins.word_bank"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "pixiv_rank_search" from "zhenxun.plugins.pixiv_rank_search"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "pix_gallery:pix_add_keyword" from "zhenxun.plugins.pix_gallery.pix_add_keyword"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "pix_gallery:pix_show_info" from "zhenxun.plugins.pix_gallery.pix_show_info"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "pix_gallery:pix" from "zhenxun.plugins.pix_gallery.pix"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "pix_gallery:pix_update" from "zhenxun.plugins.pix_gallery.pix_update"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "pix_gallery:pix_pass_del_keyword" from "zhenxun.plugins.pix_gallery.pix_pass_del_keyword"
+09-18 23:47:39 [SUCCESS] nonebot | Succeeded to load plugin "pix_gallery" from "zhenxun.plugins.pix_gallery"
+09-18 23:47:40 [SUCCESS] nonebot | Succeeded to load plugin "gold_redbag" from "zhenxun.plugins.gold_redbag"
+09-18 23:47:40 [SUCCESS] nonebot | Succeeded to load plugin "parse_bilibili" from "zhenxun.plugins.parse_bilibili"
+09-18 23:47:40 [SUCCESS] nonebot | Succeeded to load plugin "what_anime" from "zhenxun.plugins.what_anime"
+09-18 23:47:40 [SUCCESS] nonebot | Succeeded to load plugin "luxun" from "zhenxun.plugins.luxun"
+09-18 23:47:40 [SUCCESS] nonebot | Succeeded to load plugin "ai" from "zhenxun.plugins.ai"
+09-18 23:47:42 [SUCCESS] nonebot | Succeeded to load plugin "word_clouds" from "zhenxun.plugins.word_clouds"
+09-18 23:47:43 [SUCCESS] nonebot | Succeeded to load plugin "draw_card" from "zhenxun.plugins.draw_card"
+09-18 23:47:43 [SUCCESS] nonebot | Succeeded to load plugin "bilibili_sub" from "zhenxun.plugins.bilibili_sub"
+09-18 23:47:43 [SUCCESS] nonebot | Succeeded to load plugin "pid_search" from "zhenxun.plugins.pid_search"
+09-18 23:47:43 [SUCCESS] nonebot | Succeeded to load plugin "open_cases" from "zhenxun.plugins.open_cases"
+09-18 23:47:43 [SUCCESS] nonebot | Succeeded to load plugin "send_setu_:update_setu" from "zhenxun.plugins.send_setu_.update_setu"
+09-18 23:47:43 [SUCCESS] nonebot | Succeeded to load plugin "send_setu_:send_setu" from "zhenxun.plugins.send_setu_.send_setu"
+09-18 23:47:43 [SUCCESS] nonebot | Succeeded to load plugin "send_setu_" from "zhenxun.plugins.send_setu_"
+09-18 23:47:43 [SUCCESS] nonebot | Succeeded to load plugin "search_buff_skin_price" from "zhenxun.plugins.search_buff_skin_price"
+09-18 23:47:43 [SUCCESS] nonebot | Succeeded to load plugin "search_anime" from "zhenxun.plugins.search_anime"
+09-18 23:47:43 [SUCCESS] nonebot | Running NoneBot...
+09-18 23:47:43 [INFO] uvicorn | Started server process [4400]
+09-18 23:47:43 [INFO] uvicorn | Waiting for application startup.
+09-18 23:47:45 [INFO] zhenxun | Database loaded successfully!
+09-18 23:47:45 [INFO] nonebot_plugin_apscheduler | Scheduler Started
+09-18 23:47:46 [INFO] nonebot_plugin_htmlrender | 使用 chromium 启动
+09-18 23:47:49 [INFO] nonebot_plugin_htmlrender | Browser Started.
+09-18 23:47:49 [INFO] zhenxun | CMD[Web UI] API启动成功
+09-18 23:47:57 [INFO] uvicorn | Application startup complete.
+09-18 23:47:57 [INFO] uvicorn | Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+09-18 23:48:00 [INFO] uvicorn | ('127.0.0.1', 53732) - "WebSocket /onebot/v11/ws" [accepted]
+09-18 23:48:00 [INFO] nonebot | OneBot V11 | Bot 3973508735 connected
+09-18 23:48:00 [INFO] websockets | connection open
+09-18 23:49:31 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.private.friend]: Message 1605212906 from 843298567 '你好呀'
+09-18 23:49:31 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+09-18 23:49:31 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+09-18 23:49:31 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+09-18 23:49:31 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+09-18 23:49:31 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+09-18 23:49:32 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+09-18 23:49:32 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.help_help, lineno=32)
+09-18 23:49:32 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.help_help, lineno=32) running complete
+09-18 23:49:32 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.ai, lineno=55)
+09-18 23:49:32 [INFO] zhenxun | current key is 你 the text is 你好呀
+09-18 23:49:32 [INFO] zhenxun | Adapter[OneBot V11] 平台[qq] 用户[843298567] CMD[ai] 问题：你好呀 ---- 回答：怎么了？我在呢，抱抱……
+09-18 23:49:33 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.ai, lineno=55) running complete
+09-18 23:49:58 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.private.friend]: Message 1955367641 from 843298567 '你叫什么'
+09-18 23:49:58 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+09-18 23:49:58 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+09-18 23:49:58 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+09-18 23:49:58 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+09-18 23:49:58 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+09-18 23:49:58 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+09-18 23:49:59 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.help_help, lineno=32)
+09-18 23:49:59 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.help_help, lineno=32) running complete
+09-18 23:49:59 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.ai, lineno=55)
+09-18 23:49:59 [INFO] zhenxun | current key is 你 the text is 你叫什么
+09-18 23:49:59 [INFO] zhenxun | Adapter[OneBot V11] 平台[qq] 用户[843298567] CMD[ai] 问题：你叫什么 ---- 回答：我在哦(??-ω-`)
+09-18 23:49:59 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.ai, lineno=55) running complete
+09-18 23:52:27 [INFO] uvicorn | Shutting down
+09-18 23:52:27 [WARNING] nonebot | OneBot V11 | WebSocket for Bot 3973508735 closed by peer
+09-18 23:52:27 [INFO] websockets | connection closed
+09-18 23:52:27 [INFO] uvicorn | Finished server process [4400]
+09-18 23:52:27 [INFO] nonebot_plugin_apscheduler | Scheduler Shutdown
+09-18 23:52:27 [INFO] nonebot_plugin_htmlrender | Browser Stopped.
+09-18 23:52:27 [ERROR] uvicorn | Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 68, in serve
+    with self.capture_signals():
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\starlette\routing.py", line 700, in lifespan
+    await receive()
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+

@@ -1,0 +1,336 @@
+10-11 03:09:57 [ERROR] nonebot | Running Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) failed.
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 27, in <module>
+    nonebot.run()
+    │       └ <function run at 0x0000018F1CBF5510>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\__init__.py", line 335, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x0000018F1CBF5360>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\drivers\fastapi.py", line 186, in run
+    uvicorn.run(
+    │       └ <function run at 0x0000018F1D3CED40>
+    └ <module 'uvicorn' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\main.py", line 577, in run
+    server.run()
+    │      └ <function Server.run at 0x0000018F1D3CE680>
+    └ <uvicorn.server.Server object at 0x0000018F2DE94130>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x0000018F1D3CE710>
+           │       │   └ <uvicorn.server.Server object at 0x0000018F2DE94130>
+           │       └ <function run at 0x0000018F1A8ECE50>
+           └ <module 'asyncio' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x0000018F1F6F17E0>
+           │    └ <function BaseEventLoop.run_until_complete at 0x0000018F1A9F0280>
+           └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x0000018F1C62D510>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x0000018F1A9F1CF0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x0000018F1A9A09D0>
+    └ <Handle Task.task_wakeup(<_GatheringFu...e1be98a'}})]]>)>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<_GatheringFu...e1be98a'}})]]>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<_GatheringFu...e1be98a'}})]]>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<_GatheringFu...e1be98a'}})]]>)>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 476, in check_and_run_matcher
+    await _run_matcher(
+          └ <function _run_matcher at 0x0000018F1CD509D0>
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 428, in _run_matcher
+    await matcher.run(bot, event, state, stack, dependency_cache)
+          │       │   │    │      │      │      └ {<function _uni_msg at 0x0000018F1FACDFC0>: <Task finished name='Task-1361962' coro=<_uni_msg() done, defined at C:\Users\Adm...
+          │       │   │    │      │      └ <contextlib.AsyncExitStack object at 0x0000018F30B88E50>
+          │       │   │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}}
+          │       │   │    └ PrivateMessageEvent(time=1728587397, self_id=3973508735, post_type='message', sub_type='friend', user_id=2747277822, message_...
+          │       │   └ Bot(type='OneBot V11', self_id='3973508735')
+          │       └ <function Matcher.run at 0x0000018F1CC49B40>
+          └ Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 850, in run
+    await self.simple_run(bot, event, state, stack, dependency_cache)
+          │    │          │    │      │      │      └ {<function _uni_msg at 0x0000018F1FACDFC0>: <Task finished name='Task-1361962' coro=<_uni_msg() done, defined at C:\Users\Adm...
+          │    │          │    │      │      └ <contextlib.AsyncExitStack object at 0x0000018F30B88E50>
+          │    │          │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}}
+          │    │          │    └ PrivateMessageEvent(time=1728587397, self_id=3973508735, post_type='message', sub_type='friend', user_id=2747277822, message_...
+          │    │          └ Bot(type='OneBot V11', self_id='3973508735')
+          │    └ <function Matcher.simple_run at 0x0000018F1CC49AB0>
+          └ Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 825, in simple_run
+    await handler(
+          └ Dependent(call=_)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\dependencies\__init__.py", line 94, in __call__
+    return await cast(Callable[..., Awaitable[R]], self.call)(**values)
+                 │    │             │         │    │    │       └ {'session': Session(bot_id='3973508735', bot_type='OneBot V11', platform='qq', level=<SessionLevel.LEVEL1: 1>, id1='274727782...
+                 │    │             │         │    │    └ <function _ at 0x0000018F2C643BE0>
+                 │    │             │         │    └ Dependent(call=_)
+                 │    │             │         └ ~R
+                 │    │             └ <class 'collections.abc.Awaitable'>
+                 │    └ typing.Callable
+                 └ <function cast at 0x0000018F1A7804C0>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\parse_bilibili\__init__.py", line 86, in _
+    get_url = (qqdocurl_value if qqdocurl_value else jumpUrl_value).split("?")[
+               │                 │                   └ {}
+               │                 └ {}
+               └ {}
+
+AttributeError: 'dict' object has no attribute 'split'
+10-11 03:10:08 [ERROR] nonebot | Running Matcher(type='message', module=zhenxun.plugins.nonebot_plugin_sparkapi.matchers.chat, lineno=39) failed.
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 27, in <module>
+    nonebot.run()
+    │       └ <function run at 0x0000018F1CBF5510>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\__init__.py", line 335, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x0000018F1CBF5360>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\drivers\fastapi.py", line 186, in run
+    uvicorn.run(
+    │       └ <function run at 0x0000018F1D3CED40>
+    └ <module 'uvicorn' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\main.py", line 577, in run
+    server.run()
+    │      └ <function Server.run at 0x0000018F1D3CE680>
+    └ <uvicorn.server.Server object at 0x0000018F2DE94130>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x0000018F1D3CE710>
+           │       │   └ <uvicorn.server.Server object at 0x0000018F2DE94130>
+           │       └ <function run at 0x0000018F1A8ECE50>
+           └ <module 'asyncio' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x0000018F1F6F17E0>
+           │    └ <function BaseEventLoop.run_until_complete at 0x0000018F1A9F0280>
+           └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x0000018F1C62D510>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x0000018F1A9F1CF0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x0000018F1A9A09D0>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 476, in check_and_run_matcher
+    await _run_matcher(
+          └ <function _run_matcher at 0x0000018F1CD509D0>
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 428, in _run_matcher
+    await matcher.run(bot, event, state, stack, dependency_cache)
+          │       │   │    │      │      │      └ {<function _uni_msg at 0x0000018F1FACDFC0>: <Task finished name='Task-1361962' coro=<_uni_msg() done, defined at C:\Users\Adm...
+          │       │   │    │      │      └ <contextlib.AsyncExitStack object at 0x0000018F30B88E50>
+          │       │   │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}}
+          │       │   │    └ PrivateMessageEvent(time=1728587397, self_id=3973508735, post_type='message', sub_type='friend', user_id=2747277822, message_...
+          │       │   └ Bot(type='OneBot V11', self_id='3973508735')
+          │       └ <function Matcher.run at 0x0000018F1CC49B40>
+          └ Matcher(type='message', module=zhenxun.plugins.nonebot_plugin_sparkapi.matchers.chat, lineno=39)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 850, in run
+    await self.simple_run(bot, event, state, stack, dependency_cache)
+          │    │          │    │      │      │      └ {<function _uni_msg at 0x0000018F1FACDFC0>: <Task finished name='Task-1361962' coro=<_uni_msg() done, defined at C:\Users\Adm...
+          │    │          │    │      │      └ <contextlib.AsyncExitStack object at 0x0000018F30B88E50>
+          │    │          │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}}
+          │    │          │    └ PrivateMessageEvent(time=1728587397, self_id=3973508735, post_type='message', sub_type='friend', user_id=2747277822, message_...
+          │    │          └ Bot(type='OneBot V11', self_id='3973508735')
+          │    └ <function Matcher.simple_run at 0x0000018F1CC49AB0>
+          └ Matcher(type='message', module=zhenxun.plugins.nonebot_plugin_sparkapi.matchers.chat, lineno=39)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 825, in simple_run
+    await handler(
+          └ Dependent(call=_)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\dependencies\__init__.py", line 94, in __call__
+    return await cast(Callable[..., Awaitable[R]], self.call)(**values)
+                 │    │             │         │    │    │       └ {'session_id': 'qq_OneBot_V11_3973508735_2747277822', 'arg': [MessageSegment(type='json', data={'data': '{"app":"com.tencent....
+                 │    │             │         │    │    └ <function _ at 0x0000018F2DE27490>
+                 │    │             │         │    └ Dependent(call=_)
+                 │    │             │         └ ~R
+                 │    │             └ <class 'collections.abc.Awaitable'>
+                 │    └ typing.Callable
+                 └ <function cast at 0x0000018F1A7804C0>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\matchers\chat.py", line 58, in _
+    await hello().finish()
+          └ <function hello at 0x0000018F2DE271C0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot_plugin_alconna\uniseg\message.py", line 1407, in finish
+    await self.send(target, bot, fallback, at_sender, reply_to, **kwargs)
+          │    │    │       │    │         │          │           └ {}
+          │    │    │       │    │         │          └ False
+          │    │    │       │    │         └ False
+          │    │    │       │    └ <FallbackStrategy.rollback: 'rollback'>
+          │    │    │       └ None
+          │    │    └ None
+          │    └ <function UniMessage.send at 0x0000018F1FACD480>
+          └ [Image(id=None, url=None, path=WindowsPath('resources/image/zai/5.jpg'), raw=None, mimetype=None, name='5.jpg'), Text(text='呼...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot_plugin_alconna\uniseg\message.py", line 1395, in send
+    res = await fn.send_to(target, bot, msg, **kwargs)
+                │  │       │       │    │      └ {}
+                │  │       │       │    └ [MessageSegment(type='image', data={'file': 'file:///C:/Program%20Files/zhenxun/zhenxun_bot-dev/resources/image/zai/5.jpg', '...
+                │  │       │       └ Bot(type='OneBot V11', self_id='3973508735')
+                │  │       └ PrivateMessageEvent(time=1728587397, self_id=3973508735, post_type='message', sub_type='friend', user_id=2747277822, message_...
+                │  └ <function Onebot11MessageExporter.send_to at 0x0000018F1FAAC820>
+                └ <nonebot_plugin_alconna.uniseg.adapters.onebot11.exporter.Onebot11MessageExporter object at 0x0000018F1FA667A0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot_plugin_alconna\uniseg\adapters\onebot11\exporter.py", line 154, in send_to
+    return await bot.send(target, message, **kwargs)  # type: ignore
+                 │   │    │       │          └ {}
+                 │   │    │       └ [MessageSegment(type='image', data={'file': 'file:///C:/Program%20Files/zhenxun/zhenxun_bot-dev/resources/image/zai/5.jpg', '...
+                 │   │    └ PrivateMessageEvent(time=1728587397, self_id=3973508735, post_type='message', sub_type='friend', user_id=2747277822, message_...
+                 │   └ <function Bot.send at 0x0000018F1D178160>
+                 └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\bot.py", line 237, in send
+    return await self.__class__.send_handler(self, event, message, **kwargs)
+                 │    │                      │     │      │          └ {}
+                 │    │                      │     │      └ [MessageSegment(type='image', data={'file': 'file:///C:/Program%20Files/zhenxun/zhenxun_bot-dev/resources/image/zai/5.jpg', '...
+                 │    │                      │     └ PrivateMessageEvent(time=1728587397, self_id=3973508735, post_type='message', sub_type='friend', user_id=2747277822, message_...
+                 │    │                      └ Bot(type='OneBot V11', self_id='3973508735')
+                 │    └ <attribute '__class__' of 'object' objects>
+                 └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\bot.py", line 190, in send
+    return await bot.send_msg(**params)
+                 │              └ {'user_id': 2747277822, 'message_type': 'private', 'message': [MessageSegment(type='image', data={'file': 'file:///C:/Program...
+                 └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\adapter\bot.py", line 122, in call_api
+    raise exception
+          └ ActionFailed(status='failed', retcode=1200, data=None, message='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgServic...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\adapter\bot.py", line 97, in call_api
+    result = await self.adapter._call_api(self, api, **data)
+                   │    │       │         │     │      └ {'user_id': 2747277822, 'message_type': 'private', 'message': [MessageSegment(type='image', data={'file': 'file:///C:/Program...
+                   │    │       │         │     └ 'send_msg'
+                   │    │       │         └ Bot(type='OneBot V11', self_id='3973508735')
+                   │    │       └ <function Adapter._call_api at 0x0000018F1A4B8820>
+                   │    └ Adapter(name='OneBot V11')
+                   └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\adapter.py", line 147, in _call_api
+    return handle_api_result(await self._result_store.fetch(seq, timeout))
+           │                       │    │             │     │    └ 30.0
+           │                       │    │             │     └ 303
+           │                       │    │             └ <function ResultStore.fetch at 0x0000018F1D1792D0>
+           │                       │    └ <nonebot.adapters.onebot.store.ResultStore object at 0x0000018F1CE985E0>
+           │                       └ Adapter(name='OneBot V11')
+           └ <function handle_api_result at 0x0000018F1D100280>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\utils.py", line 58, in handle_api_result
+    raise ActionFailed(**result)
+          │              └ {'status': 'failed', 'retcode': 1200, 'data': None, 'message': 'Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgServic...
+          └ <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>
+
+nonebot.adapters.onebot.v11.exception.ActionFailed: ActionFailed(status='failed', retcode=1200, data=None, message='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', wording='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', echo='303')
+10-11 04:30:11 [ERROR] zhenxun | 更新色图 1.jpg 错误 <class 'FileExistsError'>: [WinError 183] 当文件已存在时，无法创建该文件。: 'resources\\temp\\1.jpg' -> 'resources\\image\\_setu\\1.jpg'
+10-11 04:30:13 [ERROR] zhenxun | 更新色图 0.jpg 错误 <class 'FileExistsError'>: [WinError 183] 当文件已存在时，无法创建该文件。: 'resources\\temp\\0.jpg' -> 'resources\\image\\_setu\\0.jpg'
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/10.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/10.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/10.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/10.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/10.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\10.jpg || 错误 <class 'httpx.ConnectError'>: 
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/37.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/37.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/37.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/37.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/37.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\37.jpg || 错误 <class 'httpx.ReadError'>: 
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/32.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/32.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/32.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/32.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/32.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\32.jpg || 错误 <class 'httpx.ReadError'>: 
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/38.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/38.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/38.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/38.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/38.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\38.jpg || 错误 <class 'httpx.ReadError'>: 
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/5.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/5.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/5.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/5.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/5.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\5.jpg || 错误 <class 'httpx.ReadError'>: 
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/22.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/22.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/22.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/22.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/22.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\22.jpg || 错误 <class 'httpx.ConnectError'>: 
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/20.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/20.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/20.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/20.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/20.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\20.jpg || 错误 <class 'httpx.ConnectError'>: 
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/13.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/13.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/13.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/13.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/13.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\13.jpg || 错误 <class 'httpx.ConnectError'>: 
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/24.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/24.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/24.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/24.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/24.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\24.jpg || 错误 <class 'httpx.ReadError'>: 
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/16.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/16.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/16.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/16.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/16.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\16.jpg || 错误 <class 'httpx.ReadError'>: 
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/33.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/33.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/33.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/33.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/33.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\33.jpg || 错误 <class 'httpx.ReadError'>: 
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/7.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/7.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/7.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/7.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/7.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\7.jpg || 错误 <class 'httpx.ReadError'>: 
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/3.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/3.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/3.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/3.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/3.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\3.jpg || 错误 <class 'httpx.ReadError'>: 
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/29.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/29.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/29.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/29.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/29.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\29.jpg || 错误 <class 'httpx.ReadError'>: 
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/4.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/4.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/4.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/4.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/4.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\4.jpg || 错误 <class 'httpx.ReadError'>: 
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/11.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/11.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/11.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/11.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/11.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\11.jpg || 错误 <class 'httpx.ReadError'>: 
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/30.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/30.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/30.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/30.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/30.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\30.jpg || 错误 <class 'httpx.ConnectError'>: 
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/36.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/36.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/36.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/36.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/36.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\36.jpg || 错误 <class 'httpx.ConnectError'>: 
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/6.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/6.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/6.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/6.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/6.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\6.jpg || 错误 <class 'httpx.ConnectError'>: 
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/40.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/40.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/40.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/40.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/40.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\40.jpg || 错误 <class 'httpx.ConnectError'>: 
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/2.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/2.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/2.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/2.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/2.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\2.jpg || 错误 <class 'httpx.ReadError'>: 
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/15.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/15.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/15.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/15.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/15.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\15.jpg || 错误 <class 'httpx.ReadError'>: 
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/25.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/25.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/25.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/25.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/25.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\25.jpg || 错误 <class 'httpx.ReadError'>: 
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/26.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/26.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/26.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/26.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/26.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\26.jpg || 错误 <class 'httpx.ReadError'>: 
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/35.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/35.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/35.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/35.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/35.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\35.jpg || 错误 <class 'httpx.ReadError'>: 
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/31.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/31.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/31.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/31.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/31.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\31.jpg || 错误 <class 'httpx.ReadError'>: 
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/21.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/21.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/21.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/21.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/21.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\21.jpg || 错误 <class 'httpx.ConnectError'>: 
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/28.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/28.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/28.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/28.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/28.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\28.jpg || 错误 <class 'httpx.ConnectError'>: 
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/17.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/17.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/17.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/17.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/17.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\17.jpg || 错误 <class 'httpx.ConnectError'>: 
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/45.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/45.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/45.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/45.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/45.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\45.jpg || 错误 <class 'httpx.ConnectError'>: 
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/14.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/14.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/14.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/14.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/14.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\14.jpg || 错误 <class 'httpx.ConnectError'>: 
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/44.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/44.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/44.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/44.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/44.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\44.jpg || 错误 <class 'httpx.ReadError'>: 
+10-11 17:28:12 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/9.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/9.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/9.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/9.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/9.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\9.jpg || 错误 <class 'httpx.ReadError'>: 
+10-11 17:28:13 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/23.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/23.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/23.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/23.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/23.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\23.jpg || 错误 <class 'httpx.ReadError'>: 
+10-11 17:28:13 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/8.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/8.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/8.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/8.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/8.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\8.jpg || 错误 <class 'httpx.ReadError'>: 
+10-11 17:28:13 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/12.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/12.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/12.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/12.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/12.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\12.jpg || 错误 <class 'httpx.ReadError'>: 
+10-11 17:28:13 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/42.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/42.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/42.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/42.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/42.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\42.jpg || 错误 <class 'httpx.ReadError'>: 
+10-11 17:28:13 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/19.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/19.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/19.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/19.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/19.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\19.jpg || 错误 <class 'httpx.ReadError'>: 
+10-11 17:28:13 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/41.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/41.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/41.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/41.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/41.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\41.jpg || 错误 <class 'httpx.ReadError'>: 
+10-11 17:28:13 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/0.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/0.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/0.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/0.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/0.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\0.jpg || 错误 <class 'httpx.ReadError'>: 
+10-11 17:28:21 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/39.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/39.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/39.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/39.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/39.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\39.jpg || 错误 <class 'httpx.ReadTimeout'>: 
+10-11 17:28:21 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/34.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/34.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/34.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/34.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/34.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\34.jpg || 错误 <class 'httpx.ReadTimeout'>: 
+10-11 17:28:21 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/43.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/43.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/43.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/43.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/43.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\43.jpg || 错误 <class 'httpx.ReadTimeout'>: 
+10-11 17:28:22 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/27.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/27.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/27.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/27.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/27.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\27.jpg || 错误 <class 'httpx.ReadTimeout'>: 
+10-11 17:28:22 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/18.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/18.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/18.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/18.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/18.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\18.jpg || 错误 <class 'httpx.ReadTimeout'>: 
+10-11 17:28:22 [ERROR] zhenxun | 下载 ['https://cdn.jsdelivr.net/gh/zhenxun-org/zhenxun_bot_plugins@main/plugins/pa/pa/1.jpg', 'https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/1.jpg', 'https://gh-proxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/1.jpg', 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/1.jpg', 'https://ghproxy.cc/https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot_plugins/main/plugins/pa/pa/1.jpg'] 错误 Path：C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\pa\1.jpg || 错误 <class 'httpx.ReadTimeout'>: 
+10-11 17:28:22 [ERROR] zhenxun | Adapter[OneBot V11] 平台[qq] 用户[843298567] CMD[插件商店] 添加插件 Id: 39失败 || 错误 <class 'Exception'>: 插件下载失败

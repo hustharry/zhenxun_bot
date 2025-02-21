@@ -1,0 +1,1194 @@
+09-19 00:12:19 [ERROR] nonebot | Failed to import "nonebot_plugin_sparkapi"
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 24, in <module>
+    nonebot.load_plugins("zhenxun/plugins")
+    │       └ <function load_plugins at 0x00000201299D5900>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x00000201299D41F0>
+           └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x00000201299D1B20>
+                  │    │           │         │       └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+                  │    │           │         └ 'nonebot_plugin_sparkapi'
+                  │    │           └ 'nonebot_plugin_sparkapi'
+                  │    └ <function PluginManager.load_plugin at 0x00000201299D4160>
+                  └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'nonebot_plugin_sparkapi'
+             │         │             │    └ {'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'zhenxun.plugins.black_word', 'bt'...
+             │         │             └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+             │         └ <function import_module at 0x0000020126DC5090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.nonebot_plugin_sparkapi'
+           │          └ <function _gcd_import at 0x0000020126C73490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.nonebot_plugin_sparkapi' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\nonebo...
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\__init__.py", line 7, in <module>
+    from . import matchers
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\matchers\__init__.py", line 1, in <module>
+    from . import block_private, chat, clear, help, imggen, pptgen, preset, session
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\matchers\block_private.py", line 4, in <module>
+    from nonebot_plugin_sparkapi.config import conf
+
+ModuleNotFoundError: No module named 'nonebot_plugin_sparkapi'
+09-19 00:14:15 [ERROR] uvicorn | Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 68, in serve
+    with self.capture_signals():
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\starlette\routing.py", line 700, in lifespan
+    await receive()
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+09-19 00:14:23 [ERROR] nonebot | Failed to import "nonebot_plugin_sparkapi"
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 24, in <module>
+    nonebot.load_plugins("zhenxun/plugins")
+    │       └ <function load_plugins at 0x00000229B13F5900>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x00000229B13F41F0>
+           └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x00000229B13F1A80>
+                  │    │           │         │       └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+                  │    │           │         └ 'nonebot_plugin_sparkapi'
+                  │    │           └ 'nonebot_plugin_sparkapi'
+                  │    └ <function PluginManager.load_plugin at 0x00000229B13F4160>
+                  └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'nonebot_plugin_sparkapi'
+             │         │             │    └ {'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'zhenxun.plugins.black_word', 'bt'...
+             │         │             └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+             │         └ <function import_module at 0x00000229AE7D5090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.nonebot_plugin_sparkapi'
+           │          └ <function _gcd_import at 0x00000229AE273490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.nonebot_plugin_sparkapi' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\nonebo...
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\__init__.py", line 7, in <module>
+    from . import matchers
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\matchers\__init__.py", line 1, in <module>
+    from . import block_private, chat, clear, help, imggen, pptgen, preset, session
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\matchers\block_private.py", line 4, in <module>
+    from nonebot_plugin_sparkapi.config import conf
+
+ModuleNotFoundError: No module named 'nonebot_plugin_sparkapi'
+09-19 00:21:47 [ERROR] uvicorn | Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 68, in serve
+    with self.capture_signals():
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\starlette\routing.py", line 700, in lifespan
+    await receive()
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+09-19 00:34:22 [ERROR] uvicorn | Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 68, in serve
+    with self.capture_signals():
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\starlette\routing.py", line 700, in lifespan
+    await receive()
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+09-19 01:16:38 [ERROR] uvicorn | Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 68, in serve
+    with self.capture_signals():
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\starlette\routing.py", line 700, in lifespan
+    await receive()
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+09-19 01:19:51 [ERROR] uvicorn | Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 68, in serve
+    with self.capture_signals():
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\starlette\routing.py", line 700, in lifespan
+    await receive()
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+09-19 01:22:28 [ERROR] uvicorn | Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 68, in serve
+    with self.capture_signals():
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\starlette\routing.py", line 700, in lifespan
+    await receive()
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+09-19 01:24:01 [ERROR] nonebot | Failed to import "nonebot_plugin_sparkapi"
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 24, in <module>
+    nonebot.load_plugins("zhenxun/plugins")
+    │       └ <function load_plugins at 0x000001AE142F5900>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x000001AE142F41F0>
+           └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x000001AE142F1DF0>
+                  │    │           │         │       └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+                  │    │           │         └ 'nonebot_plugin_sparkapi'
+                  │    │           └ 'nonebot_plugin_sparkapi'
+                  │    └ <function PluginManager.load_plugin at 0x000001AE142F4160>
+                  └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'nonebot_plugin_sparkapi'
+             │         │             │    └ {'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'zhenxun.plugins.black_word', 'bt'...
+             │         │             └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+             │         └ <function import_module at 0x000001AE11615090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.nonebot_plugin_sparkapi'
+           │          └ <function _gcd_import at 0x000001AE11173490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.nonebot_plugin_sparkapi' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\nonebo...
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\__init__.py", line 7, in <module>
+    from . import matchers
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\matchers\__init__.py", line 1, in <module>
+    from . import block_private, chat, clear, help, imggen, pptgen, preset, session
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\matchers\block_private.py", line 4, in <module>
+    from nonebot_plugin_sparkapi.config import conf
+
+ModuleNotFoundError: No module named 'nonebot_plugin_sparkapi'
+09-19 01:24:35 [ERROR] uvicorn | Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 68, in serve
+    with self.capture_signals():
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\starlette\routing.py", line 700, in lifespan
+    await receive()
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+09-19 01:24:42 [ERROR] nonebot | Failed to import "nonebot_plugin_sparkapi"
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 24, in <module>
+    nonebot.load_plugins("zhenxun/plugins")
+    │       └ <function load_plugins at 0x0000025C4C135900>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x0000025C4C1341F0>
+           └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x0000025C4C129EE0>
+                  │    │           │         │       └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+                  │    │           │         └ 'nonebot_plugin_sparkapi'
+                  │    │           └ 'nonebot_plugin_sparkapi'
+                  │    └ <function PluginManager.load_plugin at 0x0000025C4C134160>
+                  └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'nonebot_plugin_sparkapi'
+             │         │             │    └ {'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'zhenxun.plugins.black_word', 'bt'...
+             │         │             └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+             │         └ <function import_module at 0x0000025C49495090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.nonebot_plugin_sparkapi'
+           │          └ <function _gcd_import at 0x0000025C49343490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.nonebot_plugin_sparkapi' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\nonebo...
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\__init__.py", line 7, in <module>
+    from . import matchers
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\matchers\__init__.py", line 1, in <module>
+    from . import block_private, chat, clear, help, imggen, pptgen, preset, session
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\matchers\block_private.py", line 4, in <module>
+    from .config import conf
+
+ModuleNotFoundError: No module named 'zhenxun.plugins.nonebot_plugin_sparkapi.matchers.config'
+09-19 01:26:53 [ERROR] nonebot | Failed to import "nonebot_plugin_sparkapi"
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 24, in <module>
+    nonebot.load_plugins("zhenxun/plugins")
+    │       └ <function load_plugins at 0x000002527AEF5900>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x000002527AEF41F0>
+           └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x000002527AEF1A80>
+                  │    │           │         │       └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+                  │    │           │         └ 'nonebot_plugin_sparkapi'
+                  │    │           └ 'nonebot_plugin_sparkapi'
+                  │    └ <function PluginManager.load_plugin at 0x000002527AEF4160>
+                  └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'nonebot_plugin_sparkapi'
+             │         │             │    └ {'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'zhenxun.plugins.black_word', 'bt'...
+             │         │             └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+             │         └ <function import_module at 0x00000252782C5090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.nonebot_plugin_sparkapi'
+           │          └ <function _gcd_import at 0x0000025277D73490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.nonebot_plugin_sparkapi' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\nonebo...
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\__init__.py", line 7, in <module>
+    from . import matchers
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\matchers\__init__.py", line 1, in <module>
+    from . import block_private, chat, clear, help, imggen, pptgen, preset, session
+                  └ <module 'zhenxun.plugins.nonebot_plugin_sparkapi.matchers.block_private' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\z...
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\matchers\chat.py", line 9, in <module>
+    from nonebot_plugin_sparkapi.API.SparkApi import request_chat
+
+ModuleNotFoundError: No module named 'nonebot_plugin_sparkapi'
+09-19 01:28:19 [ERROR] nonebot | Failed to import "nonebot_plugin_sparkapi"
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 24, in <module>
+    nonebot.load_plugins("zhenxun/plugins")
+    │       └ <function load_plugins at 0x000001A7C9095900>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x000001A7C90941F0>
+           └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x000001A7C9089C10>
+                  │    │           │         │       └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+                  │    │           │         └ 'nonebot_plugin_sparkapi'
+                  │    │           └ 'nonebot_plugin_sparkapi'
+                  │    └ <function PluginManager.load_plugin at 0x000001A7C9094160>
+                  └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'nonebot_plugin_sparkapi'
+             │         │             │    └ {'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'zhenxun.plugins.black_word', 'bt'...
+             │         │             └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+             │         └ <function import_module at 0x000001A7C6445090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.nonebot_plugin_sparkapi'
+           │          └ <function _gcd_import at 0x000001A7C5F13490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.nonebot_plugin_sparkapi' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\nonebo...
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\__init__.py", line 7, in <module>
+    from . import matchers
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\matchers\__init__.py", line 1, in <module>
+    from . import block_private, chat, clear, help, imggen, pptgen, preset, session
+                  └ <module 'zhenxun.plugins.nonebot_plugin_sparkapi.matchers.block_private' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\z...
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\matchers\chat.py", line 9, in <module>
+    from zhenxun.nonebot_plugin_sparkapi.API.SparkApi import request_chat
+
+ModuleNotFoundError: No module named 'zhenxun.nonebot_plugin_sparkapi'
+09-19 01:29:45 [ERROR] nonebot | Failed to import "nonebot_plugin_sparkapi"
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 24, in <module>
+    nonebot.load_plugins("zhenxun/plugins")
+    │       └ <function load_plugins at 0x000001CBB7495900>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x000001CBB74941F0>
+           └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x000001CBB7489C60>
+                  │    │           │         │       └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+                  │    │           │         └ 'nonebot_plugin_sparkapi'
+                  │    │           └ 'nonebot_plugin_sparkapi'
+                  │    └ <function PluginManager.load_plugin at 0x000001CBB7494160>
+                  └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'nonebot_plugin_sparkapi'
+             │         │             │    └ {'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'zhenxun.plugins.black_word', 'bt'...
+             │         │             └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+             │         └ <function import_module at 0x000001CBB4895090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.nonebot_plugin_sparkapi'
+           │          └ <function _gcd_import at 0x000001CBB4313490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.nonebot_plugin_sparkapi' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\nonebo...
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\__init__.py", line 7, in <module>
+    from . import matchers
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\matchers\__init__.py", line 1, in <module>
+    from . import block_private, chat, clear, help, imggen, pptgen, preset, session
+                  └ <module 'zhenxun.plugins.nonebot_plugin_sparkapi.matchers.block_private' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\z...
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\matchers\chat.py", line 9, in <module>
+    from zhenxun.plugins.nonebot_plugin_sparkapi.API.SparkApi import request_chat
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\API\SparkApi.py", line 13, in <module>
+    from nonebot_plugin_sparkapi import funcs
+
+ModuleNotFoundError: No module named 'nonebot_plugin_sparkapi'
+09-19 01:30:58 [ERROR] nonebot | Failed to import "nonebot_plugin_sparkapi"
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 24, in <module>
+    nonebot.load_plugins("zhenxun/plugins")
+    │       └ <function load_plugins at 0x000002DE2C505900>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x000002DE2C5041F0>
+           └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x000002DE2C4FCC20>
+                  │    │           │         │       └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+                  │    │           │         └ 'nonebot_plugin_sparkapi'
+                  │    │           └ 'nonebot_plugin_sparkapi'
+                  │    └ <function PluginManager.load_plugin at 0x000002DE2C504160>
+                  └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'nonebot_plugin_sparkapi'
+             │         │             │    └ {'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'zhenxun.plugins.black_word', 'bt'...
+             │         │             └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+             │         └ <function import_module at 0x000002DE298E5090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.nonebot_plugin_sparkapi'
+           │          └ <function _gcd_import at 0x000002DE29383490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.nonebot_plugin_sparkapi' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\nonebo...
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\__init__.py", line 7, in <module>
+    from . import matchers
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\matchers\__init__.py", line 1, in <module>
+    from . import block_private, chat, clear, help, imggen, pptgen, preset, session
+                  └ <module 'zhenxun.plugins.nonebot_plugin_sparkapi.matchers.block_private' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\z...
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\matchers\chat.py", line 9, in <module>
+    from zhenxun.plugins.nonebot_plugin_sparkapi.API.SparkApi import request_chat
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\API\SparkApi.py", line 15, in <module>
+    from zhenxun.plugins.nonebot_plugin_sparkapi.matchers.session.base import add_msg, session_select
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\matchers\session\__init__.py", line 1, in <module>
+    from . import delete, load, save, session, show
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\matchers\session\delete.py", line 4, in <module>
+    from nonebot_plugin_sparkapi.config import conf
+
+ModuleNotFoundError: No module named 'nonebot_plugin_sparkapi'
+09-19 01:32:03 [ERROR] uvicorn | Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 68, in serve
+    with self.capture_signals():
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\starlette\routing.py", line 700, in lifespan
+    await receive()
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+09-19 03:18:55 [ERROR] nonebot | Running Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) failed.
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 27, in <module>
+    nonebot.run()
+    │       └ <function run at 0x00000139F2F4D510>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\__init__.py", line 335, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x00000139F2F4D360>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\drivers\fastapi.py", line 186, in run
+    uvicorn.run(
+    │       └ <function run at 0x00000139F372ED40>
+    └ <module 'uvicorn' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\main.py", line 577, in run
+    server.run()
+    │      └ <function Server.run at 0x00000139F372E680>
+    └ <uvicorn.server.Server object at 0x000001398501B010>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x00000139F372E710>
+           │       │   └ <uvicorn.server.Server object at 0x000001398501B010>
+           │       └ <function run at 0x00000139F0C4CE50>
+           └ <module 'asyncio' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x00000139841BA7A0>
+           │    └ <function BaseEventLoop.run_until_complete at 0x00000139F0D50280>
+           └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x00000139F298D510>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x00000139F0D51CF0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x00000139F0D009D0>
+    └ <Handle Task.task_wakeup(<_GatheringFu...b6607fc'}})]]>)>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<_GatheringFu...b6607fc'}})]]>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<_GatheringFu...b6607fc'}})]]>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<_GatheringFu...b6607fc'}})]]>)>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 476, in check_and_run_matcher
+    await _run_matcher(
+          └ <function _run_matcher at 0x00000139F30B09D0>
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 428, in _run_matcher
+    await matcher.run(bot, event, state, stack, dependency_cache)
+          │       │   │    │      │      │      └ {<function _event_to_me at 0x00000139F2FA9CF0>: <Task finished name='Task-316603' coro=<_event_to_me() done, defined at C:\Us...
+          │       │   │    │      │      └ <contextlib.AsyncExitStack object at 0x00000139850F6C80>
+          │       │   │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}}
+          │       │   │    └ PrivateMessageEvent(time=1726687135, self_id=3973508735, post_type='message', sub_type='friend', user_id=2747277822, message_...
+          │       │   └ Bot(type='OneBot V11', self_id='3973508735')
+          │       └ <function Matcher.run at 0x00000139F2FA9B40>
+          └ Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 850, in run
+    await self.simple_run(bot, event, state, stack, dependency_cache)
+          │    │          │    │      │      │      └ {<function _event_to_me at 0x00000139F2FA9CF0>: <Task finished name='Task-316603' coro=<_event_to_me() done, defined at C:\Us...
+          │    │          │    │      │      └ <contextlib.AsyncExitStack object at 0x00000139850F6C80>
+          │    │          │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}}
+          │    │          │    └ PrivateMessageEvent(time=1726687135, self_id=3973508735, post_type='message', sub_type='friend', user_id=2747277822, message_...
+          │    │          └ Bot(type='OneBot V11', self_id='3973508735')
+          │    └ <function Matcher.simple_run at 0x00000139F2FA9AB0>
+          └ Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 825, in simple_run
+    await handler(
+          └ Dependent(call=_)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\dependencies\__init__.py", line 94, in __call__
+    return await cast(Callable[..., Awaitable[R]], self.call)(**values)
+                 │    │             │         │    │    │       └ {'session': Session(bot_id='3973508735', bot_type='OneBot V11', platform='qq', level=<SessionLevel.LEVEL1: 1>, id1='274727782...
+                 │    │             │         │    │    └ <function _ at 0x0000013983F1DFC0>
+                 │    │             │         │    └ Dependent(call=_)
+                 │    │             │         └ ~R
+                 │    │             └ <class 'collections.abc.Awaitable'>
+                 │    └ typing.Callable
+                 └ <function cast at 0x00000139F0AE04C0>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\parse_bilibili\__init__.py", line 86, in _
+    get_url = (qqdocurl_value if qqdocurl_value else jumpUrl_value).split("?")[
+               │                 │                   └ {}
+               │                 └ {}
+               └ {}
+
+AttributeError: 'dict' object has no attribute 'split'
+09-19 03:19:05 [ERROR] nonebot | Running Matcher(type='message', module=zhenxun.plugins.nonebot_plugin_sparkapi.matchers.chat, lineno=19) failed.
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 27, in <module>
+    nonebot.run()
+    │       └ <function run at 0x00000139F2F4D510>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\__init__.py", line 335, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x00000139F2F4D360>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\drivers\fastapi.py", line 186, in run
+    uvicorn.run(
+    │       └ <function run at 0x00000139F372ED40>
+    └ <module 'uvicorn' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\main.py", line 577, in run
+    server.run()
+    │      └ <function Server.run at 0x00000139F372E680>
+    └ <uvicorn.server.Server object at 0x000001398501B010>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x00000139F372E710>
+           │       │   └ <uvicorn.server.Server object at 0x000001398501B010>
+           │       └ <function run at 0x00000139F0C4CE50>
+           └ <module 'asyncio' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x00000139841BA7A0>
+           │    └ <function BaseEventLoop.run_until_complete at 0x00000139F0D50280>
+           └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x00000139F298D510>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x00000139F0D51CF0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x00000139F0D009D0>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 476, in check_and_run_matcher
+    await _run_matcher(
+          └ <function _run_matcher at 0x00000139F30B09D0>
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 428, in _run_matcher
+    await matcher.run(bot, event, state, stack, dependency_cache)
+          │       │   │    │      │      │      └ {<function _event_to_me at 0x00000139F2FA9CF0>: <Task finished name='Task-316603' coro=<_event_to_me() done, defined at C:\Us...
+          │       │   │    │      │      └ <contextlib.AsyncExitStack object at 0x00000139850F6C80>
+          │       │   │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}}
+          │       │   │    └ PrivateMessageEvent(time=1726687135, self_id=3973508735, post_type='message', sub_type='friend', user_id=2747277822, message_...
+          │       │   └ Bot(type='OneBot V11', self_id='3973508735')
+          │       └ <function Matcher.run at 0x00000139F2FA9B40>
+          └ Matcher(type='message', module=zhenxun.plugins.nonebot_plugin_sparkapi.matchers.chat, lineno=19)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 850, in run
+    await self.simple_run(bot, event, state, stack, dependency_cache)
+          │    │          │    │      │      │      └ {<function _event_to_me at 0x00000139F2FA9CF0>: <Task finished name='Task-316603' coro=<_event_to_me() done, defined at C:\Us...
+          │    │          │    │      │      └ <contextlib.AsyncExitStack object at 0x00000139850F6C80>
+          │    │          │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}}
+          │    │          │    └ PrivateMessageEvent(time=1726687135, self_id=3973508735, post_type='message', sub_type='friend', user_id=2747277822, message_...
+          │    │          └ Bot(type='OneBot V11', self_id='3973508735')
+          │    └ <function Matcher.simple_run at 0x00000139F2FA9AB0>
+          └ Matcher(type='message', module=zhenxun.plugins.nonebot_plugin_sparkapi.matchers.chat, lineno=19)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 825, in simple_run
+    await handler(
+          └ Dependent(call=_)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\dependencies\__init__.py", line 94, in __call__
+    return await cast(Callable[..., Awaitable[R]], self.call)(**values)
+                 │    │             │         │    │    │       └ {'session_id': 'qq_OneBot_V11_3973508735_2747277822', 'arg': [MessageSegment(type='json', data={'data': '{"app":"com.tencent....
+                 │    │             │         │    │    └ <function _ at 0x0000013983CFA950>
+                 │    │             │         │    └ Dependent(call=_)
+                 │    │             │         └ ~R
+                 │    │             └ <class 'collections.abc.Awaitable'>
+                 │    └ typing.Callable
+                 └ <function cast at 0x00000139F0AE04C0>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\nonebot_plugin_sparkapi\matchers\chat.py", line 27, in _
+    await solve_at("内容不能为空！").finish()
+          └ <function solve_at at 0x0000013983CB6C20>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot_plugin_alconna\uniseg\message.py", line 1407, in finish
+    await self.send(target, bot, fallback, at_sender, reply_to, **kwargs)
+          │    │    │       │    │         │          │           └ {}
+          │    │    │       │    │         │          └ False
+          │    │    │       │    │         └ False
+          │    │    │       │    └ <FallbackStrategy.rollback: 'rollback'>
+          │    │    │       └ None
+          │    │    └ None
+          │    └ <function UniMessage.send at 0x00000139F5E29480>
+          └ [Text(text='内容不能为空！', styles={})]
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot_plugin_alconna\uniseg\message.py", line 1395, in send
+    res = await fn.send_to(target, bot, msg, **kwargs)
+                │  │       │       │    │      └ {}
+                │  │       │       │    └ [MessageSegment(type='text', data={'text': '内容不能为空！'})]
+                │  │       │       └ Bot(type='OneBot V11', self_id='3973508735')
+                │  │       └ PrivateMessageEvent(time=1726687135, self_id=3973508735, post_type='message', sub_type='friend', user_id=2747277822, message_...
+                │  └ <function Onebot11MessageExporter.send_to at 0x00000139F5E0C820>
+                └ <nonebot_plugin_alconna.uniseg.adapters.onebot11.exporter.Onebot11MessageExporter object at 0x00000139F5DCA830>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot_plugin_alconna\uniseg\adapters\onebot11\exporter.py", line 154, in send_to
+    return await bot.send(target, message, **kwargs)  # type: ignore
+                 │   │    │       │          └ {}
+                 │   │    │       └ [MessageSegment(type='text', data={'text': '内容不能为空！'})]
+                 │   │    └ PrivateMessageEvent(time=1726687135, self_id=3973508735, post_type='message', sub_type='friend', user_id=2747277822, message_...
+                 │   └ <function Bot.send at 0x00000139F34D8160>
+                 └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\bot.py", line 237, in send
+    return await self.__class__.send_handler(self, event, message, **kwargs)
+                 │    │                      │     │      │          └ {}
+                 │    │                      │     │      └ [MessageSegment(type='text', data={'text': '内容不能为空！'})]
+                 │    │                      │     └ PrivateMessageEvent(time=1726687135, self_id=3973508735, post_type='message', sub_type='friend', user_id=2747277822, message_...
+                 │    │                      └ Bot(type='OneBot V11', self_id='3973508735')
+                 │    └ <attribute '__class__' of 'object' objects>
+                 └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\bot.py", line 190, in send
+    return await bot.send_msg(**params)
+                 │              └ {'user_id': 2747277822, 'message_type': 'private', 'message': [MessageSegment(type='text', data={'text': '内容不能为空！'})]}
+                 └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\adapter\bot.py", line 122, in call_api
+    raise exception
+          └ ActionFailed(status='failed', retcode=1200, data=None, message='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgServic...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\adapter\bot.py", line 97, in call_api
+    result = await self.adapter._call_api(self, api, **data)
+                   │    │       │         │     │      └ {'user_id': 2747277822, 'message_type': 'private', 'message': [MessageSegment(type='text', data={'text': '内容不能为空！'})]}
+                   │    │       │         │     └ 'send_msg'
+                   │    │       │         └ Bot(type='OneBot V11', self_id='3973508735')
+                   │    │       └ <function Adapter._call_api at 0x00000139F07D8820>
+                   │    └ Adapter(name='OneBot V11')
+                   └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\adapter.py", line 147, in _call_api
+    return handle_api_result(await self._result_store.fetch(seq, timeout))
+           │                       │    │             │     │    └ 30.0
+           │                       │    │             │     └ 87
+           │                       │    │             └ <function ResultStore.fetch at 0x00000139F34D92D0>
+           │                       │    └ <nonebot.adapters.onebot.store.ResultStore object at 0x00000139F31F85E0>
+           │                       └ Adapter(name='OneBot V11')
+           └ <function handle_api_result at 0x00000139F3460280>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\utils.py", line 58, in handle_api_result
+    raise ActionFailed(**result)
+          │              └ {'status': 'failed', 'retcode': 1200, 'data': None, 'message': 'Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgServic...
+          └ <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>
+
+nonebot.adapters.onebot.v11.exception.ActionFailed: ActionFailed(status='failed', retcode=1200, data=None, message='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', wording='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', echo='87')
+09-19 04:30:03 [ERROR] zhenxun | 更新色图 1.jpg 错误 <class 'FileExistsError'>: [WinError 183] 当文件已存在时，无法创建该文件。: 'resources\\temp\\1.jpg' -> 'resources\\image\\_setu\\1.jpg'
+09-19 04:30:06 [ERROR] zhenxun | 更新色图 0.jpg 错误 <class 'FileExistsError'>: [WinError 183] 当文件已存在时，无法创建该文件。: 'resources\\temp\\0.jpg' -> 'resources\\image\\_setu\\0.jpg'
+09-19 12:29:41 [ERROR] uvicorn | [Errno 10048] error while attempting to bind on address ('127.0.0.1', 8080): 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+09-19 12:31:44 [ERROR] uvicorn | [Errno 10048] error while attempting to bind on address ('127.0.0.1', 8080): 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+09-19 14:46:10 [ERROR] nonebot | Running Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) failed.
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 27, in <module>
+    nonebot.run()
+    │       └ <function run at 0x00000260D2281510>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\__init__.py", line 335, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x00000260D2281360>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\drivers\fastapi.py", line 186, in run
+    uvicorn.run(
+    │       └ <function run at 0x00000260D2A5ED40>
+    └ <module 'uvicorn' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\main.py", line 577, in run
+    server.run()
+    │      └ <function Server.run at 0x00000260D2A5E680>
+    └ <uvicorn.server.Server object at 0x00000260E273ED10>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x00000260D2A5E710>
+           │       │   └ <uvicorn.server.Server object at 0x00000260E273ED10>
+           │       └ <function run at 0x00000260CFF7CE50>
+           └ <module 'asyncio' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x00000260D4D817E0>
+           │    └ <function BaseEventLoop.run_until_complete at 0x00000260D0080280>
+           └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x00000260D1CBD510>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x00000260D0081CF0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x00000260D00309D0>
+    └ <Handle <TaskStepMethWrapper object at 0x00000260E2CC55A0>()>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <TaskStepMethWrapper object at 0x00000260E2CC55A0>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <TaskStepMethWrapper object at 0x00000260E2CC55A0>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <TaskStepMethWrapper object at 0x00000260E2CC55A0>()>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 476, in check_and_run_matcher
+    await _run_matcher(
+          └ <function _run_matcher at 0x00000260D23E09D0>
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\message.py", line 428, in _run_matcher
+    await matcher.run(bot, event, state, stack, dependency_cache)
+          │       │   │    │      │      │      └ {<function _uni_msg at 0x00000260D515DFC0>: <Task finished name='Task-500892' coro=<_uni_msg() done, defined at C:\Users\Admi...
+          │       │   │    │      │      └ <contextlib.AsyncExitStack object at 0x00000260E3DEA3B0>
+          │       │   │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}}
+          │       │   │    └ GroupMessageEvent(time=1726728369, self_id=3973508735, post_type='message', sub_type='normal', user_id=1095712946, message_ty...
+          │       │   └ Bot(type='OneBot V11', self_id='3973508735')
+          │       └ <function Matcher.run at 0x00000260D22D9B40>
+          └ Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 850, in run
+    await self.simple_run(bot, event, state, stack, dependency_cache)
+          │    │          │    │      │      │      └ {<function _uni_msg at 0x00000260D515DFC0>: <Task finished name='Task-500892' coro=<_uni_msg() done, defined at C:\Users\Admi...
+          │    │          │    │      │      └ <contextlib.AsyncExitStack object at 0x00000260E3DEA3B0>
+          │    │          │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None, 'command_whitespace': None}}
+          │    │          │    └ GroupMessageEvent(time=1726728369, self_id=3973508735, post_type='message', sub_type='normal', user_id=1095712946, message_ty...
+          │    │          └ Bot(type='OneBot V11', self_id='3973508735')
+          │    └ <function Matcher.simple_run at 0x00000260D22D9AB0>
+          └ Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\matcher\matcher.py", line 825, in simple_run
+    await handler(
+          └ Dependent(call=_)
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\dependencies\__init__.py", line 94, in __call__
+    return await cast(Callable[..., Awaitable[R]], self.call)(**values)
+                 │    │             │         │    │    │       └ {'session': Session(bot_id='3973508735', bot_type='OneBot V11', platform='qq', level=<SessionLevel.LEVEL2: 2>, id1='109571294...
+                 │    │             │         │    │    └ <function _ at 0x00000260DC180D30>
+                 │    │             │         │    └ Dependent(call=_)
+                 │    │             │         └ ~R
+                 │    │             └ <class 'collections.abc.Awaitable'>
+                 │    └ typing.Callable
+                 └ <function cast at 0x00000260CFE104C0>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\parse_bilibili\__init__.py", line 123, in _
+    data = await parse_bili_url(get_url, information_container)
+                 │              │        └ <zhenxun.plugins.parse_bilibili.information_container.InformationContainer object at 0x00000260E3E309A0>
+                 │              └ 'https://www.bilibili.com/video/ava'
+                 └ <function parse_bili_url at 0x00000260DBFBD1B0>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\parse_bilibili\parse_url.py", line 44, in parse_bili_url
+    vd_info = await video.get_video_base_info(vid)
+                    │     │                   └ 'ava'
+                    │     └ <function get_video_base_info at 0x00000260DC163370>
+                    └ <module 'bilireq.video' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\bilireq\video\__init__.py", line 17, in get_video_base_info
+    raise ValueError(f"{video_id} 不是一个有效的 AV 或 BV 号")
+
+ValueError: ava 不是一个有效的 AV 或 BV 号

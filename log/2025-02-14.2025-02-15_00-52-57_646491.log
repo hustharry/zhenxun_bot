@@ -1,0 +1,153 @@
+02-15 00:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-15 01:01:00 [INFO] zhenxun | CMD[定时任务] 自动清理临时数据完成，共清理了 13.36MB 的数据...
+02-15 01:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-15 02:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-15 03:01:00 [INFO] zhenxun | CMD[spark] 清理AI日常聊天数据完成...
+02-15 03:01:00 [INFO] zhenxun | 自动更新好友信息成功...
+02-15 03:01:00 [INFO] zhenxun | 自动更新群组成员信息成功...
+02-15 03:25:01 [INFO] zhenxun | CMD[自动备份] 自动备份成功...
+02-15 03:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-15 04:01:00 [WARNING] zhenxun | 当前无UP池或 prts_up_char.json 文件不存在
+02-15 04:01:00 [WARNING] zhenxun | guardian_up_char 解析出错
+02-15 04:01:00 [WARNING] zhenxun | 赛马娘UP更新出错 || 错误<class 'AttributeError'>: 'NoneType' object has no attribute 'find'
+02-15 04:01:00 [WARNING] zhenxun | pretty_up_char 解析出错
+02-15 04:01:01 [WARNING] zhenxun | 原神 获取额外信息错误 旅行者火
+02-15 04:01:04 [WARNING] zhenxun | 原神 获取额外信息错误 旅行者水
+02-15 04:01:07 [WARNING] zhenxun | 原神 获取额外信息错误 旅行者草
+02-15 04:01:10 [WARNING] zhenxun | 原神 获取额外信息错误 旅行者雷
+02-15 04:01:12 [WARNING] zhenxun | 原神 获取额外信息错误 旅行者风
+02-15 04:01:13 [WARNING] zhenxun | 原神 获取额外信息错误 旅行者岩
+02-15 04:01:16 [INFO] zhenxun | 原神 更新成功
+02-15 04:01:16 [INFO] zhenxun | 原神 武器更新成功
+02-15 04:01:16 [INFO] zhenxun | 成功获取原神当前up信息...当前up池: 「柔柔海露心」 & 「浮枕朝颜」 & 「神铸赋形」
+02-15 04:30:10 [INFO] zhenxun | 下载 https://i.pixiv.re/img-original/img/2023/09/08/00/01/37/111530368_p0.jpg 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\4.jpg
+02-15 04:30:10 [INFO] zhenxun | 不需要压缩，移动图片resources\temp/4.jpg --> /resources\image\_setu/4.jpg
+02-15 04:30:10 [ERROR] zhenxun | 更新色图 4.jpg 错误 <class 'FileExistsError'>: [WinError 183] 当文件已存在时，无法创建该文件。: 'resources\\temp\\4.jpg' -> 'resources\\image\\_setu\\4.jpg'
+02-15 04:30:15 [INFO] zhenxun | 下载 https://i.pixiv.re/img-original/img/2022/12/30/21/04/18/104052603_p0.jpg 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\3.jpg
+02-15 04:30:15 [INFO] zhenxun | 不需要压缩，移动图片resources\temp/3.jpg --> /resources\image\_setu/3.jpg
+02-15 04:30:15 [ERROR] zhenxun | 更新色图 3.jpg 错误 <class 'FileExistsError'>: [WinError 183] 当文件已存在时，无法创建该文件。: 'resources\\temp\\3.jpg' -> 'resources\\image\\_setu\\3.jpg'
+02-15 04:30:25 [INFO] zhenxun | 下载 https://i.pixiv.re/img-original/img/2023/09/09/18/30/20/111577264_p0.png 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\2.jpg
+02-15 04:30:30 [INFO] zhenxun | 下载 https://i.pixiv.re/img-original/img/2023/01/01/17/17/43/104132686_p0.png 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\1.jpg
+02-15 04:30:55 [INFO] zhenxun | 下载 https://i.pixiv.re/img-original/img/2022/10/13/01/09/34/101889280_p0.png 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\0.jpg
+02-15 04:30:57 [INFO] zhenxun | 下载 https://i.pixiv.re/img-original/img/2022/01/28/15/00/34/95827678_p0.jpg 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\0.jpg
+02-15 04:30:58 [INFO] zhenxun | CMD[自动更新色图] ("2025-02-15 04:30:58 更新 色图 完成，本地存在 6 张，实际更新 4 张，以下为更新时未知错误：\n更新色图 4.jpg 错误 <class 'FileExistsError'>: [WinError 183] 当文件已存在时，无法创建该文件。: 'resources\\\\temp\\\\4.jpg' -> 'resources\\\\image\\\\_setu\\\\4.jpg'",)
+02-15 04:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-15 05:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-15 06:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-15 06:01:00 [INFO] zhenxun | group list is [<GroupConsole>, <GroupConsole>]
+02-15 06:01:00 [INFO] zhenxun | key is 992333365:None, check_func is <function check at 0x0000021627C91120>
+02-15 06:01:00 [INFO] zhenxun | is_run value True
+02-15 06:01:00 [INFO] zhenxun | target is Target({'id': '992333365', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-15 06:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-15 06:01:10 [ERROR] zhenxun | CMD[被动早晚安] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', wording='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', echo='1675')
+02-15 06:01:10 [INFO] zhenxun | key is 546881717:None, check_func is <function check at 0x0000021627C91120>
+02-15 06:01:10 [INFO] zhenxun | is_run value False
+02-15 06:01:10 [INFO] zhenxun | 每日早安发送...
+02-15 06:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-15 07:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-15 08:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-15 09:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-15 09:01:00 [INFO] zhenxun | group list is [<GroupConsole>, <GroupConsole>]
+02-15 09:01:00 [INFO] zhenxun | key is 992333365:None, check_func is None
+02-15 09:01:00 [INFO] zhenxun | is_run value True
+02-15 09:01:00 [INFO] zhenxun | target is Target({'id': '992333365', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-15 09:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-15 09:01:10 [ERROR] zhenxun | CMD[被动每日新闻] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', wording='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', echo='1929')
+02-15 09:01:10 [INFO] zhenxun | key is 546881717:None, check_func is None
+02-15 09:01:10 [INFO] zhenxun | is_run value True
+02-15 09:01:10 [INFO] zhenxun | target is Target({'id': '546881717', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-15 09:01:10 [INFO] zhenxun | begin to build uni message!!!
+02-15 09:01:11 [INFO] zhenxun | 自动生成日报成功...
+02-15 09:01:20 [ERROR] zhenxun | CMD[被动每日新闻] [Target]([546881717:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', wording='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', echo='1930')
+02-15 09:01:20 [INFO] zhenxun | 每日摸鱼发送...
+02-15 09:01:21 [INFO] zhenxun | 下载 https://api.03c3.cn/api/zb 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\moyu1739581260.jpeg
+02-15 09:01:22 [INFO] zhenxun | begin to build uni message!!!
+02-15 09:01:22 [INFO] zhenxun | group list is [<GroupConsole>, <GroupConsole>]
+02-15 09:01:22 [INFO] zhenxun | key is 992333365:None, check_func is None
+02-15 09:01:22 [INFO] zhenxun | is_run value True
+02-15 09:01:22 [INFO] zhenxun | target is Target({'id': '992333365', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-15 09:01:22 [INFO] zhenxun | begin to build uni message!!!
+02-15 09:01:48 [ERROR] zhenxun | CMD[被动每日新闻] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', wording='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', echo='1932')
+02-15 09:01:48 [INFO] zhenxun | key is 546881717:None, check_func is None
+02-15 09:01:48 [INFO] zhenxun | is_run value True
+02-15 09:01:48 [INFO] zhenxun | target is Target({'id': '546881717', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-15 09:01:48 [INFO] zhenxun | begin to build uni message!!!
+02-15 09:02:13 [ERROR] zhenxun | CMD[被动每日新闻] [Target]([546881717:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', wording='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', echo='1933')
+02-15 09:02:13 [INFO] zhenxun | 发送摸鱼 [image]
+02-15 09:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-15 10:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-15 11:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-15 12:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-15 13:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-15 14:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-15 15:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-15 15:01:00 [INFO] zhenxun | group list is [<GroupConsole>, <GroupConsole>]
+02-15 15:01:00 [INFO] zhenxun | key is 992333365:None, check_func is None
+02-15 15:01:00 [INFO] zhenxun | is_run value True
+02-15 15:01:00 [INFO] zhenxun | target is Target({'id': '992333365', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-15 15:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-15 15:01:10 [ERROR] zhenxun | CMD[真寻日报] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', wording='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', echo='2439')
+02-15 15:01:10 [INFO] zhenxun | key is 546881717:None, check_func is None
+02-15 15:01:10 [INFO] zhenxun | is_run value True
+02-15 15:01:10 [INFO] zhenxun | target is Target({'id': '546881717', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-15 15:01:10 [INFO] zhenxun | begin to build uni message!!!
+02-15 15:01:20 [ERROR] zhenxun | CMD[真寻日报] [Target]([546881717:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', wording='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', echo='2440')
+02-15 15:01:20 [INFO] zhenxun | begin to build uni message!!!
+02-15 15:01:20 [INFO] zhenxun | group list is [<GroupConsole>, <GroupConsole>]
+02-15 15:01:20 [INFO] zhenxun | key is 992333365:None, check_func is None
+02-15 15:01:20 [INFO] zhenxun | is_run value True
+02-15 15:01:20 [INFO] zhenxun | target is Target({'id': '992333365', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-15 15:01:20 [INFO] zhenxun | begin to build uni message!!!
+02-15 15:01:34 [ERROR] zhenxun | CMD[真寻日报] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', wording='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', echo='2442')
+02-15 15:01:34 [INFO] zhenxun | key is 546881717:None, check_func is None
+02-15 15:01:34 [INFO] zhenxun | is_run value True
+02-15 15:01:34 [INFO] zhenxun | target is Target({'id': '546881717', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-15 15:01:34 [INFO] zhenxun | begin to build uni message!!!
+02-15 15:01:48 [ERROR] zhenxun | CMD[真寻日报] [Target]([546881717:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', wording='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', echo='2443')
+02-15 15:01:48 [INFO] zhenxun | 每日真寻日报发送...
+02-15 15:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-15 16:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-15 17:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-15 18:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-15 18:01:00 [INFO] zhenxun | group list is [<GroupConsole>, <GroupConsole>]
+02-15 18:01:00 [INFO] zhenxun | key is 992333365:None, check_func is None
+02-15 18:01:00 [INFO] zhenxun | is_run value True
+02-15 18:01:00 [INFO] zhenxun | target is Target({'id': '992333365', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-15 18:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-15 18:01:00 [INFO] zhenxun | 成功获取原神当前up信息...当前up池: 「柔柔海露心」 & 「浮枕朝颜」 & 「神铸赋形」
+02-15 18:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-15 18:01:10 [ERROR] zhenxun | CMD[被动查询微博热搜] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', wording='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', echo='2697')
+02-15 18:01:10 [INFO] zhenxun | key is 546881717:None, check_func is None
+02-15 18:01:10 [INFO] zhenxun | is_run value True
+02-15 18:01:10 [INFO] zhenxun | target is Target({'id': '546881717', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-15 18:01:10 [INFO] zhenxun | begin to build uni message!!!
+02-15 18:01:20 [ERROR] zhenxun | CMD[被动查询微博热搜] [Target]([546881717:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', wording='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', echo='2698')
+02-15 18:01:20 [INFO] zhenxun | begin to build uni message!!!
+02-15 18:01:20 [INFO] zhenxun | group list is [<GroupConsole>, <GroupConsole>]
+02-15 18:01:20 [INFO] zhenxun | key is 992333365:None, check_func is None
+02-15 18:01:20 [INFO] zhenxun | is_run value True
+02-15 18:01:20 [INFO] zhenxun | target is Target({'id': '992333365', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-15 18:01:20 [INFO] zhenxun | begin to build uni message!!!
+02-15 18:01:32 [ERROR] zhenxun | CMD[被动查询微博热搜] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', wording='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', echo='2700')
+02-15 18:01:32 [INFO] zhenxun | key is 546881717:None, check_func is None
+02-15 18:01:32 [INFO] zhenxun | is_run value True
+02-15 18:01:32 [INFO] zhenxun | target is Target({'id': '546881717', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-15 18:01:32 [INFO] zhenxun | begin to build uni message!!!
+02-15 18:01:45 [ERROR] zhenxun | CMD[被动查询微博热搜] [Target]([546881717:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', wording='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', echo='2701')
+02-15 18:01:45 [INFO] zhenxun | 定时查询微博热搜
+02-15 18:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-15 19:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-15 20:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-15 21:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-15 22:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-15 23:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-15 23:59:00 [INFO] zhenxun | begin to build uni message!!!
+02-15 23:59:00 [INFO] zhenxun | group list is [<GroupConsole>, <GroupConsole>]
+02-15 23:59:00 [INFO] zhenxun | key is 992333365:None, check_func is <function check at 0x0000021627C91120>
+02-15 23:59:00 [INFO] zhenxun | is_run value True
+02-15 23:59:00 [INFO] zhenxun | target is Target({'id': '992333365', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-15 23:59:00 [INFO] zhenxun | begin to build uni message!!!
+02-15 23:59:10 [ERROR] zhenxun | CMD[被动早晚安] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', wording='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', echo='3207')
+02-15 23:59:10 [INFO] zhenxun | key is 546881717:None, check_func is <function check at 0x0000021627C91120>
+02-15 23:59:10 [INFO] zhenxun | is_run value False
+02-15 23:59:10 [INFO] zhenxun | 每日晚安发送...

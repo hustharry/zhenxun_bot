@@ -1,0 +1,116 @@
+10-21 11:57:31 [ERROR] nonebot | Failed to import "pa"
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 24, in <module>
+    nonebot.load_plugins("zhenxun/plugins")
+    │       └ <function load_plugins at 0x000002326E595900>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x000002326E5941F0>
+           └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x000002326E58DD50>
+                  │    │           │         │       └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+                  │    │           │         └ 'pa'
+                  │    │           └ 'pa'
+                  │    └ <function PluginManager.load_plugin at 0x000002326E594160>
+                  └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'pa'
+             │         │             │    └ {'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'zhenxun.plugins.black_word', 'bt'...
+             │         │             └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+             │         └ <function import_module at 0x000002326B8B5090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.pa'
+           │          └ <function _gcd_import at 0x000002326B413490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.pa' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\pa\\__init__.py'>
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\__init__.py", line 12, in <module>
+    from zhenxun.services.plugin_init import PluginInit
+
+ModuleNotFoundError: No module named 'zhenxun.services.plugin_init'
+10-21 12:21:44 [ERROR] nonebot | Failed to import "pa"
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 24, in <module>
+    nonebot.load_plugins("zhenxun/plugins")
+    │       └ <function load_plugins at 0x00000214977A5900>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\load.py", line 51, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x00000214977A41F0>
+           └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 203, in load_all_plugins
+    return set(
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 204, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x00000214977A1EE0>
+                  │    │           │         │       └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+                  │    │           │         └ 'pa'
+                  │    │           └ 'pa'
+                  │    └ <function PluginManager.load_plugin at 0x00000214977A4160>
+                  └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 169, in load_plugin
+    module = importlib.import_module(self._searched_plugin_ids[name])
+             │         │             │    │                    └ 'pa'
+             │         │             │    └ {'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'zhenxun.plugins.black_word', 'bt'...
+             │         │             └ PluginManager(available_plugins={'ai': 'zhenxun.plugins.ai', 'bilibili_sub': 'zhenxun.plugins.bilibili_sub', 'black_word': 'z...
+             │         └ <function import_module at 0x0000021494B25090>
+             └ <module 'importlib' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'zhenxun.plugins.pa'
+           │          └ <function _gcd_import at 0x00000214949D3490>
+           └ <module '_frozen_importlib' (frozen)>
+
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\plugin\manager.py", line 255, in exec_module
+    super().exec_module(module)
+                        └ <module 'zhenxun.plugins.pa' from 'C:\\Program Files\\zhenxun\\zhenxun_bot-dev\\zhenxun\\plugins\\pa\\__init__.py'>
+
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\plugins\pa\__init__.py", line 12, in <module>
+    from zhenxun.services.plugin_init import PluginInit
+
+ModuleNotFoundError: No module named 'zhenxun.services.plugin_init'

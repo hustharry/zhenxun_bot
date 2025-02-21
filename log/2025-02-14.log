@@ -1,0 +1,313 @@
+02-17 00:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-17 01:01:00 [INFO] zhenxun | CMD[定时任务] 自动清理临时数据完成，共清理了 12.45MB 的数据...
+02-17 01:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-17 02:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-17 03:01:00 [ERROR] zhenxun | 清理AI日常聊天数据失败... || 错误 <class 'FileNotFoundError'>: [WinError 3] 系统找不到指定的路径。: 'C:\\Users\\Administrator\\AppData\\Local\\nonebot2\\nonebot_plugin_sparkapi'
+02-17 03:01:00 [INFO] zhenxun | 自动更新好友信息成功...
+02-17 03:01:00 [INFO] zhenxun | 自动更新群组成员信息成功...
+02-17 03:25:01 [INFO] zhenxun | CMD[自动备份] 自动备份成功...
+02-17 03:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-17 04:01:00 [WARNING] zhenxun | 当前无UP池或 prts_up_char.json 文件不存在
+02-17 04:01:00 [WARNING] zhenxun | guardian_up_char 解析出错
+02-17 04:01:00 [WARNING] zhenxun | 赛马娘UP更新出错 || 错误<class 'AttributeError'>: 'NoneType' object has no attribute 'find'
+02-17 04:01:00 [WARNING] zhenxun | pretty_up_char 解析出错
+02-17 04:01:01 [WARNING] zhenxun | 原神 获取额外信息错误 旅行者火
+02-17 04:01:04 [WARNING] zhenxun | 原神 获取额外信息错误 旅行者水
+02-17 04:01:08 [WARNING] zhenxun | 原神 获取额外信息错误 旅行者草
+02-17 04:01:11 [WARNING] zhenxun | 原神 获取额外信息错误 旅行者雷
+02-17 04:01:13 [WARNING] zhenxun | 原神 获取额外信息错误 旅行者岩
+02-17 04:01:14 [WARNING] zhenxun | 原神 获取额外信息错误 旅行者风
+02-17 04:01:16 [INFO] zhenxun | 原神 更新成功
+02-17 04:01:17 [INFO] zhenxun | 原神 武器更新成功
+02-17 04:01:17 [INFO] zhenxun | 成功获取原神当前up信息...当前up池: 「柔柔海露心」 & 「浮枕朝颜」 & 「神铸赋形」
+02-17 04:30:09 [INFO] zhenxun | 下载 https://i.pixiv.re/img-original/img/2023/09/08/00/01/37/111530368_p0.jpg 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\4.jpg
+02-17 04:30:09 [INFO] zhenxun | 不需要压缩，移动图片resources\temp/4.jpg --> /resources\image\_setu/4.jpg
+02-17 04:30:09 [ERROR] zhenxun | 更新色图 4.jpg 错误 <class 'FileExistsError'>: [WinError 183] 当文件已存在时，无法创建该文件。: 'resources\\temp\\4.jpg' -> 'resources\\image\\_setu\\4.jpg'
+02-17 04:30:12 [INFO] zhenxun | 下载 https://i.pixiv.re/img-original/img/2022/12/30/21/04/18/104052603_p0.jpg 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\3.jpg
+02-17 04:30:12 [INFO] zhenxun | 不需要压缩，移动图片resources\temp/3.jpg --> /resources\image\_setu/3.jpg
+02-17 04:30:12 [ERROR] zhenxun | 更新色图 3.jpg 错误 <class 'FileExistsError'>: [WinError 183] 当文件已存在时，无法创建该文件。: 'resources\\temp\\3.jpg' -> 'resources\\image\\_setu\\3.jpg'
+02-17 04:30:17 [INFO] zhenxun | 下载 https://i.pixiv.re/img-original/img/2023/09/09/18/30/20/111577264_p0.png 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\2.jpg
+02-17 04:30:22 [INFO] zhenxun | 下载 https://i.pixiv.re/img-original/img/2023/01/01/17/17/43/104132686_p0.png 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\1.jpg
+02-17 04:30:27 [INFO] zhenxun | 下载 https://i.pixiv.re/img-original/img/2022/10/13/01/09/34/101889280_p0.png 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\0.jpg
+02-17 04:30:35 [INFO] zhenxun | 下载 https://i.pixiv.re/img-original/img/2022/01/28/15/00/34/95827678_p0.jpg 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\0.jpg
+02-17 04:30:36 [INFO] zhenxun | CMD[自动更新色图] ("2025-02-17 04:30:36 更新 色图 完成，本地存在 6 张，实际更新 4 张，以下为更新时未知错误：\n更新色图 4.jpg 错误 <class 'FileExistsError'>: [WinError 183] 当文件已存在时，无法创建该文件。: 'resources\\\\temp\\\\4.jpg' -> 'resources\\\\image\\\\_setu\\\\4.jpg'",)
+02-17 04:40:00 [INFO] zhenxun | CMD[Chat检测] [Target]([546881717]) 群组两日内未发送任何消息，关闭该群全部被动
+02-17 04:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-17 05:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-17 06:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-17 06:01:00 [INFO] zhenxun | group list is [<GroupConsole>, <GroupConsole>]
+02-17 06:01:00 [INFO] zhenxun | key is 992333365:None, check_func is <function check at 0x0000021627C91120>
+02-17 06:01:00 [INFO] zhenxun | is_run value True
+02-17 06:01:00 [INFO] zhenxun | target is Target({'id': '992333365', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-17 06:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-17 06:01:10 [ERROR] zhenxun | CMD[被动早晚安] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', wording='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', echo='5757')
+02-17 06:01:10 [INFO] zhenxun | key is 546881717:None, check_func is <function check at 0x0000021627C91120>
+02-17 06:01:10 [INFO] zhenxun | is_run value False
+02-17 06:01:10 [INFO] zhenxun | 每日早安发送...
+02-17 06:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-17 07:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-17 08:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-17 09:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-17 09:01:00 [INFO] zhenxun | group list is [<GroupConsole>, <GroupConsole>]
+02-17 09:01:00 [INFO] zhenxun | key is 992333365:None, check_func is None
+02-17 09:01:00 [INFO] zhenxun | is_run value True
+02-17 09:01:00 [INFO] zhenxun | target is Target({'id': '992333365', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-17 09:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-17 09:01:10 [ERROR] zhenxun | CMD[被动每日新闻] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', wording='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', echo='6011')
+02-17 09:01:10 [INFO] zhenxun | key is 546881717:None, check_func is None
+02-17 09:01:10 [INFO] zhenxun | is_run value True
+02-17 09:01:10 [INFO] zhenxun | target is Target({'id': '546881717', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-17 09:01:10 [INFO] zhenxun | begin to build uni message!!!
+02-17 09:01:10 [INFO] zhenxun | 自动生成日报成功...
+02-17 09:01:20 [ERROR] zhenxun | CMD[被动每日新闻] [Target]([546881717:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', wording='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', echo='6012')
+02-17 09:01:20 [INFO] zhenxun | 每日摸鱼发送...
+02-17 09:01:21 [INFO] zhenxun | 下载 https://api.03c3.cn/api/zb 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\moyu1739754060.jpeg
+02-17 09:01:22 [INFO] zhenxun | begin to build uni message!!!
+02-17 09:01:22 [INFO] zhenxun | group list is [<GroupConsole>, <GroupConsole>]
+02-17 09:01:22 [INFO] zhenxun | key is 992333365:None, check_func is None
+02-17 09:01:22 [INFO] zhenxun | is_run value True
+02-17 09:01:22 [INFO] zhenxun | target is Target({'id': '992333365', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-17 09:01:22 [INFO] zhenxun | begin to build uni message!!!
+02-17 09:01:45 [ERROR] zhenxun | CMD[被动每日新闻] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', wording='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', echo='6014')
+02-17 09:01:45 [INFO] zhenxun | key is 546881717:None, check_func is None
+02-17 09:01:45 [INFO] zhenxun | is_run value True
+02-17 09:01:45 [INFO] zhenxun | target is Target({'id': '546881717', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-17 09:01:45 [INFO] zhenxun | begin to build uni message!!!
+02-17 09:02:08 [ERROR] zhenxun | CMD[被动每日新闻] [Target]([546881717:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', wording='Error: Timeout: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{}\n\n    at Timeout.sendDataCallback [as _onTimeout] (file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7666:15)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)', echo='6015')
+02-17 09:02:08 [INFO] zhenxun | 发送摸鱼 [image]
+02-17 09:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-17 10:41:53 [WARNING] nonebot | OneBot V11 | WebSocket for Bot 3973508735 closed by peer
+02-17 10:41:53 [INFO] websockets | connection closed
+02-17 10:52:57 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-17 11:12:35 [INFO] uvicorn | ('127.0.0.1', 59420) - "WebSocket /onebot/v11/ws" [accepted]
+02-17 11:12:36 [INFO] nonebot | OneBot V11 | Bot 3973508735 connected
+02-17 11:12:37 [INFO] websockets | connection open
+02-17 11:12:37 [WARNING] nonebot | OneBot V11 | WebSocket for Bot 3973508735 closed by peer
+02-17 11:12:37 [INFO] websockets | connection closed
+02-17 11:12:40 [ERROR] nonebot | Error when running WebSocketConnection hook. Running cancelled!
+Traceback (most recent call last):
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\httpx\_transports\default.py", line 60, in map_httpcore_exceptions
+    yield
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\httpx\_transports\default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+                 │    │     │                    └ <Request [b'POST']>
+                 │    │     └ <function AsyncConnectionPool.handle_async_request at 0x000002161FCEEA70>
+                 │    └ <httpcore.AsyncConnectionPool object at 0x0000021633C61540>
+                 └ <httpx.AsyncHTTPTransport object at 0x0000021633C61E70>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\httpcore\_async\connection_pool.py", line 208, in handle_async_request
+    raise UnsupportedProtocol(
+          └ <class 'httpcore.UnsupportedProtocol'>
+
+httpcore.UnsupportedProtocol: Request URL is missing an 'http://' or 'https://' protocol.
+
+
+The above exception was the direct cause of the following exception:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\adapter.py", line 173, in _call_api
+    response = await self.driver.request(request)
+                     │    │      │       └ Request(method='POST', url='None/get_group_list')
+                     │    │      └ <function Mixin.request at 0x000002162006DA20>
+                     │    └ Driver(type='fastapi+httpx+websockets', adapters=3, bots=0)
+                     └ Adapter(name='OneBot V11')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\drivers\httpx.py", line 130, in request
+    return await session.request(setup)
+                 │       │       └ Request(method='POST', url='None/get_group_list')
+                 │       └ <function Session.request at 0x000002162006D7E0>
+                 └ <nonebot.drivers.httpx.Session object at 0x0000021633C63850>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\drivers\httpx.py", line 76, in request
+    response = await self.client.request(
+                     │    └ <property object at 0x000002161FB7A660>
+                     └ <nonebot.drivers.httpx.Session object at 0x0000021633C63850>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\httpx\_client.py", line 1533, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+                 │    │    │             │                      └ <httpx._client.UseClientDefault object at 0x000002161FB818D0>
+                 │    │    │             └ <httpx._client.UseClientDefault object at 0x000002161FB818D0>
+                 │    │    └ <Request('POST', '/None/get_group_list')>
+                 │    └ <function AsyncClient.send at 0x000002161FD1B130>
+                 └ <httpx.AsyncClient object at 0x0000021633C615D0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\httpx\_client.py", line 1620, in send
+    response = await self._send_handling_auth(
+                     │    └ <function AsyncClient._send_handling_auth at 0x000002161FD1B1C0>
+                     └ <httpx.AsyncClient object at 0x0000021633C615D0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\httpx\_client.py", line 1648, in _send_handling_auth
+    response = await self._send_handling_redirects(
+                     │    └ <function AsyncClient._send_handling_redirects at 0x000002161FD1B250>
+                     └ <httpx.AsyncClient object at 0x0000021633C615D0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\httpx\_client.py", line 1685, in _send_handling_redirects
+    response = await self._send_single_request(request)
+                     │    │                    └ <Request('POST', '/None/get_group_list')>
+                     │    └ <function AsyncClient._send_single_request at 0x000002161FD1B2E0>
+                     └ <httpx.AsyncClient object at 0x0000021633C615D0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\httpx\_client.py", line 1722, in _send_single_request
+    response = await transport.handle_async_request(request)
+                     │         │                    └ <Request('POST', '/None/get_group_list')>
+                     │         └ <function AsyncHTTPTransport.handle_async_request at 0x000002161FD188B0>
+                     └ <httpx.AsyncHTTPTransport object at 0x0000021633C61E70>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\httpx\_transports\default.py", line 352, in handle_async_request
+    with map_httpcore_exceptions():
+         └ <function map_httpcore_exceptions at 0x000002161FC7C3A0>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+    │    │   │     │    │      └ <traceback object at 0x0000021634225800>
+    │    │   │     │    └ UnsupportedProtocol("Request URL is missing an 'http://' or 'https://' protocol.")
+    │    │   │     └ <class 'httpcore.UnsupportedProtocol'>
+    │    │   └ <method 'throw' of 'generator' objects>
+    │    └ <generator object map_httpcore_exceptions at 0x0000021634BFA570>
+    └ <contextlib._GeneratorContextManager object at 0x0000021633C620E0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\httpx\_transports\default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+          │          └ "Request URL is missing an 'http://' or 'https://' protocol."
+          └ <class 'httpx.UnsupportedProtocol'>
+
+httpx.UnsupportedProtocol: Request URL is missing an 'http://' or 'https://' protocol.
+
+
+The above exception was the direct cause of the following exception:
+
+
+Traceback (most recent call last):
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\bot.py", line 27, in <module>
+    nonebot.run()
+    │       └ <function run at 0x000002161E6A6290>
+    └ <module 'nonebot' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\__init__.py", line 335, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x000002161E6A60E0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\drivers\fastapi.py", line 186, in run
+    uvicorn.run(
+    │       └ <function run at 0x000002161EE7BD00>
+    └ <module 'uvicorn' from 'C:\\Users\\Administrator\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\zhenxun-bot-k9jvl_fX-py3.10\\...
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\main.py", line 579, in run
+    server.run()
+    │      └ <function Server.run at 0x000002161EE7B640>
+    └ <uvicorn.server.Server object at 0x000002162EEC83A0>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x000002161EE7B6D0>
+           │       │   └ <uvicorn.server.Server object at 0x000002162EEC83A0>
+           │       └ <function run at 0x000002161C390E50>
+           └ <module 'asyncio' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x000002162ECE69D0>
+           │    └ <function BaseEventLoop.run_until_complete at 0x000002161C490280>
+           └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x000002161E0D1510>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x000002161C491CF0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x000002161C4409D0>
+    └ <Handle Task.task_wakeup(<_GatheringFu...uest failed')>)>
+
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<_GatheringFu...uest failed')>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<_GatheringFu...uest failed')>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<_GatheringFu...uest failed')>)>
+
+> File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\driver\abstract.py", line 168, in _run_hook
+    await asyncio.gather(*coros)
+          │       │       └ [<coroutine object run_coro_with_catch at 0x000002162F733B50>, <coroutine object run_coro_with_catch at 0x00000216341065E0>, ...
+          │       └ <function gather at 0x000002161C46F520>
+          └ <module 'asyncio' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\utils.py", line 236, in run_coro_with_catch
+    return await coro
+                 └ <coroutine object Dependent.__call__ at 0x000002162F732B20>
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\dependencies\__init__.py", line 94, in __call__
+    return await cast(Callable[..., Awaitable[R]], self.call)(**values)
+                 │    │             │         │    │    │       └ {'bot': Bot(type='OneBot V11', self_id='3973508735')}
+                 │    │             │         │    │    └ <function _ at 0x0000021627D41BD0>
+                 │    │             │         │    └ Dependent(call=_)
+                 │    │             │         └ ~R
+                 │    │             └ <class 'collections.abc.Awaitable'>
+                 │    └ typing.Callable
+                 └ <function cast at 0x000002161C2204C0>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\builtin_plugins\init\__init__.py", line 26, in _
+    group_list, _ = await PlatformUtils.get_group_list(bot)
+                          │             │              └ Bot(type='OneBot V11', self_id='3973508735')
+                          │             └ <classmethod(<function PlatformUtils.get_group_list at 0x000002161FA3C940>)>
+                          └ <class 'zhenxun.utils.platform.PlatformUtils'>
+
+  File "C:\Program Files\zhenxun\zhenxun_bot-dev\zhenxun\utils\platform.py", line 424, in get_group_list
+    group_list = await bot.get_group_list()
+                       └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\adapter\bot.py", line 122, in call_api
+    raise exception
+          └ NetWorkError(message='HTTP request failed')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\internal\adapter\bot.py", line 97, in call_api
+    result = await self.adapter._call_api(self, api, **data)
+                   │    │       │         │     │      └ {}
+                   │    │       │         │     └ 'get_group_list'
+                   │    │       │         └ Bot(type='OneBot V11', self_id='3973508735')
+                   │    │       └ <function Adapter._call_api at 0x000002161BF18820>
+                   │    └ Adapter(name='OneBot V11')
+                   └ Bot(type='OneBot V11', self_id='3973508735')
+
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\zhenxun-bot-k9jvl_fX-py3.10\lib\site-packages\nonebot\adapters\onebot\v11\adapter.py", line 187, in _call_api
+    raise NetworkError("HTTP request failed") from e
+          └ <class 'nonebot.adapters.onebot.v11.exception.NetworkError'>
+
+nonebot.adapters.onebot.v11.exception.NetworkError: NetWorkError(message='HTTP request failed')
+02-17 11:12:42 [INFO] uvicorn | ('127.0.0.1', 59603) - "WebSocket /onebot/v11/ws" [accepted]
+02-17 11:12:42 [INFO] nonebot | OneBot V11 | Bot 3973508735 connected
+02-17 11:12:42 [INFO] websockets | connection open
+02-17 11:14:56 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.private.friend]: Message 1443941967 from 843298567 '摸鱼日历'
+02-17 11:14:56 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+02-17 11:14:56 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+02-17 11:14:56 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+02-17 11:14:56 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+02-17 11:14:56 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+02-17 11:14:56 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+02-17 11:14:57 [INFO] nonebot | Event will be handled by AlconnaMatcher(type='', module=zhenxun.plugins.moyu, lineno=43)
+02-17 11:14:57 [INFO] zhenxun | begin mo yu
+02-17 11:14:57 [INFO] zhenxun | begin to build uni message!!!
+02-17 11:14:58 [INFO] zhenxun | 下载 https://api.03c3.cn/api/zb 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\moyu1739762097.jpeg
+02-17 11:14:58 [INFO] zhenxun | 每日图片下载路径 resources\temp\moyu1739762097.jpeg
+02-17 11:15:00 [INFO] zhenxun | begin to build uni message!!!
+02-17 11:15:01 [INFO] zhenxun | Adapter[OneBot V11] 平台[qq] 用户[843298567] CMD[moyu] 发送摸鱼 Receipt(bot=Bot(type='OneBot V11', self_id='3973508735'), context=PrivateMessageEvent(time=1739762096, self_id=3973508735, post_type='message', sub_type='friend', user_id=843298567, message_type='private', message_id=1443941967, message=[MessageSegment(type='text', data={'text': '摸鱼日历'})], original_message=[MessageSegment(type='text', data={'text': '摸鱼日历'})], raw_message='摸鱼日历', font=14, sender=Sender(user_id=843298567, nickname='yezis', sex=None, age=None, card='', area=None, level=None, role=None, title=None), to_me=True, reply=None, message_seq=1443941967, real_id=1443941967, message_format='array'), exporter=<nonebot_plugin_alconna.uniseg.adapters.onebot11.exporter.Onebot11MessageExporter object at 0x000002162250C760>, msg_ids=[{'message_id': 227730208}])
+02-17 11:15:01 [INFO] nonebot | AlconnaMatcher(type='', module=zhenxun.plugins.moyu, lineno=43) running complete

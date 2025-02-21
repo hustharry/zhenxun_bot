@@ -1,0 +1,11 @@
+01-02 00:34:06 [SUCCESS] nonebot | OneBot V11 3973508735 | [message.group.normal]: Message 613945753 from 457891411@[群:546881717] '[image:file=000000904e61704361744f6e65426f747c4d736746696c657c327c3534363838313...,sub_type=0,file_id=000000904e61704361744f6e65426f747c4d736746696c657c327c3534363838313...,url=https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=EhTOOadd...,file_size=206445,file_unique=0E86705F7C6A81E370601D7B0D99CE70.jpg]'
+01-02 00:34:06 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32)
+01-02 00:34:07 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39)
+01-02 00:34:07 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54)
+01-02 00:34:08 [INFO] nonebot | Matcher(type='message', module=zhenxun.builtin_plugins.chat_history.chat_message, lineno=39) running complete
+01-02 00:34:08 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.parse_bilibili, lineno=54) running complete
+01-02 00:34:09 [INFO] zhenxun | 下载 https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=EhTOOaddXVWfOSH2y7RmzAUDi_5ETRjtzAwg_woo9eS76PnUigMyBHByb2RQgL2jAVoQIKTrKKHH2m79yc1v2z1SXQ&spec=0&rkey=CAMSKMa3OFokB_TlfAEspZ0Qy_iJ-X8jprWIV90mM6o5TGkELTaDOkqQ9uo 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\compare_download__mute__img.jpg
+01-02 00:34:09 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.mute.mute_message, lineno=32) running complete
+01-02 00:34:09 [INFO] nonebot | Event will be handled by Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97)
+01-02 00:34:10 [INFO] zhenxun | 下载 https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=EhTOOaddXVWfOSH2y7RmzAUDi_5ETRjtzAwg_woo9eS76PnUigMyBHByb2RQgL2jAVoQIKTrKKHH2m79yc1v2z1SXQ&spec=0&rkey=CAMSKMa3OFokB_TlfAEspZ0Qy_iJ-X8jprWIV90mM6o5TGkELTaDOkqQ9uo 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\compare_download_546881717_img.jpg
+01-02 00:34:10 [INFO] nonebot | Matcher(type='message', module=zhenxun.plugins.fudu, lineno=97) running complete

@@ -1,0 +1,591 @@
+_backup:
+  BACKUP_FLAG:
+    value: true
+    help: 是否开启文件备份
+    default_value: true
+  BACKUP_DIR_OR_FILE:
+    value:
+    - data
+    help: 备份的文件夹或文件
+    default_value: []
+chat_check:
+  STATUS:
+    value: true
+    help: 是否开启群组两日内未发送任何消息，关闭该群全部被动
+    default_value: true
+hook:
+  CHECK_NOTICE_INFO_CD:
+    value: 300
+    help: 群检测，个人权限检测等各种检测提示信息cd
+    default_value: 300
+  MALICIOUS_BAN_TIME:
+    value: 30
+    help: 恶意命令触发检测触发后ban的时长（分钟）
+    default_value: 30
+  MALICIOUS_CHECK_TIME:
+    value: 5
+    help: 恶意命令触发检测规定时间内（秒）
+    default_value: 5
+  MALICIOUS_BAN_COUNT:
+    value: 6
+    help: 恶意命令触发检测最大触发次数
+    default_value: 6
+  IS_SEND_TIP_MESSAGE:
+    value: true
+    help: 是否发送阻断时提示消息
+    default_value: true
+  BAN_RESULT:
+    value: 才不会给你发消息.
+    help: 对被ban用户发送的消息
+    default_value:
+admin_bot_manage:
+  SET_GROUP_WELCOME_MESSAGE_LEVEL:
+    value: 2
+    help: 设置群欢迎消息所需要的管理员权限等级
+    default_value: 2
+  ADMIN_DEFAULT_AUTH:
+    value: 5
+    help: 设置群欢迎消息所需要的管理员权限等级
+    default_value: 5
+send_setu:
+  INITIAL_SETU_PROBABILITY:
+    value: 0.7
+    help: 初始色图概率，总概率 = 初始色图概率 + 好感度
+    default_value: 0.7
+  WITHDRAW_SETU_MESSAGE:
+    value:
+    - 0
+    - 1
+    help: 自动撤回，参1：延迟撤回色图时间(秒)，0 为关闭 | 参2：监控聊天类型，0(私聊) 1(群聊) 2(群聊+私聊)
+    default_value:
+    - 0
+    - 1
+  ONLY_USE_LOCAL_SETU:
+    value: false
+    help: 仅仅使用本地色图，不在线搜索
+    default_value: false
+  DOWNLOAD_SETU:
+    value: true
+    help: 是否存储下载的色图，使用本地色图可以加快图片发送速度
+    default_value: true
+  TIMEOUT:
+    value: 10
+    help: 色图下载超时限制(秒)
+    default_value: 10
+  SHOW_INFO:
+    value: true
+    help: 是否显示色图的基本信息，如PID等
+    default_value: true
+  ALLOW_GROUP_R18:
+    value: false
+    help: 在群聊中启用R18权限
+    default_value: false
+  MAX_ONCE_NUM2FORWARD:
+    value:
+    help: 单次发送的图片数量达到指定值时转发为合并消息
+    default_value:
+  MAX_ONCE_NUM:
+    value: 10
+    help: 单次发送图片数量限制
+    default_value: 10
+sign_in:
+  MAX_SIGN_GOLD:
+    value: 200
+    help: 签到好感度加成额外获得的最大金币数
+    default_value: 200
+  SIGN_CARD1_PROB:
+    value: 0.2
+    help: 签到好感度双倍加持卡Ⅰ掉落概率
+    default_value: 0.2
+  SIGN_CARD2_PROB:
+    value: 0.09
+    help: 签到好感度双倍加持卡Ⅲ掉落概率
+    default_value: 0.09
+  SIGN_CARD3_PROB:
+    value: 0.05
+    help: 签到好感度双倍加持卡Ⅲ掉落概率
+    default_value: 0.05
+  IMAGE_STYLE:
+    value: zhenxun
+    help: 签到图片样式, [normal, zhenxun]
+    default_value: zhenxun
+reload_setting:
+  AUTO_RELOAD:
+    value: false
+    help: 自动重载配置文件
+    default_value: false
+  AUTO_RELOAD_TIME:
+    value: 180
+    help: 自动重载配置文件时长
+    default_value: 180
+auto_update:
+  UPDATE_REMIND:
+    value: true
+    help: 是否检测更新版本
+    default_value: true
+chat_history:
+  FLAG:
+    value: true
+    help: 是否开启消息自从存储
+    default_value: true
+_task:
+  DEFAULT_BROADCAST:
+    value: true
+    help: 被动 广播 进群默认开关状态
+    default_value: true
+  DEFAULT_GROUP_WELCOME:
+    value: true
+    help: 被动 进群欢迎 进群默认开关状态
+    default_value: true
+  DEFAULT_REFUND_GROUP_REMIND:
+    value: true
+    help: 被动 退群提醒 进群默认开关状态
+    default_value: true
+  DEFAULT_OPEN_CASE_RESET_REMIND:
+    value: true
+    help: 被动 每日开箱重置提醒 进群默认开关状态
+    default_value: true
+  DEFAULT_FUDU:
+    value: true
+    help: 被动 复读 进群默认开关状态
+    default_value: true
+  DEFAULT_BILIBILI_PARSE:
+    value: true
+    help: 被动 B站转发解析 进群默认开关状态
+    default_value: true
+plugin_switch:
+  CHANGE_GROUP_SWITCH_LEVEL:
+    value: 2
+    help: 开关群功能权限
+    default_value: 2
+ban:
+  BAN_LEVEL:
+    value: 5
+    help: ban/unban所需要的管理员权限等级
+    default_value: 5
+help:
+  TYPE:
+    value: normal
+    help: 帮助图片样式 ['normal', 'HTML', 'zhenxun']
+    default_value: zhenxun
+web-ui:
+  USERNAME:
+    value: admin
+    help: 前端管理用户名
+    default_value: admin
+  PASSWORD:
+    value: '1998419'
+    help: 前端管理密码
+    default_value:
+  SECRET:
+    value: U3GtzFaLzqScJhi3z4FqZCkuqlLM6J5n-I-6IMUlJaw
+    help: JWT密钥
+    default_value:
+invite_manager:
+  AUTO_ADD_FRIEND:
+    value: false
+    help: 是否自动同意好友添加
+    default_value: false
+  MESSAGE:
+    value: 请不要未经同意就拉小叶子入群！告辞！
+    help: 强制拉群后进群回复的内容
+    default_value:
+  FLAG:
+    value: true
+    help: 强制拉群后进群退出并回复内容
+    default_value: true
+  WELCOME_MSG_CD:
+    value: 5
+    help: 群欢迎消息cd
+    default_value: 5
+nickname:
+  BLACK_WORD:
+    value:
+    - 爸
+    - 爹
+    - 爷
+    - 父
+    help: 昵称所屏蔽的关键词，已设置的昵称会被替换为 *，未设置的昵称会在设置时提示
+    default_value:
+bilibili_sub:
+  GROUP_BILIBILI_SUB_LEVEL:
+    value: 5
+    help: 群内bilibili订阅需要管理的权限
+    default_value: 5
+  LIVE_MSG_AT_ALL:
+    value: false
+    help: 直播提醒是否AT全体（仅在真寻是管理员时生效）
+    default_value: false
+  UP_MSG_AT_ALL:
+    value: false
+    help: UP动态投稿提醒是否AT全体（仅在真寻是管理员时生效）
+    default_value: false
+  CHECK_TIME:
+    value: 60
+    help: b站检测时间间隔(秒)
+    default_value: 60
+draw_card:
+  PRTS_FLAG:
+    value: false
+    help: 明日方舟 抽卡开关
+    default_value: true
+  GENSHIN_FLAG:
+    value: true
+    help: 原神 抽卡开关
+    default_value: true
+  PRETTY_FLAG:
+    value: false
+    help: 赛马娘 抽卡开关
+    default_value: true
+  GUARDIAN_FLAG:
+    value: false
+    help: 坎公骑冠剑 抽卡开关
+    default_value: true
+  PCR_FLAG:
+    value: false
+    help: 公主连结 抽卡开关
+    default_value: true
+  AZUR_FLAG:
+    value: false
+    help: 碧蓝航线 抽卡开关
+    default_value: true
+  FGO_FLAG:
+    value: false
+    help: 命运-冠位指定（FGO） 抽卡开关
+    default_value: true
+  ONMYOJI_FLAG:
+    value: false
+    help: 阴阳师 抽卡开关
+    default_value: true
+  PCR_TAI:
+    value: false
+    help: pcr台服卡池 抽卡开关
+    default_value: true
+  BA_FLAG:
+    value: false
+    help: 碧蓝档案 抽卡开关
+    default_value: true
+  SEMAPHORE:
+    value: 5
+    help: 异步数据下载数量限制
+    default_value: 5
+github_sub:
+  GROUP_GITHUB_SUB_LEVEL:
+    value: 5
+    help: github订阅需要的管理员等级
+    default_value: 5
+  GITHUB_TOKEN:
+    value:
+    help: 登陆github获取 https://github.com/settings/tokens/new
+    default_value:
+  GITHUB_ISSUE:
+    value: true
+    help: 是否不推送Issue
+    default_value: true
+  CHECK_API_TIME:
+    value: 30
+    help: github订阅api间隔(秒)
+    default_value: 30
+pixiv_rank_search:
+  TIMEOUT:
+    value: 10
+    help: 图片下载超时限制
+    default_value: 10
+  MAX_PAGE_LIMIT:
+    value: 20
+    help: 作品最大页数限制，超过的作品会被略过
+    default_value: 20
+  ALLOW_GROUP_R18:
+    value: false
+    help: 图允许群聊中使用 r18 参数
+    default_value: false
+hibiapi:
+  HIBIAPI:
+    value: https://api.obfs.dev
+    help: 如果没有自建或其他hibiapi请不要修改
+    default_value: https://api.obfs.dev
+pixiv:
+  PIXIV_NGINX_URL:
+    value: i.pixiv.re
+    help: Pixiv反向代理
+    default_value:
+search_image:
+  MAX_FIND_IMAGE_COUNT:
+    value: 3
+    help: 搜索动漫返回的最大数量
+    default_value: 3
+  API_KEY:
+    value:
+    help: Saucenao的API_KEY，通过 https://saucenao.com/user.php?page=search-api 注册获取
+    default_value:
+bt:
+  BT_MAX_NUM:
+    value: 10
+    help: 单次BT搜索返回最大消息数量
+    default_value: 10
+search_anime:
+  SEARCH_ANIME_MAX_INFO:
+    value: 20
+    help: 搜索动漫返回的最大数量
+    default_value: 20
+coser:
+  WITHDRAW_COS_MESSAGE:
+    value:
+    - 0
+    - 1
+    help: 自动撤回，参1：延迟撤回色图时间(秒)，0 为关闭 | 参2：监控聊天类型，0(私聊) 1(群聊) 2(群聊+私聊)
+    default_value:
+    - 0
+    - 1
+mute_setting:
+  MUTE_LEVEL:
+    value: 5
+    help: 更改禁言设置的管理权限
+    default_value: 5
+  MUTE_DEFAULT_COUNT:
+    value: 10
+    help: 刷屏禁言默认检测次数
+    default_value: 10
+  MUTE_DEFAULT_TIME:
+    value: 7
+    help: 刷屏检测默认规定时间
+    default_value: 7
+  MUTE_DEFAULT_DURATION:
+    value: 10
+    help: 刷屏检测默禁言时长（分钟）
+    default_value: 10
+translate:
+  APPID:
+    value:
+    help: 百度翻译APPID
+    default_value:
+  SECRET_KEY:
+    value:
+    help: 百度翻译秘钥
+    default_value:
+open_cases:
+  INITIAL_OPEN_CASE_COUNT:
+    value: 20
+    help: 初始每日开箱次数
+    default_value: 20
+  EACH_IMPRESSION_ADD_COUNT:
+    value: 3
+    help: 每 * 点好感度额外增加开箱次数
+    default_value: 3
+  COOKIE:
+    value:
+    help: BUFF的cookie
+    default_value:
+  DAILY_UPDATE:
+    value:
+    help: 每日自动更新的武器箱，存在'ALL'时则更新全部武器箱
+    default_value:
+black_word:
+  CYCLE_DAYS:
+    value: 30
+    help: 黑名单词汇记录周期
+    default_value: 30
+  TOLERATE_COUNT:
+    value:
+    - 5
+    - 1
+    - 1
+    - 1
+    - 1
+    help: '各个级别惩罚的容忍次数, 依次为: 1, 2, 3, 4, 5'
+    default_value:
+    - 5
+    - 1
+    - 1
+    - 1
+    - 1
+  AUTO_PUNISH:
+    value: true
+    help: 是否启动自动惩罚机制
+    default_value: true
+  BAN_4_DURATION:
+    value: 360
+    help: Ban时长（分钟），四级惩罚，可以为指定数字或指定列表区间(随机)，例如 [30, 360]
+    default_value: 360
+  BAN_3_DURATION:
+    value: 7
+    help: Ban时长（天），三级惩罚，可以为指定数字或指定列表区间(随机)，例如 [7, 30]
+    default_value: 7
+  WARNING_RESULT:
+    value: 请注意对小叶子的发言内容
+    help: 口头警告内容
+    default_value:
+  AUTO_ADD_PUNISH_LEVEL:
+    value: 360
+    help: 自动提级机制，当周期内处罚次数大于某一特定值就提升惩罚等级
+    default_value: 360
+  ADD_PUNISH_LEVEL_TO_COUNT:
+    value: 3
+    help: 在CYCLE_DAYS周期内触发指定惩罚次数后提升惩罚等级
+    default_value: 3
+  ALAPI_CHECK_FLAG:
+    value: false
+    help: 当未检测到已收录的敏感词时，开启ALAPI文本检测并将疑似文本发送给超级用户
+    default_value: false
+  CONTAIN_BLACK_STOP_PROPAGATION:
+    value: true
+    help: 当文本包含任意敏感词时，停止向下级插件传递，即不触发ai
+    default_value: true
+alapi:
+  ALAPI_TOKEN:
+    value: emJHSxciACCdlDHh
+    help: 在 https://admin.alapi.cn/user/login 登录后获取token
+    default_value:
+  EMJHSXCIACCDLDHH:
+    value:
+    help: 在https://admin.alapi.cn/user/login登录后获取token
+    default_value:
+ai:
+  TL_KEY:
+    value: []
+    help: 图灵Key
+    default_value:
+  ALAPI_AI_CHECK:
+    value: false
+    help: 是否检测青云客骂娘回复
+    default_value: false
+  TEXT_FILTER:
+    value:
+    - 鸡
+    - 口交
+    help: 文本过滤器，将敏感词更改为*
+    default_value:
+russian:
+  MAX_RUSSIAN_BET_GOLD:
+    value: 1000
+    help: 俄罗斯轮盘最大赌注金额
+    default_value: 1000
+fudu:
+  FUDU_PROBABILITY:
+    value: 0.7
+    help: 复读概率
+    default_value: 0.7
+search_buff_skin_price:
+  BUFF_PROXY:
+    value:
+    help: BUFF代理，有些厂ip可能被屏蔽
+    default_value:
+  COOKIE:
+    value:
+    help: BUFF的账号cookie
+    default_value:
+gold_redbag:
+  DEFAULT_TIMEOUT:
+    value: 600
+    help: 普通红包默认超时时间
+    default_value: 600
+  DEFAULT_INTERVAL:
+    value: 60
+    help: 用户发送普通红包最小间隔时间
+    default_value: 60
+  RANK_NUM:
+    value: 10
+    help: 结算排行显示前N位
+    default_value: 10
+word_clouds:
+  WORD_CLOUDS_TEMPLATE:
+    value: 1
+    help: 词云模板 参1：图片生成，默认使用真寻图片，可在项目路径resources/image/wordcloud下配置图片，多张则随机 | 参2/其他：黑底图片
+    default_value:
+pix:
+  PIX_IMAGE_SIZE:
+    value: master
+    help: PIX图库下载的画质 可能的值：original：原图，master：缩略图（加快发送速度）
+    default_value: master
+  SEARCH_HIBIAPI_BOOKMARKS:
+    value: 5000
+    help: 最低收藏，PIX使用HIBIAPI搜索图片时达到最低收藏才会添加至图库
+    default_value: 5000
+  WITHDRAW_PIX_MESSAGE:
+    value:
+    - 0
+    - 1
+    help: 自动撤回，参1：延迟撤回色图时间(秒)，0 为关闭 | 参2：监控聊天类型，0(私聊) 1(群聊) 2(群聊+私聊)
+    default_value:
+    - 0
+    - 1
+  PIX_OMEGA_PIXIV_RATIO:
+    value:
+    - 10
+    - 0
+    help: PIX图库 与 额外图库OmegaPixivIllusts 混合搜索的比例 参1：PIX图库 参2：OmegaPixivIllusts扩展图库（没有此图库请设置为0）
+    default_value:
+    - 10
+    - 0
+  TIMEOUT:
+    value: 10
+    help: 下载图片超时限制（秒）
+    default_value: 10
+  SHOW_INFO:
+    value: true
+    help: 是否显示图片的基本信息，如PID等
+    default_value: true
+  MAX_ONCE_NUM2FORWARD:
+    value:
+    help: 单次发送的图片数量达到指定值时转发为合并消息
+    default_value:
+  ALLOW_GROUP_SETU:
+    value: false
+    help: 允许非超级用户使用-s参数
+    default_value: false
+  ALLOW_GROUP_R18:
+    value: false
+    help: 允许非超级用户使用-r参数
+    default_value: false
+image_management:
+  IMAGE_DIR_LIST:
+    value:
+    - 美图
+    - 萝莉
+    - 壁纸
+    help: 公开图库列表，可自定义添加 [如果含有send_setu插件，请不要添加色图库]
+    default_value: []
+  WITHDRAW_IMAGE_MESSAGE:
+    value:
+    - 0
+    - 1
+    help: 自动撤回，参1：延迟撤回发送图库图片的时间(秒)，0 为关闭 | 参2：监控聊天类型，0(私聊) 1(群聊) 2(群聊+私聊)
+    default_value:
+    - 0
+    - 1
+  DELETE_IMAGE_LEVEL:
+    value: 7
+    help: 删除图库图片需要的管理员等级
+    default_value: 7
+  MOVE_IMAGE_LEVEL:
+    value: 7
+    help: 移动图库图片需要的管理员等级
+    default_value: 7
+  UPLOAD_IMAGE_LEVEL:
+    value: 6
+    help: 上传图库图片需要的管理员等级
+    default_value: 6
+  SHOW_ID:
+    value: true
+    help: 是否消息显示图片下标id
+    default_value: true
+word_bank:
+  WORD_BANK_LEVEL:
+    value: 5
+    help: 设置增删词库的权限等级
+    default_value: 5
+super_help:
+  TYPE:
+    value: zhenxun
+    help: 超级用户帮助样式，normal, zhenxun
+    default_value: zhenxun
+admin_help:
+  TYPE:
+    value: zhenxun
+    help: 管理员帮助样式，normal, zhenxun
+    default_value: zhenxun
+catchphrase:
+  CATCHPHRASE:
+    value: ''
+    help: 小真寻的口癖，在文本末尾添加指定文字~
+    default_value: ''

@@ -1,0 +1,69 @@
+PluginBlockLimit:
+  # 用户调用阻塞
+  # 即 当用户调用此功能还未结束时
+  # 用发送消息阻止用户重复调用此命令直到该命令结束
+  # key：模块名称
+  # status：此限制的开关状态
+  # check_type：'PRIVATE'/'GROUP'/'ALL'，限制私聊/群聊/全部
+  # watch_type：监听对象，以user_id或group_id作为键来限制，'USER'：用户id，'GROUP'：群id
+  #                                     示例：'USER'：阻塞用户，'group'：阻塞群聊
+  # result：回复的话，可以添加[at]，[uname]，[nickname]来对应艾特，用户群名称，昵称系统昵称
+  # result 为 "" 或 None 时则不回复
+  # result示例："[uname]你冲的太快了，[nickname]先生，请稍后再冲[at]"
+  # result回复："老色批你冲的太快了，欧尼酱先生，请稍后再冲@老色批"
+  #      用户昵称↑     昵称系统的昵称↑          艾特用户↑
+  test:
+    status: false
+    check_type: ALL
+    watch_type: USER
+    result: 你冲的太快了，请稍后再冲
+  search_anime:
+    status: true
+    check_type: ALL
+    watch_type: USER
+    result: 搜索还未完成，不要重复触发！
+  luxun:
+    status: true
+    check_type: ALL
+    watch_type: USER
+    result: 你的鲁迅正在说，等会
+  send_setu:
+    status: true
+    check_type: ALL
+    watch_type: USER
+    result: 您冲的太快了，请稍后再冲.
+  open_cases:
+    status: true
+    check_type: ALL
+    watch_type: USER
+    result: 着什么急啊，慢慢来！
+  pixiv_rank_search:
+    status: true
+    check_type: ALL
+    watch_type: USER
+    result: P站排行榜或搜图正在搜索，请不要重复触发命令...
+  gold_redbag:
+    status: true
+    check_type: ALL
+    watch_type: USER
+    result: 急什么急什么，待会再发！
+  sign_in:
+    status: true
+    check_type: ALL
+    watch_type: USER
+    result:
+  update_setu:
+    status: true
+    check_type: ALL
+    watch_type: USER
+    result: 色图正在更新...
+  pix:
+    status: true
+    check_type: ALL
+    watch_type: USER
+    result: 您有PIX图片正在处理，请稍等...
+  search_buff_skin_price:
+    status: true
+    check_type: ALL
+    watch_type: USER
+    result: 您有皮肤正在搜索，请稍等...

@@ -1,0 +1,132 @@
+02-07 00:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-07 01:01:00 [INFO] zhenxun | CMD[定时任务] 自动清理临时数据完成，共清理了 11.91MB 的数据...
+02-07 01:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-07 02:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-07 03:01:00 [INFO] zhenxun | CMD[spark] 清理AI日常聊天数据完成...
+02-07 03:01:00 [INFO] zhenxun | 自动更新好友信息成功...
+02-07 03:01:00 [INFO] zhenxun | 自动更新群组成员信息成功...
+02-07 03:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-07 03:25:01 [INFO] zhenxun | CMD[自动备份] 自动备份成功...
+02-07 04:01:00 [WARNING] zhenxun | 当前无UP池或 prts_up_char.json 文件不存在
+02-07 04:01:00 [WARNING] zhenxun | guardian_up_char 解析出错
+02-07 04:01:00 [WARNING] zhenxun | 赛马娘UP更新出错 || 错误<class 'AttributeError'>: 'NoneType' object has no attribute 'find'
+02-07 04:01:00 [WARNING] zhenxun | pretty_up_char 解析出错
+02-07 04:01:01 [WARNING] zhenxun | 原神 获取额外信息错误 旅行者火
+02-07 04:01:05 [WARNING] zhenxun | 原神 获取额外信息错误 旅行者水
+02-07 04:01:08 [WARNING] zhenxun | 原神 获取额外信息错误 旅行者草
+02-07 04:01:12 [WARNING] zhenxun | 原神 获取额外信息错误 旅行者雷
+02-07 04:01:15 [WARNING] zhenxun | 原神 获取额外信息错误 旅行者风
+02-07 04:01:16 [WARNING] zhenxun | 原神 获取额外信息错误 旅行者岩
+02-07 04:01:19 [INFO] zhenxun | 原神 更新成功
+02-07 04:01:19 [INFO] zhenxun | 原神 武器更新成功
+02-07 04:01:19 [INFO] zhenxun | 成功获取原神当前up信息...当前up池: 「流霆贯夜」 & 「炉边烬影」 & 「神铸赋形」
+02-07 04:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-07 04:30:06 [INFO] zhenxun | 下载 https://i.pixiv.re/img-original/img/2023/09/08/00/01/37/111530368_p0.jpg 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\4.jpg
+02-07 04:30:06 [INFO] zhenxun | 不需要压缩，移动图片resources\temp/4.jpg --> /resources\image\_setu/4.jpg
+02-07 04:30:06 [ERROR] zhenxun | 更新色图 4.jpg 错误 <class 'FileExistsError'>: [WinError 183] 当文件已存在时，无法创建该文件。: 'resources\\temp\\4.jpg' -> 'resources\\image\\_setu\\4.jpg'
+02-07 04:30:12 [INFO] zhenxun | 下载 https://i.pixiv.re/img-original/img/2022/12/30/21/04/18/104052603_p0.jpg 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\3.jpg
+02-07 04:30:12 [INFO] zhenxun | 不需要压缩，移动图片resources\temp/3.jpg --> /resources\image\_setu/3.jpg
+02-07 04:30:12 [ERROR] zhenxun | 更新色图 3.jpg 错误 <class 'FileExistsError'>: [WinError 183] 当文件已存在时，无法创建该文件。: 'resources\\temp\\3.jpg' -> 'resources\\image\\_setu\\3.jpg'
+02-07 04:30:23 [INFO] zhenxun | 下载 https://i.pixiv.re/img-original/img/2023/09/09/18/30/20/111577264_p0.png 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\2.jpg
+02-07 04:30:29 [INFO] zhenxun | 下载 https://i.pixiv.re/img-original/img/2023/01/01/17/17/43/104132686_p0.png 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\1.jpg
+02-07 04:30:34 [INFO] zhenxun | 下载 https://i.pixiv.re/img-original/img/2022/10/13/01/09/34/101889280_p0.png 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\0.jpg
+02-07 04:30:49 [INFO] zhenxun | 下载 https://i.pixiv.re/img-original/img/2022/01/28/15/00/34/95827678_p0.jpg 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\0.jpg
+02-07 04:30:50 [INFO] zhenxun | CMD[自动更新色图] ("2025-02-07 04:30:50 更新 色图 完成，本地存在 6 张，实际更新 4 张，以下为更新时未知错误：\n更新色图 4.jpg 错误 <class 'FileExistsError'>: [WinError 183] 当文件已存在时，无法创建该文件。: 'resources\\\\temp\\\\4.jpg' -> 'resources\\\\image\\\\_setu\\\\4.jpg'",)
+02-07 05:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-07 06:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-07 06:01:00 [INFO] zhenxun | group list is [<GroupConsole>, <GroupConsole>, <GroupConsole>]
+02-07 06:01:00 [INFO] zhenxun | key is 1003578395:None, check_func is <function check at 0x000002E5674B0A60>
+02-07 06:01:00 [INFO] zhenxun | is_run value False
+02-07 06:01:00 [INFO] zhenxun | key is 992333365:None, check_func is <function check at 0x000002E5674B0A60>
+02-07 06:01:00 [INFO] zhenxun | is_run value True
+02-07 06:01:00 [INFO] zhenxun | target is Target({'id': '992333365', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-07 06:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-07 06:01:00 [ERROR] zhenxun | CMD[被动早晚安] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": -1,\n    "errMsg": "rich media transfer failed"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": -1,\n    "errMsg": "rich media transfer failed"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='102514')
+02-07 06:01:00 [INFO] zhenxun | key is 546881717:None, check_func is <function check at 0x000002E5674B0A60>
+02-07 06:01:00 [INFO] zhenxun | is_run value False
+02-07 06:01:00 [INFO] zhenxun | 每日早安发送...
+02-07 06:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-07 07:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-07 08:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-07 09:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-07 09:01:00 [INFO] zhenxun | group list is [<GroupConsole>, <GroupConsole>, <GroupConsole>]
+02-07 09:01:00 [INFO] zhenxun | key is 1003578395:None, check_func is None
+02-07 09:01:00 [INFO] zhenxun | is_run value True
+02-07 09:01:00 [INFO] zhenxun | target is Target({'id': '1003578395', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-07 09:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-07 09:01:00 [ERROR] zhenxun | CMD[被动每日新闻] [Target]([1003578395:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 1006514,\n    "errMsg": "网络连接异常!"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 1006514,\n    "errMsg": "网络连接异常!"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='102876')
+02-07 09:01:00 [INFO] zhenxun | key is 992333365:None, check_func is None
+02-07 09:01:00 [INFO] zhenxun | is_run value True
+02-07 09:01:00 [INFO] zhenxun | target is Target({'id': '992333365', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-07 09:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-07 09:01:00 [ERROR] zhenxun | CMD[被动每日新闻] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 1006514,\n    "errMsg": "网络连接异常!"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 1006514,\n    "errMsg": "网络连接异常!"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='102877')
+02-07 09:01:00 [INFO] zhenxun | key is 546881717:None, check_func is None
+02-07 09:01:00 [INFO] zhenxun | is_run value True
+02-07 09:01:00 [INFO] zhenxun | target is Target({'id': '546881717', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-07 09:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-07 09:01:00 [ERROR] zhenxun | CMD[被动每日新闻] [Target]([546881717:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 1006514,\n    "errMsg": "网络连接异常!"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 1006514,\n    "errMsg": "网络连接异常!"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='102878')
+02-07 09:01:00 [INFO] zhenxun | 每日摸鱼发送...
+02-07 09:01:00 [INFO] zhenxun | 下载 https://api.cenguigui.cn/api/60s/ 成功.. Path：C:\Program Files\zhenxun\zhenxun_bot-dev\resources\temp\moyu1738890060.jpeg
+02-07 09:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-07 09:01:00 [INFO] zhenxun | group list is [<GroupConsole>, <GroupConsole>, <GroupConsole>]
+02-07 09:01:00 [INFO] zhenxun | key is 1003578395:None, check_func is None
+02-07 09:01:00 [INFO] zhenxun | is_run value True
+02-07 09:01:00 [INFO] zhenxun | target is Target({'id': '1003578395', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-07 09:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-07 09:01:00 [ERROR] zhenxun | CMD[被动每日新闻] [Target]([1003578395:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": -1,\n    "errMsg": "rich media transfer failed"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": -1,\n    "errMsg": "rich media transfer failed"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='102880')
+02-07 09:01:00 [INFO] zhenxun | key is 992333365:None, check_func is None
+02-07 09:01:00 [INFO] zhenxun | is_run value True
+02-07 09:01:00 [INFO] zhenxun | target is Target({'id': '992333365', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-07 09:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-07 09:01:01 [ERROR] zhenxun | CMD[被动每日新闻] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": -1,\n    "errMsg": "rich media transfer failed"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": -1,\n    "errMsg": "rich media transfer failed"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='102881')
+02-07 09:01:01 [INFO] zhenxun | key is 546881717:None, check_func is None
+02-07 09:01:01 [INFO] zhenxun | is_run value True
+02-07 09:01:01 [INFO] zhenxun | target is Target({'id': '546881717', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-07 09:01:01 [INFO] zhenxun | begin to build uni message!!!
+02-07 09:01:01 [ERROR] zhenxun | CMD[被动每日新闻] [Target]([546881717:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": -1,\n    "errMsg": "rich media transfer failed"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": -1,\n    "errMsg": "rich media transfer failed"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='102882')
+02-07 09:01:01 [INFO] zhenxun | 发送摸鱼 [image]
+02-07 09:01:31 [INFO] zhenxun | 自动生成日报成功...
+02-07 09:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-07 10:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-07 11:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-07 12:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-07 13:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-07 14:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-07 15:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-07 15:01:00 [INFO] zhenxun | group list is [<GroupConsole>, <GroupConsole>, <GroupConsole>]
+02-07 15:01:00 [INFO] zhenxun | key is 1003578395:None, check_func is None
+02-07 15:01:00 [INFO] zhenxun | is_run value True
+02-07 15:01:00 [INFO] zhenxun | target is Target({'id': '1003578395', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-07 15:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-07 15:01:00 [ERROR] zhenxun | CMD[真寻日报] [Target]([1003578395:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 1006514,\n    "errMsg": "网络连接异常!"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 1006514,\n    "errMsg": "网络连接异常!"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='103604')
+02-07 15:01:00 [INFO] zhenxun | key is 992333365:None, check_func is None
+02-07 15:01:00 [INFO] zhenxun | is_run value True
+02-07 15:01:00 [INFO] zhenxun | target is Target({'id': '992333365', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-07 15:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-07 15:01:00 [ERROR] zhenxun | CMD[真寻日报] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 1006514,\n    "errMsg": "网络连接异常!"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 1006514,\n    "errMsg": "网络连接异常!"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='103605')
+02-07 15:01:00 [INFO] zhenxun | key is 546881717:None, check_func is None
+02-07 15:01:00 [INFO] zhenxun | is_run value True
+02-07 15:01:00 [INFO] zhenxun | target is Target({'id': '546881717', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-07 15:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-07 15:01:00 [ERROR] zhenxun | CMD[真寻日报] [Target]([546881717:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 1006514,\n    "errMsg": "网络连接异常!"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": 1006514,\n    "errMsg": "网络连接异常!"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='103606')
+02-07 15:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-07 15:01:00 [INFO] zhenxun | group list is [<GroupConsole>, <GroupConsole>, <GroupConsole>]
+02-07 15:01:00 [INFO] zhenxun | key is 1003578395:None, check_func is None
+02-07 15:01:00 [INFO] zhenxun | is_run value True
+02-07 15:01:00 [INFO] zhenxun | target is Target({'id': '1003578395', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-07 15:01:00 [INFO] zhenxun | begin to build uni message!!!
+02-07 15:01:00 [ERROR] zhenxun | CMD[真寻日报] [Target]([1003578395:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": -1,\n    "errMsg": "rich media transfer failed"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": -1,\n    "errMsg": "rich media transfer failed"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='103608')
+02-07 15:01:00 [INFO] zhenxun | key is 992333365:None, check_func is None
+02-07 15:01:01 [INFO] zhenxun | is_run value True
+02-07 15:01:01 [INFO] zhenxun | target is Target({'id': '992333365', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-07 15:01:01 [INFO] zhenxun | begin to build uni message!!!
+02-07 15:01:01 [ERROR] zhenxun | CMD[真寻日报] [Target]([992333365:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": -1,\n    "errMsg": "rich media transfer failed"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": -1,\n    "errMsg": "rich media transfer failed"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='103609')
+02-07 15:01:01 [INFO] zhenxun | key is 546881717:None, check_func is None
+02-07 15:01:01 [INFO] zhenxun | is_run value True
+02-07 15:01:01 [INFO] zhenxun | target is Target({'id': '546881717', 'parent_id': '', 'channel': False, 'private': False, 'self_id': None, 'extra': {}, 'scope': None, 'adapter': None, 'platforms': None})
+02-07 15:01:01 [INFO] zhenxun | begin to build uni message!!!
+02-07 15:01:01 [ERROR] zhenxun | CMD[真寻日报] [Target]([546881717:None]) 发送失败 || 错误 <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>: ActionFailed(status='failed', retcode=1200, data=None, message='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": -1,\n    "errMsg": "rich media transfer failed"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', wording='Error: EventChecker Failed: NTEvent serviceAndMethod:NodeIKernelMsgService/sendMsg ListenerName:NodeIKernelMsgListener/onMsgInfoListUpdate EventRet:\n{\n    "result": -1,\n    "errMsg": "rich media transfer failed"\n}\n\n    at file:///C:/Users/Administrator/Documents/LiteloaderQQNT/plugins/NapCat.Framework/napcat.mjs:7704:15', echo='103610')
+02-07 15:01:01 [INFO] zhenxun | 每日真寻日报发送...
+02-07 15:02:58 [INFO] zhenxun | CMD[签到] 清理日常签到图片数据数据完成...
+02-07 15:34:03 [WARNING] nonebot | OneBot V11 | WebSocket for Bot 3973508735 closed by peer
+02-07 15:34:03 [INFO] websockets | connection closed
