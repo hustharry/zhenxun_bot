@@ -37,7 +37,7 @@ __plugin_meta__ = PluginMetadata(
         configs=[  # 添加配置项提示用户如何获取和填写ALAPI_TOKEN
             RegisterConfig(
                 module="alapi",
-                key="emJHSxciACCdlDHh",
+                key="ALAPI_TOKEN",
                 value=None,
                 help="在https://admin.alapi.cn/user/login登录后获取token",
             )

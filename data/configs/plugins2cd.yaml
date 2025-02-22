@@ -18,3 +18,21 @@ PluginCdLimit:
     watch_type: USER
     result: 你冲的太快了，请稍后再冲
     cd: 5
+  gold_redbag:
+    status: true
+    check_type: ALL
+    watch_type: USER
+    result: 急什么急什么，待会再发！
+    cd: 5
+  sign_in:
+    status: true
+    check_type: ALL
+    watch_type: USER
+    result:
+    cd: 5
+  open_cases:
+    status: true
+    check_type: ALL
+    watch_type: USER
+    result: 着什么急啊，慢慢来！
+    cd: 5

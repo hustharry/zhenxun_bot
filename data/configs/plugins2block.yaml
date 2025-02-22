@@ -67,3 +67,8 @@ PluginBlockLimit:
     check_type: ALL
     watch_type: USER
     result: 您有皮肤正在搜索，请稍等...
+  shop:
+    status: true
+    check_type: GROUP
+    watch_type: USER
+    result:

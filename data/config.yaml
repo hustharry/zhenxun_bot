@@ -30,27 +30,9 @@ admin_bot_manage:
   SET_GROUP_WELCOME_MESSAGE_LEVEL: 2
   ADMIN_DEFAULT_AUTH: 5
 send_setu:
-  # 色图
+  # 签到
   # INITIAL_SETU_PROBABILITY: 初始色图概率，总概率 = 初始色图概率 + 好感度
-  # WITHDRAW_SETU_MESSAGE: 自动撤回，参1：延迟撤回色图时间(秒)，0 为关闭 | 参2：监控聊天类型，0(私聊) 1(群聊) 2(群聊+私聊)
-  # ONLY_USE_LOCAL_SETU: 仅仅使用本地色图，不在线搜索
-  # DOWNLOAD_SETU: 是否存储下载的色图，使用本地色图可以加快图片发送速度
-  # TIMEOUT: 色图下载超时限制(秒)
-  # SHOW_INFO: 是否显示色图的基本信息，如PID等
-  # ALLOW_GROUP_R18: 在群聊中启用R18权限
-  # MAX_ONCE_NUM2FORWARD: 单次发送的图片数量达到指定值时转发为合并消息
-  # MAX_ONCE_NUM: 单次发送图片数量限制
   INITIAL_SETU_PROBABILITY: 0.7
-  WITHDRAW_SETU_MESSAGE:
-  - 0
-  - 1
-  ONLY_USE_LOCAL_SETU: false
-  DOWNLOAD_SETU: true
-  TIMEOUT: 10
-  SHOW_INFO: true
-  ALLOW_GROUP_R18: false
-  MAX_ONCE_NUM2FORWARD:
-  MAX_ONCE_NUM: 10
 sign_in:
   # 签到
   # MAX_SIGN_GOLD: 签到好感度加成额外获得的最大金币数
@@ -69,16 +51,12 @@ reload_setting:
   # AUTO_RELOAD_TIME: 自动重载配置文件时长
   AUTO_RELOAD: false
   AUTO_RELOAD_TIME: 180
-auto_update:
-  # 自动更新
-  # UPDATE_REMIND: 是否检测更新版本
-  UPDATE_REMIND: true
 chat_history:
   # 消息存储
   # FLAG: 是否开启消息自从存储
   FLAG: true
 _task:
-  # QQ群事件处理
+  # B站内容解析
   # DEFAULT_BROADCAST: 被动 广播 进群默认开关状态
   # DEFAULT_GROUP_WELCOME: 被动 进群欢迎 进群默认开关状态
   # DEFAULT_REFUND_GROUP_REMIND: 被动 退群提醒 进群默认开关状态
@@ -112,15 +90,17 @@ web-ui:
   PASSWORD: '1998419'
   SECRET: U3GtzFaLzqScJhi3z4FqZCkuqlLM6J5n-I-6IMUlJaw
 invite_manager:
-  # QQ群事件处理
+  # 记录请求
   # AUTO_ADD_FRIEND: 是否自动同意好友添加
   # MESSAGE: 强制拉群后进群回复的内容
   # FLAG: 强制拉群后进群退出并回复内容
   # WELCOME_MSG_CD: 群欢迎消息cd
+  # AUTO_ADD_GROUP: 是否自动同意邀请入群
   AUTO_ADD_FRIEND: false
   MESSAGE: 请不要未经同意就拉小叶子入群！告辞！
   FLAG: true
   WELCOME_MSG_CD: 5
+  AUTO_ADD_GROUP: false
 nickname:
   # 昵称系统
   # BLACK_WORD: 昵称所屏蔽的关键词，已设置的昵称会被替换为 *，未设置的昵称会在设置时提示
@@ -264,10 +244,8 @@ black_word:
   CONTAIN_BLACK_STOP_PROPAGATION: true
 alapi:
   # 真寻日报
-  # ALAPI_TOKEN: 在 https://admin.alapi.cn/user/login 登录后获取token
-  # EMJHSXCIACCDLDHH: 在https://admin.alapi.cn/user/login登录后获取token
+  # ALAPI_TOKEN: 在https://admin.alapi.cn/user/login登录后获取token
   ALAPI_TOKEN: emJHSxciACCdlDHh
-  EMJHSXCIACCDLDHH:
 ai:
   # AI
   # TL_KEY: 图灵Key
@@ -363,3 +341,11 @@ catchphrase:
   # catchphrase
   # CATCHPHRASE: 小真寻的口癖，在文本末尾添加指定文字~
   CATCHPHRASE: ''
+check:
+  # 服务器自我检查
+  # TYPE: 自检触发方式 ['message', 'poke', 'mix']
+  TYPE: mix
+shop:
+  # 商店
+  # STYLE: 商店样式类型，[normal, zhenxun]
+  STYLE: zhenxun

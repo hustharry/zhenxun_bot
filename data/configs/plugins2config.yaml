@@ -198,6 +198,10 @@ invite_manager:
     value: 5
     help: 群欢迎消息cd
     default_value: 5
+  AUTO_ADD_GROUP:
+    value: false
+    help: 是否自动同意邀请入群
+    default_value: false
 nickname:
   BLACK_WORD:
     value:
@@ -434,7 +438,7 @@ black_word:
 alapi:
   ALAPI_TOKEN:
     value: emJHSxciACCdlDHh
-    help: 在 https://admin.alapi.cn/user/login 登录后获取token
+    help: 在https://admin.alapi.cn/user/login登录后获取token
     default_value:
   EMJHSXCIACCDLDHH:
     value:
@@ -589,3 +593,13 @@ catchphrase:
     value: ''
     help: 小真寻的口癖，在文本末尾添加指定文字~
     default_value: ''
+check:
+  TYPE:
+    value: mix
+    help: 自检触发方式 ['message', 'poke', 'mix']
+    default_value: mix
+shop:
+  STYLE:
+    value: zhenxun
+    help: 商店样式类型，[normal, zhenxun]
+    default_value: zhenxun

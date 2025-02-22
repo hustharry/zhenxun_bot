@@ -7,7 +7,8 @@ from nonebot.adapters.onebot.v11 import Adapter as OneBotV11Adapter
 
 nonebot.init()
 
-
+nonebot.load_plugin("nonebot_plugin_uninfo")
+nonebot.load_plugin("nonebot_plugin_userinfo")
 driver = nonebot.get_driver()
 driver.register_adapter(OneBotV11Adapter)
 # driver.register_adapter(KaiheilaAdapter)
